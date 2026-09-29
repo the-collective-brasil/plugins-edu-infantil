@@ -34,7 +34,8 @@ O autor diz qual é a primeira evidência e onde ela entra.
 ## 2. Abertura de Fase · S3, S5, S7, S10, S12 · D1.A4
 Momento 3, **Abrir a Nova Fase**: retome a fase concluída; apresente a finalidade da nova fase e
 suas Palavras-Chave; mostre a página de Abertura de Fase; atualize a Jornada com o adesivo da
-fase. O autor nomeia a fase concluída, a nova fase, as Palavras-Chave e o que a página traz.
+fase. O autor nomeia a fase concluída, a nova fase, as Palavras-Chave e o que a página traz. As
+Palavras-Chave e as definições saem de `palavras-chave.md`, do nível e da fase, sem mudança.
 
 ## 3. Abertura da Semana · S2, S4, S6, S8, S9, S11 · D1.A4
 Momento 3, **Revisitar o Mural do Projeto**: ligue uma evidência anterior à investigação

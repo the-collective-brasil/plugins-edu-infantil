@@ -13,7 +13,7 @@ description: >-
   irmãs), não revisa a conversa (editor-infantil-oralidade) e não ajusta ao template. Apenas
   Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---
@@ -108,6 +108,12 @@ Canvas, o Marco ou a ação na Jornada. Nada de marcador sem explicação: "Foco
 do Projeto guarda conclusões, foco combinado e decisões estáveis. O Registro da Semana produz
 evidência individual para a avaliação e registra uma compreensão, não um resumo da semana.
 
+**Palavras-Chave da Jornada do Projeto.** Lista travada em `references/palavras-chave.md`:
+13 palavras no Infantil 3 e 18 no Infantil 4 e 5, por fase. Na Abertura de Fase (e na Abertura
+do Projeto, para a Imersão), use as palavras da fase e do nível, e cada palavra e definição
+exatamente como estão na lista. A definição é a fala do educador para a criança (Diga:). No
+Infantil 3, cada palavra vem com o gesto. Nunca troque, acrescente ou reescreva uma palavra.
+
 **Peça da Fase.** Não cria etapa a mais: entra no Momento da aula em que foi alocada, e o autor
 explica como o material é usado. S3.D2.A4 *Cartões de Entrevista* · S7.D2.A4 *Convite do Teste* ·
 S10.D2.A4 *Convite da Apresentação* · S2.D5.A4 *Persona Cards* · S6.D5.A4 *Etiquetas e Placas do
@@ -147,4 +153,6 @@ no D4, marcadores sem explicação, travessão e aspas. Não julga se a evidênc
 - `dados/termos-e-nomes.md` · nomes, termos e a seção 6.2 do Mural (v7, autoridade).
 - `dados/marcos-aprendizagem-desenvolvimento.md` · marcos (Joinville), faixas, regras e ética.
 - `references/tipos-de-mural.md` · roteamento e o que o autor escreve em cada tipo.
+- `references/palavras-chave.md` · Palavras-Chave da Jornada do Projeto por nível e fase
+  (lista travada, 29/09/2026).
 - `scripts/verificar_mural.py` · conferência mecânica.
