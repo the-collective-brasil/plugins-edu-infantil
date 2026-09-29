@@ -1,0 +1,20 @@
+{
+  "name": "intercriativa-atelie",
+  "interface": {
+    "displayName": "Intercriativa Lab · Ateliê de Arte"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-atelie",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

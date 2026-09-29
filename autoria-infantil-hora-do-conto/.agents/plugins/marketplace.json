@@ -1,0 +1,20 @@
+{
+  "name": "intercriativa-hora-do-conto",
+  "interface": {
+    "displayName": "Intercriativa Lab · Hora do Conto"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-hora-do-conto",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "intercriativa-infantil",
+  "owner": {
+    "name": "Intercriativa Lab"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-atelie",
+      "source": "./autoria-infantil-atelie",
+      "description": "Autoria de aulas de Ateliê de Arte da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
+    },
+    {
+      "name": "autoria-infantil-comum",
+      "source": "./autoria-infantil-comum",
+      "description": "Autoria de aulas da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5) para qualquer trilha: as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
+    },
+    {
+      "name": "autoria-infantil-hora-do-conto",
+      "source": "./autoria-infantil-hora-do-conto",
+      "description": "Autoria de aulas de Hora do Conto da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
+    },
+    {
+      "name": "autoria-infantil-mural",
+      "source": "./autoria-infantil-mural",
+      "description": "Autoria de aulas de Mural do Projeto da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
+    }
+  ]
+}

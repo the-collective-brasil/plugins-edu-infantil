@@ -1,0 +1,13 @@
+{
+  "name": "intercriativa-atelie",
+  "owner": {
+    "name": "Intercriativa Lab"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-atelie",
+      "source": "./",
+      "description": "Autoria de aulas de Ateliê de Arte da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
+    }
+  ]
+}

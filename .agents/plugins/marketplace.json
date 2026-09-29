@@ -1,0 +1,56 @@
+{
+  "name": "intercriativa-infantil",
+  "interface": {
+    "displayName": "Intercriativa Lab · Educação Infantil"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-atelie",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-atelie"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "autoria-infantil-comum",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-comum"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "autoria-infantil-hora-do-conto",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-hora-do-conto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "autoria-infantil-mural",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-mural"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

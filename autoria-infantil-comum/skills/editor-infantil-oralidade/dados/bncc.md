@@ -1,0 +1,132 @@
+# BNCC Educação Infantil — Objetivos de Aprendizagem e Desenvolvimento
+
+Fonte de verdade para o texto verbatim dos objetivos. Nunca parafraseie a partir
+de memória. Copie daqui.
+
+## Faixas etárias e códigos
+
+| Faixa BNCC | Idade | Prefixo | No programa |
+|---|---|---|---|
+| Bebês | zero a 1 ano e 6 meses | EI01 | fora de escopo |
+| Crianças bem pequenas | 1 ano e 7 meses a 3 anos e 11 meses | EI02 | Infantil 3 |
+| Crianças pequenas | 4 anos a 5 anos e 11 meses | EI03 | Infantil 4 e Infantil 5 |
+
+Os cinco Campos de Experiências e suas siglas no código:
+
+| Sigla | Campo de Experiências |
+|---|---|
+| EO | O eu, o outro e o nós |
+| CG | Corpo, gestos e movimentos |
+| TS | Traços, sons, cores e formas |
+| EF | Escuta, fala, pensamento e imaginação |
+| ET | Espaços, tempos, quantidades, relações e transformações |
+
+Atenção: o prefixo EF aqui é o Campo "Escuta, fala, pensamento e imaginação",
+não Ensino Fundamental. EI02EF01 é Educação Infantil. EF01LP01 é Ensino
+Fundamental.
+
+Códigos que começam com EI03SEL, EI03EMP, EI03CID, EI04, EI05 e similares são
+Eixos Transversais do programa, não BNCC. Não estão neste arquivo e não entram
+nesta camada.
+
+---
+
+## Crianças bem pequenas (EI02) — Infantil 3
+
+### O eu, o outro e o nós
+
+- **EI02EO01** Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.
+- **EI02EO02** Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.
+- **EI02EO03** Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.
+- **EI02EO04** Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.
+- **EI02EO05** Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.
+- **EI02EO06** Respeitar regras básicas de convívio social nas interações e brincadeiras.
+- **EI02EO07** Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.
+
+### Corpo, gestos e movimentos
+
+- **EI02CG01** Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.
+- **EI02CG02** Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.
+- **EI02CG03** Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.
+- **EI02CG04** Demonstrar progressiva independência no cuidado do seu corpo.
+- **EI02CG05** Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.
+
+### Traços, sons, cores e formas
+
+- **EI02TS01** Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.
+- **EI02TS02** Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.
+- **EI02TS03** Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.
+
+### Escuta, fala, pensamento e imaginação
+
+- **EI02EF01** Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.
+- **EI02EF02** Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.
+- **EI02EF03** Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).
+- **EI02EF04** Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.
+- **EI02EF05** Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.
+- **EI02EF06** Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.
+- **EI02EF07** Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.
+- **EI02EF08** Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).
+- **EI02EF09** Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.
+
+### Espaços, tempos, quantidades, relações e transformações
+
+- **EI02ET01** Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).
+- **EI02ET02** Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).
+- **EI02ET03** Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.
+- **EI02ET04** Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).
+- **EI02ET05** Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).
+- **EI02ET06** Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).
+- **EI02ET07** Contar oralmente objetos, pessoas, livros etc., em contextos diversos.
+- **EI02ET08** Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).
+
+---
+
+## Crianças pequenas (EI03) — Infantil 4 e Infantil 5
+
+### O eu, o outro e o nós
+
+- **EI03EO01** Demonstrar empatia pelos outros, percebendo que as pessoas têm diferentes sentimentos, necessidades e maneiras de pensar e agir.
+- **EI03EO02** Agir de maneira independente, com confiança em suas capacidades, reconhecendo suas conquistas e limitações.
+- **EI03EO03** Ampliar as relações interpessoais, desenvolvendo atitudes de participação e cooperação.
+- **EI03EO04** Comunicar suas ideias e sentimentos a pessoas e grupos diversos.
+- **EI03EO05** Demonstrar valorização das características de seu corpo e respeitar as características dos outros (crianças e adultos) com os quais convive.
+- **EI03EO06** Manifestar interesse e respeito por diferentes culturas e modos de vida.
+- **EI03EO07** Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos.
+
+### Corpo, gestos e movimentos
+
+- **EI03CG01** Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música.
+- **EI03CG02** Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.
+- **EI03CG03** Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.
+- **EI03CG04** Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência.
+- **EI03CG05** Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.
+
+### Traços, sons, cores e formas
+
+- **EI03TS01** Utilizar sons produzidos por materiais, objetos e instrumentos musicais durante brincadeiras de faz de conta, encenações, criações musicais, festas.
+- **EI03TS02** Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.
+- **EI03TS03** Reconhecer as qualidades do som (intensidade, duração, altura e timbre), utilizando-as em suas produções sonoras.
+
+### Escuta, fala, pensamento e imaginação
+
+- **EI03EF01** Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão.
+- **EI03EF02** Inventar brincadeiras cantadas, poemas e canções, criando rimas, aliterações e ritmos.
+- **EI03EF03** Escolher e folhear livros, procurando orientar-se por temas e ilustrações e tentando identificar palavras conhecidas.
+- **EI03EF04** Recontar histórias ouvidas e planejar coletivamente roteiros de vídeos e de encenações, definindo os contextos, os personagens, a estrutura da história.
+- **EI03EF05** Recontar histórias ouvidas para produção de reconto escrito, tendo o professor como escriba.
+- **EI03EF06** Produzir suas próprias histórias orais e escritas (escrita espontânea), em situações com função social significativa.
+- **EI03EF07** Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura.
+- **EI03EF08** Selecionar livros e textos de gêneros conhecidos para a leitura de um adulto e/ou para sua própria leitura (partindo de seu repertório sobre esses textos, como a recuperação pela memória, pela leitura das ilustrações etc.).
+- **EI03EF09** Levantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontânea.
+
+### Espaços, tempos, quantidades, relações e transformações
+
+- **EI03ET01** Estabelecer relações de comparação entre objetos, observando suas propriedades.
+- **EI03ET02** Observar e descrever mudanças em diferentes materiais, resultantes de ações sobre eles, em experimentos envolvendo fenômenos naturais e artificiais.
+- **EI03ET03** Identificar e selecionar fontes de informações, para responder a questões sobre a natureza, seus fenômenos, sua conservação.
+- **EI03ET04** Registrar observações, manipulações e medidas, usando múltiplas linguagens (desenho, registro por números ou escrita espontânea), em diferentes suportes.
+- **EI03ET05** Classificar objetos e figuras de acordo com suas semelhanças e diferenças.
+- **EI03ET06** Relatar fatos importantes sobre seu nascimento e desenvolvimento, a história dos seus familiares e da sua comunidade.
+- **EI03ET07** Relacionar números às suas respectivas quantidades e identificar o antes, o depois e o entre em uma sequência.
+- **EI03ET08** Expressar medidas (peso, altura etc.), construindo gráficos básicos.

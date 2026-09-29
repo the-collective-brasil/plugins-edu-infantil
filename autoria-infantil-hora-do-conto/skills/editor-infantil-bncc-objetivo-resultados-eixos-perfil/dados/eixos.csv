@@ -1,0 +1,61 @@
+ano,eixo,codigo,habilidade,perfil1,perfil2
+3 anos,Socioemocional,EI03SEL01,"Identificar e nomear, com apoio, emoções básicas em si.",Autoconsciência,
+3 anos,Socioemocional,EI03SEL02,Buscar conforto e acalmar-se com apoio do adulto.,Autoconsciência,Autonomia
+3 anos,Socioemocional,EI03SEL03,Perceber quando um colega está triste ou feliz.,Empatia,
+3 anos,Socioemocional,EI03SEL04,"Brincar junto, partilhando materiais com mediação.",Colaboração,
+3 anos,Socioemocional,EI03SEL05,Fazer escolhas simples entre opções oferecidas.,Pensamento Crítico,Integridade
+3 anos,Empreendedorismo,EI03EMP01,"Perceber, em brincadeiras, coisas que poderiam ser diferentes ou melhores.",Investigação,Resolução de Problemas
+3 anos,Empreendedorismo,EI03EMP02,Imaginar e criar livremente no faz de conta.,Resolução de Problemas,
+3 anos,Empreendedorismo,EI03EMP03,"Participar de atividades, escolhendo entre opções e assumindo tarefinhas.",Autonomia,
+3 anos,Empreendedorismo,EI03EMP04,"Brincar junto, partilhando e cooperando com mediação.",Colaboração,
+3 anos,Empreendedorismo,EI03EMP05,"Expressar ideias e sentimentos por gestos, fala ou desenho.",Comunicação,
+3 anos,Educação Financeira,EI03FIN01,"Reconhecer, em brincadeiras, que não dá para ter tudo e que é preciso escolher.",Pensamento Crítico,
+3 anos,Educação Financeira,EI03FIN02,Identificar que o dinheiro (notas e moedas) é usado para comprar coisas.,Pensamento Crítico,
+3 anos,Educação Financeira,EI03FIN03,Reconhecer que guardar um pouquinho ajuda a conseguir algo depois.,Autonomia,
+3 anos,Educação Financeira,EI03FIN04,Perceber que as pessoas trabalham para ganhar dinheiro.,Investigação,
+3 anos,Educação Financeira,EI03FIN05,Demonstrar cuidado com os próprios objetos e partilhar com os colegas.,Cidadania Global,Empatia
+3 anos,Cidadania Digital,EI03CID01,"Demonstrar gentileza e respeito com os colegas, inclusive ao usar telas com mediação.",Colaboração,Empatia
+3 anos,Cidadania Digital,EI03CID02,"Reconhecer, com apoio, que é preciso fazer pausas e brincar também longe das telas.",Autoconsciência,
+3 anos,Cidadania Digital,EI03CID03,"Brincar junto, incluindo os colegas nas atividades.",Colaboração,
+3 anos,Cidadania Digital,EI03CID04,Reconhecer que o adulto acompanha quando usamos telas e pedir ajuda.,Autoconsciência,
+3 anos,Cidadania Digital,EI03CID05,Perceber que o que aparece na tela é diferente do mundo real.,Pensamento Crítico,
+4 anos,Socioemocional,EI04SEL01,Reconhecer o que provoca algumas de suas emoções.,Autoconsciência,
+4 anos,Socioemocional,EI04SEL02,Experimentar formas simples de se acalmar com mediação.,Autoconsciência,Autonomia
+4 anos,Socioemocional,EI04SEL03,Reconhecer emoções nos colegas e oferecer um gesto de cuidado.,Empatia,
+4 anos,Socioemocional,EI04SEL04,Cooperar em brincadeiras e pedir ou oferecer ajuda.,Colaboração,
+4 anos,Socioemocional,EI04SEL05,Reconhecer que as escolhas têm consequências.,Pensamento Crítico,Integridade
+4 anos,Empreendedorismo,EI04EMP01,Reconhecer pequenos problemas do dia a dia e propor uma ideia.,Investigação,Resolução de Problemas
+4 anos,Empreendedorismo,EI04EMP02,Propor mais de uma ideia para um pequeno desafio.,Resolução de Problemas,
+4 anos,Empreendedorismo,EI04EMP03,Participar do planejamento simples de uma atividade coletiva.,Autonomia,
+4 anos,Empreendedorismo,EI04EMP04,Cooperar e pedir ou oferecer ajuda aos colegas.,Colaboração,
+4 anos,Empreendedorismo,EI04EMP05,Comunicar uma ideia e escutar as ideias dos colegas.,Comunicação,
+4 anos,Educação Financeira,EI04FIN01,"Distinguir, em situações simples, o que se precisa do que apenas se quer.",Pensamento Crítico,
+4 anos,Educação Financeira,EI04FIN02,"Reconhecer diferentes formas de pagar que vê no dia a dia (dinheiro, cartão).",Pensamento Crítico,
+4 anos,Educação Financeira,EI04FIN03,"Guardar para um objetivo simples, com apoio.",Autonomia,
+4 anos,Educação Financeira,EI04FIN04,Relacionar o que a família ganha ao que ela compra.,Investigação,
+4 anos,Educação Financeira,EI04FIN05,Reconhecer atitudes de cuidado e partilha com o que é coletivo.,Cidadania Global,Empatia
+4 anos,Cidadania Digital,EI04CID01,"Reconhecer como suas ações e palavras afetam os colegas, inclusive em telas.",Colaboração,Empatia
+4 anos,Cidadania Digital,EI04CID02,Identificar sinais de cansaço e a necessidade de parar de usar a tela.,Autoconsciência,
+4 anos,Cidadania Digital,EI04CID03,Cooperar e partilhar o uso de dispositivos com os colegas.,Colaboração,
+4 anos,Cidadania Digital,EI04CID04,Reconhecer que não se fala com estranhos e que se conta ao adulto.,Autoconsciência,
+4 anos,Cidadania Digital,EI04CID05,Reconhecer que nem tudo o que se vê na tela é de verdade.,Pensamento Crítico,
+5 anos,Socioemocional,EI05SEL01,"Reconhecer suas emoções, preferências e o que lhe faz bem.",Autoconsciência,
+5 anos,Socioemocional,EI05SEL02,Esperar a vez e lidar com pequenas frustrações.,Autoconsciência,Autonomia
+5 anos,Socioemocional,EI05SEL03,Demonstrar empatia ajudando colegas no cotidiano.,Empatia,
+5 anos,Socioemocional,EI05SEL04,Comunicar ideias e sentimentos e ouvir os colegas.,Colaboração,
+5 anos,Socioemocional,EI05SEL05,Escolher considerando o que é melhor para o grupo.,Pensamento Crítico,Integridade
+5 anos,Empreendedorismo,EI05EMP01,Identificar uma necessidade dos colegas ou do ambiente e propor uma ação.,Investigação,Resolução de Problemas
+5 anos,Empreendedorismo,EI05EMP02,"Gerar ideias para criar algo novo, escolhendo uma para experimentar.",Resolução de Problemas,
+5 anos,Empreendedorismo,EI05EMP03,"Participar de planejar, realizar e contar como foi uma atividade.",Autonomia,
+5 anos,Empreendedorismo,EI05EMP04,"Assumir um papel em um projeto coletivo, cooperando.",Colaboração,
+5 anos,Empreendedorismo,EI05EMP05,"Apresentar aos colegas uma ideia ou criação, explicando-a.",Comunicação,
+5 anos,Educação Financeira,EI05FIN01,"Justificar uma escolha simples de consumo, percebendo que escolher é abrir mão.",Pensamento Crítico,
+5 anos,Educação Financeira,EI05FIN02,Simular pagamentos e troco com dinheiro de faz de conta.,Pensamento Crítico,
+5 anos,Educação Financeira,EI05FIN03,"Planejar, com apoio, guardar parte de um valor para um objetivo da turma.",Autonomia,
+5 anos,Educação Financeira,EI05FIN04,Reconhecer que o dinheiro é limitado e que é preciso priorizar.,Investigação,
+5 anos,Educação Financeira,EI05FIN05,Reconhecer escolhas honestas e o cuidado com o dinheiro e os bens.,Cidadania Global,Empatia
+5 anos,Cidadania Digital,EI05CID01,"Praticar atitudes de respeito e empatia nas interações, inclusive mediadas por telas.",Colaboração,Empatia
+5 anos,Cidadania Digital,EI05CID02,"Reconhecer hábitos saudáveis no uso de telas (tempo, postura, pausas).",Autoconsciência,
+5 anos,Cidadania Digital,EI05CID03,"Participar de uma atividade digital coletiva, garantindo a vez de todos.",Colaboração,
+5 anos,Cidadania Digital,EI05CID04,Reconhecer informações que não se deve compartilhar e pedir ajuda quando preciso.,Autoconsciência,
+5 anos,Cidadania Digital,EI05CID05,"Diferenciar, com exemplos, o que é real do que é faz de conta na tela.",Pensamento Crítico,
