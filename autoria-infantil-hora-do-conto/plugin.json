@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "autoria-infantil-hora-do-conto",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Autoria de aulas de Hora do Conto da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
 }

@@ -231,32 +231,22 @@ explica como o material é usado e o que ajuda as crianças a preparar, comunica
 - A aula diz ao autor exatamente o que escrever. Nada de marcadores sem explicação, como "Foco
   Semanal", "evidência" ou "Registro da Semana" soltos.
 
-## 6.3 Rotinas de abertura e encerramento
-Cada tipo de aula tem a sua rotina de abertura, no começo do Momento 1, e a sua rotina de
-encerramento, no fim do Momento 4. A rotina fica dentro do Momento, nunca como etapa a mais. A
-aula cita a rotina pelo nome, em itálico, com [código biblioteca]; os passos ficam na Biblioteca.
-Não confundir com as rotinas do dia (Chegada, Roda, Lanche, Despedida, seção 4).
+## 6.3 Rotinas das aulas
+A aula cita uma rotina no começo do Momento 1 e no fim do Momento 4. A rotina fica dentro do
+Momento, nunca como etapa a mais. A aula cita a rotina pelo nome, em itálico, com
+[código biblioteca]; os passos ficam na Biblioteca. O mesmo nome serve a vários tipos de aula: é o
+código que diz de qual aula é a rotina. Não confundir com as rotinas do dia (Chegada, Roda,
+Lanche, Despedida, seção 4). Nomes aprovados em 29/09/2026.
 
-**Nomes curtos, só em títulos de rotina** (aprovados em 29/09/2026): Oficina de Letramento ·
-Oficina de Ciência e Matemática · Ateliê · Mural. Fora do título da rotina, use o nome completo
-do tipo de aula (seção 6).
-
-| Tipo de aula | Abertura | Encerramento |
+| Tipo de aula | Momento 1 | Momento 4 |
 |---|---|---|
-| Hora do Conto | *Rotina de Abertura da Hora do Conto* | *Rotina de Encerramento da Hora do Conto* |
-| Oficina de Descobertas · Foco Letramento/Alfabetização | *Rotina de Abertura da Oficina de Letramento* | *Rotina de Encerramento da Oficina de Letramento* |
-| Oficina de Descobertas · Foco Ciência/Matemática | *Rotina de Abertura da Oficina de Ciência e Matemática* | *Rotina de Encerramento da Oficina de Ciência e Matemática* |
-| Música e Movimento | *Rotina de Abertura da Música e Movimento* | *Rotina de Encerramento da Música e Movimento* |
-| Ateliê de Arte | *Rotina de Abertura do Ateliê* | *Rotina de Encerramento do Ateliê* |
-| Jogo Dramático | *Rotina de Abertura do Jogo Dramático* | *Rotina de Encerramento do Jogo Dramático* |
-| Centros de Aprendizagem | *Rotina dos Centros de Aprendizagem* | *Rotina de Organização dos Centros* |
-| Brincar ao Ar Livre | *Rotina do Brincar ao Ar Livre* | *Rotina de Organização do Brincar ao Ar Livre* |
-| Mural do Projeto | *Rotina de Abertura do Mural* | *Rotina de Encerramento do Mural* |
+| Hora do Conto · Oficina de Descobertas (os 2 focos) · Música e Movimento · Ateliê de Arte · Jogo Dramático · Mural do Projeto | *Rotina de Abertura* | *Rotina de Encerramento* |
+| Centros de Aprendizagem | *Rotina dos Centros* | *Rotina de Encerramento* |
+| Brincar ao Ar Livre | *Rotina das Propostas* | *Rotina de Encerramento* |
 
-- Hora do Conto no lançamento (S1.D1): a abertura entra no começo de Preparar para a Leitura
-  (Momento 2) e o encerramento no fim de Conversar e Compartilhar (Momento 4).
-- Centros de Aprendizagem e Brincar ao Ar Livre têm cada um a sua *Rotina de Organização*. Nunca
-  escreva só *Rotina de Organização*: os passos são diferentes.
+- Hora do Conto no lançamento (S1.D1): a *Rotina de Abertura* entra no começo de Preparar para a
+  Leitura (Momento 2) e a *Rotina de Encerramento* no fim de Conversar e Compartilhar (Momento 4).
+- Os nomes longos, com o tipo de aula no nome, estão aposentados (seção 16).
 
 ## 7. Código de aula
 S#.D#.A# (S semana 1 a 12, D dia 1 a 5, A aula 1 a 4). Ex.: S1.D2.A1. Sem zeros à esquerda.
@@ -395,9 +385,18 @@ Centros de Aprendizagem · Aprendizagem Personalizada → Aprendizagem Explorat�
 Educador → Orientações do Educador · Revista Impacto → Orientações do Educador · Perfil do
 Estudante Protagonista / Perfil do Protagonista → Perfil da Criança Protagonista · atributos →
 competências · Criatividade (competência) → Resolução de Problemas · Caderno Fazer e Brincar →
-Fazer e Brincar · categoria → campo → âncora (mapa antigo) → Áreas + Campos (seções 12 e 13) · Tomar iniciativa / Mobilizar pessoas (como eixo) → use as 4 famílias de Eixos.
+Fazer e Brincar · categoria → campo → âncora (mapa antigo) → Áreas + Campos (seções 12 e 13) · Tomar iniciativa / Mobilizar pessoas (como eixo) → use as 4 famílias de Eixos. · Rotina de
+Abertura da Hora do Conto e as demais com o tipo de aula no nome → *Rotina de Abertura* ·
+Rotina de Encerramento da Hora do Conto e as demais com o tipo de aula no nome → *Rotina de
+Encerramento* · Rotina da Hora do Conto → *Rotina de Abertura* · Rotina dos Centros de
+Aprendizagem → *Rotina dos Centros* · Rotina do Brincar ao Ar Livre → *Rotina das Propostas* ·
+Rotina de Organização dos Centros / Rotina de Organização do Brincar ao Ar Livre / Rotina de
+Organização → *Rotina de Encerramento*.
 
 ## 17. A confirmar
+- Título das entradas de rotina na Biblioteca: o nome da rotina sozinho não diz de qual aula ela
+  é (seção 6.3). Proposta: começar pelo tipo de aula, com os nomes curtos Oficina de Letramento,
+  Oficina de Ciência e Matemática, Ateliê e Mural (ex.: Hora do Conto · Abertura).
 
 ## 18. Idade das crianças
 Regra de família: tudo o que uma skill escreve ou revisa se ajusta à faixa etária da turma.
