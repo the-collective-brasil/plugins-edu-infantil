@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "autoria-infantil-mural",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Autoria de aulas de Mural do Projeto da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as cinco skills comuns da família editor-infantil (campos BNCC, Documentação, Dica, oralidade e estilo de casa)."
 }

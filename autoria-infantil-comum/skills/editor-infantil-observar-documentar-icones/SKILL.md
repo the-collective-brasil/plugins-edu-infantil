@@ -14,7 +14,7 @@ description: >-
   conversa (editor-infantil-oralidade) e não monta a página nem gera arquivo.
   Apenas Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---

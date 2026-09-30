@@ -489,7 +489,8 @@ A função da conversa muda ao longo das 12 semanas. Use como ênfase, não meca
   Pergunte). Criança e crianças. Educador. Sem travessão.
 - **Fala do educador:** em itálico, sem aspas. É **fala possível**, não texto para ler, a menos
   que a aula diga que algo deve ser lido exatamente.
-- **Quantidade:** explique o movimento e dê uma ou duas falas possíveis. Use fala direta quando
+- **Quantidade:** explique o movimento e dê pelo menos 2 falas possíveis, na mesma linha,
+  separadas por ponto e vírgula; quantas mais depende do movimento. Use fala direta quando
   ela ilustra uma pergunta útil, modela uma palavra, abre o projeto ou torna claro um movimento
   complexo. Nunca uma sequência de dez falas obrigatórias.
 - **Tamanho:** não corte conteúdo do autor para caber. A edição final ajusta aos limites.

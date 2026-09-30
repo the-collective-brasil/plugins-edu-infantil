@@ -41,7 +41,8 @@ diga que ela é especial antes de pegar o livro.
 
 **Depois dos gatilhos** (cada corte isola um passo físico ou uma mudança de foco):
 - Reúna as crianças em uma roda confortável e apresente a *Caixa Misteriosa*. Erga o objeto de
-  forma instigante, balance-o devagar e pergunte: *O que será que tem aqui dentro?*
+  forma instigante, balance-o devagar e pergunte: *O que será que tem aqui dentro?*; *Alguém
+  tem um palpite?*
   [preparação e objeto]
 - Convide algumas crianças para segurar a caixa e sentir o peso. Incentive os palpites com
   perguntas diretas: *É pesado ou leve?*; *Tem uma coisa só ou muitas?*
@@ -49,8 +50,12 @@ diga que ela é especial antes de pegar o livro.
 - Abra a caixa e passe as sementes de mão em mão entre o grupo. Convide a explorar pelo toque:
   *Como elas são no toque?*; *O que muda de uma para a outra?*
   [objeto novo]
-- Revele a semente dourada demonstrando surpresa. Diga: *Esta é bem diferente das outras.*
-  Apresente o livro *Bia e a Semente Dourada* e guie as crianças para o espaço da história.
-  [transição de encerramento: objeto de transição e deslocamento]
+- Revele a semente dourada demonstrando surpresa. Diga: *Esta é bem diferente das outras.*;
+  *O que será que ela é?*
+  [objeto novo, com a fala que ele prepara]
+- Apresente o livro *Bia e a Semente Dourada* segurando-o pela borda superior.
+  [o objeto muda da semente para o livro]
+- Guie as crianças para o espaço da história.
+  [deslocamento]
 
 As notas entre colchetes explicam o corte para você. Não vão para a página.

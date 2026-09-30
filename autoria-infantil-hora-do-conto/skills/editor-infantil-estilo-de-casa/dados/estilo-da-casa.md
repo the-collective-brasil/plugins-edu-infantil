@@ -1,74 +1,56 @@
-<!--
-Como esta cópia vale na família editor-infantil (29/09/2026)
-Esta é a cópia do guia Estilo da Casa (Notion, empacotada em 26/08/2026), sem alteração no
-texto abaixo. Nesta família, `dados/termos-e-nomes.md` (v7) vence em conflito. Diferenças
-que valem hoje:
-1. Fala do educador em itálico, SEM aspas (o texto abaixo ainda diz "entre aspas").
-2. Revista Impacto é termo aposentado: o material é Orientações do Educador. O "Orçamento de
-   espaço" e os comprimentos de campo abaixo não são aplicados por esta skill: o ajuste ao
-   template é da editor-infantil-orientacoes-do-educador e cada campo tem a sua skill.
-3. A Dica tem outro formato e outra dona (editor-infantil-dica): duas linhas sem negrito,
-   apoio e ampliação. Esta skill não reestrutura a Dica.
-4. Os exemplos de fala: esta skill corrige a forma (itálico, sem aspas, presa a uma ação),
-   mas não acrescenta nem corta falas. Quantas falas e quais é decisão da
-   editor-infantil-oralidade.
--->
-
 # Estilo da Casa · Orientações do Educador
 
-> **Fonte de verdade:** a página Notion "Estilo da Casa · Orientações do
-> Educador" (https://app.notion.com/p/3c8474500db98160a9c1c0fa20a87b65).
-> Esta é uma cópia empacotada em 26/08/2026. Se a página Notion divergir
-> desta cópia, a página Notion vence.
-
-**Fonte:** voice-and-terminology.md e style-guide.md (registro e verbos),
-house-register.md (calor, mecânica de formatação e o eixo de concretude,
-por sua vez calibrado nos Cambridge Early Years teacher books), e as
-decisões de agosto de 2026 sobre exemplos de fala. Nenhum conteúdo
-extraído de PDF de aula.
-
----
+Guia de linguagem da família editor-infantil. Vale para toda instrução ao educador nas
+Orientações do Educador da Educação Infantil (Infantil 3, 4 e 5). Em conflito com qualquer
+regra deste guia, `termos-e-nomes.md` vence.
 
 ## O tom
 
-O educador que escreve para o educador que vai ensinar soa como uma colega
-experiente orientando outra colega, gentilmente, através de uma aula real.
-Nunca como um manual dando ordens.
+O educador que escreve para o educador que vai ensinar soa como uma colega experiente
+orientando outra, gentilmente, através de uma aula real. Nunca como um manual dando ordens.
+Frases naturais e completas, feitas para serem lidas em pé, com as crianças na sala.
 
 ## Voz
 
 Imperativo facilitador, sempre dirigido ao educador.
 
-**Verbos aprovados:** convide, incentive, apoie, guie, encoraje, modele,
-observe, circule, retome, pergunte, sugira, ofereça, ajude, lembre, verifique.
+**Verbos aprovados:** convide, incentive, apoie, guie, encoraje, modele, observe, circule,
+retome, pergunte, sugira, ofereça, ajude, lembre, verifique.
 
 **Nunca:** mande, exija, corrija, diga a eles, obrigue, faça com que.
 
-## Um eixo separado: concretude
+## Concretude
 
-Além de facilitador, o verbo precisa ser roteirizável: algo que o educador
-possa literalmente fazer ou dizer agora. Prefira: mostre, segure, aponte,
-entregue, leia, cante, escreva, observe, escute, repita, guarde, siga, use.
+Além de facilitador, o verbo precisa ser roteirizável: algo que o educador possa literalmente
+fazer ou dizer agora. O teste: dá para fazer ou dizer isto neste minuto? Se não dá, corte ou
+reescreva como ação ou como fala.
 
-Evite, mesmo que soem pedagógicos: explorar (sem material concreto junto),
-engajar, facilitar, desenvolver, promover, despertar consciência, aprofundar
-compreensão, criar espaço para, apoiar a construção de sentido.
+Prefira: mostre, segure, aponte, entregue, leia, cante, escreva, observe, escute, repita,
+guarde, siga, use, sente-se, afaste-se.
+
+Evite, mesmo que soem pedagógicos: explorar (sem material concreto junto), engajar, facilitar,
+desenvolver, promover, despertar consciência, aprofundar compreensão, criar espaço para, apoiar
+a construção de sentido.
+
+Evite também a instrução genérica, que não diz o que fazer: *entre para ampliar*, *ofereça
+apoio direcionado*, *converse com as crianças*. Diga o que o educador faz (o que observa, o que
+mostra, onde se senta) e, quando a fala não for óbvia, o que pode dizer.
 
 ## O calor
 
-O calor vem da fala e da postura do educador, nunca de prosa descritiva
-sobre atmosfera, emoção ou significado.
+O calor vem da fala e da postura do educador, nunca de prosa descritiva sobre atmosfera,
+emoção ou significado.
 
 Fala calorosa e exata:
 
-- "Eu ajudo."
-- "Vamos descobrir juntos."
-- "Cada pessoa pode ajudar um pouquinho."
-- "Você pode escolher só alguns."
-- "Não precisa ficar perfeito."
-- "Gostei de como você continuou tentando."
-- "Se você não souber o nome ainda, eu ajudo."
-- "Pode mostrar com uma palavra, um gesto ou uma parte da história."
+- *Eu ajudo.*
+- *Vamos descobrir juntos.*
+- *Cada pessoa pode ajudar um pouquinho.*
+- *Você pode escolher só alguns.*
+- *Não precisa ficar perfeito.*
+- *Gostei de como você continuou tentando.*
+- *Se você não souber o nome ainda, eu ajudo.*
+- *Pode mostrar com uma palavra, um gesto ou uma parte da história.*
 
 Ação calorosa:
 
@@ -81,160 +63,132 @@ Ação calorosa:
 
 ## Crianças no centro
 
-Cada criança pode mostrar aprendizagem de um jeito diferente. A instrução
-nunca presume um único caminho certo de resposta ou participação.
+Cada criança pode mostrar aprendizagem de um jeito diferente. A instrução nunca presume um
+único caminho certo de resposta ou participação.
 
-- Aceite respostas por gesto, fala, apontar, escolha ou demonstração,
-  sem preferir uma forma sobre as outras.
-- Não presuma que todas as crianças têm a mesma casa, estrutura familiar,
-  experiência prévia ou confiança física. Escreva instruções que funcionem
-  para quem chegou de jeitos diferentes até aquele momento.
+- Aceite respostas por gesto, fala, apontar, escolha ou demonstração, sem preferir uma forma
+  sobre as outras.
+- Não presuma que todas as crianças têm a mesma casa, estrutura familiar, experiência prévia
+  ou confiança física. Escreva instruções que funcionem para quem chegou de jeitos diferentes
+  até aquele momento.
 - Elogie a tentativa, não só o resultado certo.
-- Convide a participação sem exigi-la. Uma criança que observa também
-  está aprendendo.
+- Convide a participação sem exigi-la. Uma criança que observa também está aprendendo.
 
 ## Opcionalidade
 
-Nem toda instrução precisa soar obrigatória. Use linguagem que dê espaço
-de ajuste ao educador, sem perder clareza sobre o que fazer.
+Nem toda instrução precisa soar obrigatória. Use linguagem que dê espaço de ajuste ao
+educador, sem perder clareza sobre o que fazer.
 
-**Frases aprovadas:** você pode, se necessário, quando possível, algumas
-crianças podem, se preferir, quando fizer sentido.
+**Frases aprovadas:** você pode, se necessário, quando possível, algumas crianças podem, se
+preferir, quando fizer sentido.
 
-Reserve "deve" e linguagem mais firme para segurança, preparação essencial
-ou passos que a aula não funciona sem. Fora isso, prefira a versão que
-deixa espaço.
+Reserve "deve" e linguagem mais firme para segurança, preparação essencial ou passos sem os
+quais a aula não funciona. Fora isso, prefira a versão que deixa espaço.
 
-## Comprimento
+## Um tópico, um passo
 
-- Objetivo da Aula: 1 linha, 10 a 15 palavras
-- BNCC: 2 a 4 códigos por aula
-- Resultados da Aprendizagem: 2 a 4 tópicos, um por código BNCC
-- Documentação Pedagógica: sempre um par, Observar e Documentar, nunca um
-  item isolado
-- Dica: 2 tópicos de diferenciação (dificuldade / confiantes) + no máximo
-  1 observação pedagógica opcional
-- Um movimento de ensino por tópico (ver Condensação): a ação primeiro,
-  depois o como, brevemente, depois o porquê, só quando o motivo não for
-  óbvio ("Mantenha breve para a rotina continuar previsível.")
+Cada tópico de um Momento é um passo do educador: a ação primeiro, depois o como, brevemente,
+depois o porquê, só quando o motivo não for óbvio (*Mantenha curto para a rotina continuar
+previsível.*).
 
-## Condensação
+Comece um tópico novo pela regra dos 4 gatilhos (`regra-dos-quatro-gatilhos.md`, com exemplo
+completo): quando o objeto muda, quando o foco passa do educador para as crianças, quando o
+espaço ou a posição do corpo muda, ou quando, depois de uma fala, a ação volta ao manejo
+físico. *Leia a história e monte a roda de conversa* são 2 tópicos. *Traga a caixa* e *dê
+tempo para reagirem* também: o foco passa do educador para as crianças.
 
-- Cada tópico é 1 movimento de ensino completo: a ação, o como breve, e a
-  fala ou pergunta que pertence a esse movimento, tudo no mesmo tópico.
-- A fala nunca vira tópico próprio. Ela fecha o tópico do movimento que a
-  provoca.
-- Várias perguntas do mesmo movimento correm na mesma linha, separadas por
-  ponto e vírgula: Pergunte: "…?"; "…?"
-- O que continua proibido: 2 movimentos diferentes no mesmo tópico. "Traga a
-  caixa e dê tempo para reagirem" é 1 movimento com seu preparo. "Leia a
-  história e depois monte a roda de conversa" são 2.
+Palavras como *depois*, *em seguida* e *por fim* dentro de um tópico costumam marcar um corte
+que faltou. Cortar tópicos não é cortar conteúdo: nenhuma ação sai.
+
+Não há número certo de tópicos por Momento nem de palavras por tópico. Quem ajusta o texto aos
+limites do template é a editor-infantil-orientacoes-do-educador.
 
 ## Pergunta e fala nunca ficam sozinhas
 
-Uma pergunta ou fala modelo faz parte de um movimento de ensino. Sozinha,
-nunca é um movimento completo.
+Uma pergunta ou fala modelo faz parte de um movimento de ensino. Sozinha, nunca é um movimento
+completo.
 
-- Nunca crie um tópico só com `Pergunte:`, `Diga:`, `Modele:` ou fala direta.
+- Nunca crie um tópico só com Pergunte:, Diga:, Modele: ou fala direta.
 - Comece pela ação concreta do educador que cria o contexto.
 - Coloque a pergunta ou a fala modelo no fim desse mesmo tópico.
-- Nunca conte uma pergunta ou fala solta como tópico separado.
 - Se a fonte separa a ação e a pergunta, junte as duas.
-- Se a fonte traz uma pergunta sem ação do educador relacionada, escreva
-  a ação a partir do contexto da etapa: o que veio antes, o material em
-  uso, o objetivo daquele momento. A ação precisa ser concreta e caber no
-  que a aula já faz. Nunca crie uma atividade nova.
+- Se a fonte traz uma pergunta sem ação do educador relacionada, escreva a ação a partir do
+  contexto do Momento: o que veio antes, o material em uso, o objetivo daquele momento. A ação
+  precisa ser concreta e caber no que a aula já faz. Nunca crie uma atividade nova.
 
-**Teste final:** tire a pergunta ou a fala modelo. Se não sobrar uma ação
-concreta do educador, o tópico falha.
+**Teste final:** tire a pergunta ou a fala modelo. Se não sobrar uma ação concreta do educador,
+o tópico falha.
 
-**Incorreto:**
+Incorreto:
 
-`Pergunte: *“O que podemos fazer quando alguém quer brincar com o grupo?”*`
+- Pergunte: *O que podemos fazer quando alguém quer brincar com o grupo?*
 
-**Correto:**
+Correto:
 
-`Retome a situação em que alguém quis entrar na brincadeira. Pergunte: *“O que podemos fazer quando alguém quer brincar com o grupo?”*`
-
-## Orçamento de espaço
-
-O template aprovado é a Revista Impacto: 2 aulas por página dupla. O texto
-precisa caber.
-
-- Por etapa: 3 a 6 tópicos. 7 só na etapa mais longa de um Mural do Projeto.
-- Por tópico: no máximo 3 frases curtas, cerca de 40 palavras.
-- Por aula: 16 a 20 tópicos no total, somando todas as etapas.
-- Perguntas em sequência contam dentro do tópico do movimento, nunca como
-  tópicos extras.
-- Se o conteúdo não cabe no orçamento, o problema é de escopo da aula, não
-  de redação. Corte de conteúdo é decisão pedagógica: sinalize, não resolva
-  apagando.
-
-## Formatação
-
-- Sem travessão, com duas exceções: o travessão citando fala de um livro,
-  e a grafia fixa Eu Faço – Nós Fazemos – Você Faz.
-- Etapas como `1 | Nome da Etapa`, nunca parágrafo corrido.
-- Fala do educador em itálico, entre aspas: "…"
-- Nomes de recursos e rotinas em itálico, no momento em que aparecem.
-- Números em algarismo.
-- Código de biblioteca sempre como [código biblioteca], nunca resolvido.
-- Criança / crianças, nunca aluno, estudante, educando.
-
-## Perguntas e fala direta
-
-Pergunte: "…?" para perguntas dirigidas às crianças. Diga: / Modele: "…"
-para frases-modelo. Escolha poucas perguntas, as que fazem a aprendizagem
-avançar. As regras sobre quando incluir respostas prováveis e exemplos de
-fala estão na seção seguinte.
+- Retome a situação em que alguém quis entrar na brincadeira. Pergunte: *O que podemos fazer
+  quando alguém quer brincar com o grupo?*; *Quem tem uma ideia?*
 
 ## Fala do educador: quando escrever exemplos
 
 Escreva um exemplo em duas situações, e só nelas:
 
-1. Inclua uma resposta de exemplo entre parênteses quando a resposta depende
-   de um conteúdo específico que o educador ainda não tem memorizado (o
-   enredo do livro, um material do projeto, um termo técnico), funcionando
-   como gabarito para o educador, nunca como fala pronta da criança.
-2. Inclua um exemplo de fala quando ele mostra o que uma prática nova soa na
-   prática. A metodologia é nova para a maioria dos educadores, e a fala de
-   exemplo é o que torna a prática visível. Mas cada exemplo ocupa espaço no
-   template, então cada um precisa ganhar o lugar.
+1. Inclua uma resposta de exemplo entre parênteses quando a resposta depende de um conteúdo
+   específico que o educador ainda não tem memorizado (o enredo do livro, um material do
+   projeto, um termo técnico). Funciona como gabarito para o educador, nunca como fala pronta
+   da criança.
+2. Inclua uma fala de exemplo quando ela mostra como uma prática nova soa na prática. A
+   metodologia é nova para a maioria dos educadores, e a fala de exemplo é o que torna a
+   prática visível.
 
 **Limites:**
 
-- Escreva o exemplo só quando um educador competente, mas novo na
-  metodologia, não improvisaria a fala sozinho. Se qualquer educador
-  chegaria àquela frase sem ajuda, não escreva.
-- No máximo 1 fala de exemplo por movimento de ensino. Nunca variantes
-  empilhadas da mesma fala.
-- Perguntas: 1 linha, natural para dizer em voz alta. Respostas prováveis
-  entre parênteses só na situação 1. Nunca em pergunta pessoal, aberta ou
-  óbvia.
-- Falas modelo (pensamento em voz alta, ponte de propósito): no máximo 2 a
-  3 frases curtas.
-- Escolha poucas perguntas, as que fazem a aprendizagem avançar. Uma etapa
-  raramente precisa de mais de 2 falas escritas.
+- Escreva o exemplo só quando um educador competente, mas novo na metodologia, não
+  improvisaria a fala sozinho. Se qualquer educador chegaria àquela frase sem ajuda, não
+  escreva.
+- Quando um movimento leva fala, escreva pelo menos 2 falas possíveis, na mesma linha,
+  separadas por ponto e vírgula. Quantas mais depende do movimento. Cada fala mostra um jeito
+  diferente de dizer ou uma pergunta diferente; nunca variantes empilhadas da mesma frase.
+- Perguntas: 1 linha cada, natural para dizer em voz alta. Respostas prováveis entre
+  parênteses só na situação 1. Nunca em pergunta pessoal, aberta ou óbvia.
+- Falas modelo (pensamento em voz alta, ponte de propósito): no máximo 2 a 3 frases curtas
+  cada.
+- Escolha poucos movimentos com fala, os que fazem a aprendizagem avançar. Quantas falas uma
+  aula tem e quais é decisão da editor-infantil-oralidade; a revisão de estilo corrige só a
+  forma.
 
-Os exemplos aprovados, organizados por tipo de aula e por propósito, vivem
-no banco: Fala do Educador · Banco de Exemplos
-(https://app.notion.com/p/3c8474500db98147baa0fb09d7ef6c8c)
+Os exemplos aprovados, organizados por tipo de aula e por propósito, vivem no banco Fala do
+Educador · Banco de Exemplos (https://app.notion.com/p/3c8474500db98147baa0fb09d7ef6c8c).
+
+## Formatação
+
+- Sem travessão, com duas exceções: o travessão citando fala de um livro e a grafia fixa
+  Eu Faço – Nós Fazemos – Você Faz.
+- Momentos como `1 | Nome do Momento`, nunca parágrafo corrido. Os nomes são fixos por tipo de
+  aula (`termos-e-nomes.md`, seção 6.1).
+- Fala do educador em itálico, sem aspas. Pergunte: *…?* para perguntas às crianças; Diga: ou
+  Modele: *…* para frases-modelo. Várias falas do mesmo movimento correm na mesma linha,
+  separadas por ponto e vírgula.
+- Nomes de recursos e rotinas em itálico, no momento em que aparecem, com [código biblioteca]
+  enquanto não têm código. Um código atribuído por uma pessoa nunca muda.
+- Números em algarismo.
+- Criança e crianças, nunca aluno, estudante ou educando. Educador, nunca professor ou tia.
+- Tópicos em texto simples, sem rótulo em negrito no começo.
 
 ## Onde vive "se a criança tiver dificuldade"
 
-Essa linguagem vive exclusivamente na Dica. Nunca dentro dos tópicos
-numerados de uma etapa. Se um tópico começar a descrever o que fazer se a
-criança tiver dificuldade, esse conteúdo pertence à Dica.
+Essa linguagem vive exclusivamente na Dica. Nunca dentro dos tópicos de um Momento. Se um
+tópico começar a descrever o que fazer se a criança tiver dificuldade, esse conteúdo pertence à
+Dica.
 
 ## O que não fazer
 
-- Explicar a metodologia ou a teoria pedagógica dentro da instrução. Um
-  "porquê" breve e situacional é permitido; uma explicação da abordagem
-  não é.
+- Explicar a metodologia ou a teoria pedagógica dentro da instrução. Um "porquê" breve e
+  situacional é permitido; uma explicação da abordagem não é.
+- Instrução dirigida ao autor, não ao educador em aula (*não acrescente material novo*, *nunca
+  dê tarefa dirigida*). Isso vai para Materiais e Preparação ou para a skill do tipo de aula.
 - Título de seção em forma de pergunta.
 - Exclamação.
 - Metáfora no lugar de instrução concreta.
 - Duas instruções na mesma frase com "e depois" ou "enquanto isso".
-- Calor construído por descrição de atmosfera, emoção ou significado, em
-  vez de fala e ação.
+- Calor construído por descrição de atmosfera, emoção ou significado, em vez de fala e ação.
 - Presumir uma única casa, família ou experiência como padrão.

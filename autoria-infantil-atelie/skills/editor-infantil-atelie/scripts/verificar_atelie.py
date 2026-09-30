@@ -5,7 +5,7 @@ de Arte (Educacao Infantil, Intercriativa Lab).
 
 Confere:
   - os 4 Momentos fixos, nesta ordem (termos-e-nomes 6.1) (linhas "N | Nome" seguidas de itens "- ")
-  - nome do Momento ate 28 caracteres (com Criar + nome da obra)
+  - nome do Momento ate 30 caracteres (com Criar + nome da obra)
   - bloco acima de 600 caracteres visiveis e Materiais acima de 270 (aviso: o ajuste final e da
     editor-infantil-orientacoes-do-educador)
   - travessao, falas entre aspas, termos proibidos
@@ -79,8 +79,8 @@ def main():
         erros.append("O marcador [nome da obra] ficou na pagina. Troque pelo nome da obra.")
     for titulo, itens in ms:
         nome = re.sub(r"^\d+\s*\|\s*", "", titulo).strip()
-        if len(nome) > 28:
-            erros.append("[%s] nome com %d caracteres (max 28)." % (titulo, len(nome)))
+        if len(nome) > 30:
+            erros.append("[%s] nome com %d caracteres (max 30)." % (titulo, len(nome)))
         n = sum(len(visivel(i)) for i in itens)
         if n > 600:
             avisos.append("[%s] bloco com %d caracteres (pagina: max 600)." % (titulo, n))

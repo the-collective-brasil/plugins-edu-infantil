@@ -12,7 +12,7 @@ description: >-
   to this lesson", "review the talk in this lesson". Não escreve aula do zero (skills de cada
   tipo de aula), não mexe em Dica, Documentação nem campos da aula. Apenas Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---
@@ -164,9 +164,11 @@ a entrada.
   Informe no quadro final os Momentos que passaram de 600, com a contagem.
 - **Preserve os itens do autor.** Mude a forma de conduzir a conversa, não o conteúdo. Cada
   Enter vira um item de lista na página: mantenha a estrutura de itens.
-- **Falas do educador em itálico, sem aspas**, como fala possível. Uma ou duas por movimento.
+- **Falas do educador em itálico, sem aspas**, como falas possíveis. Quando o movimento leva
+  fala, escreva pelo menos 2, na mesma linha, separadas por ponto e vírgula; quantas mais
+  depende do movimento.
 - **Os nomes dos movimentos nunca vão para a página.** Na página, o movimento vira instrução no
-  imperativo (Convide, Retome, Espere, Escute) com uma fala possível.
+  imperativo (Convide, Retome, Espere, Escute) com as falas possíveis.
 - **Voz da casa:** criança e crianças, educador, sem travessão, dígitos. A palavra "oracy" não
   aparece; na casa, o termo é oralidade.
 - **Ao acrescentar conversa**, use o menor acréscimo que resolve: uma troca em dupla, uma
@@ -214,18 +216,19 @@ nunca a um nome próprio.
 Em inglês: **Changes** e **Open decisions**.
 
 ## Exemplo curto
-Oficina de Descobertas · Infantil 4 · Momento 2.
+Oficina de Descobertas · Foco Ciência/Matemática · Infantil 4 · Momento 2.
 
 Antes:
-> 2 | Hora de testar
+> 2 | Investigar Juntos
 > - Pergunte: "O que vai acontecer com a pedra? E com a rolha? E com a folha?"
 > - Coloque cada objeto na água e explique que os objetos pesados afundam e os leves flutuam.
 > - Peça que todas as crianças digam se acertaram.
 
 Depois:
-> 2 | Prever e testar
+> 2 | Investigar Juntos
 > - Mostre a pedra, a rolha e a folha. Convide as crianças a contar ao parceiro o que acham que
->   vai acontecer com cada uma: *O que faz você pensar isso?*
+>   vai acontecer com cada uma: *O que você acha que vai acontecer com a pedra?*; *O que faz você
+>   pensar isso?*
 > - Anote as ideias diferentes, sem confirmar nenhuma.
 > - Coloque um objeto por vez na água e dê tempo para as crianças observarem.
 > - Volte às previsões: *O que aconteceu? O que vocês pensam agora?* Ajude a nomear o que viram:
@@ -247,7 +250,7 @@ Linha no quadro final:
    investigação). Confere travessão, falas entre aspas, nomes de movimentos, "oracy" ou notas
    internas na página, e padrões da seção 14 (*Muito bem!*, *todas as crianças respondam* e
    outros). Corrija os erros. Os avisos pedem um segundo olhar, não uma correção automática.
-   O script também informa os Momentos acima de 600 caracteres e nomes acima de 28: não
+   O script também informa os Momentos acima de 600 caracteres e nomes acima de 30: não
    corte, só leve a contagem para as decisões em aberto.
 2. Confira à mão a lista da seção 17. O script não julga se a conversa é boa.
 

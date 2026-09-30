@@ -11,7 +11,7 @@ description: >-
   nem a Dica da aula (skills irmãs), não escreve a entrada da Biblioteca, não revisa conversa (editor-infantil-oralidade) e não
   ajusta ao template (editor-infantil-orientacoes-do-educador). Apenas Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---
@@ -158,7 +158,7 @@ Rode nos Momentos e nos Materiais:
 
     python3 scripts/verificar_atelie.py aula.md
 
-Confere os 4 Momentos fixos e a ordem, o nome da obra no Momento 3, nome até 28, blocos e Materiais acima do limite (aviso),
+Confere os 4 Momentos fixos e a ordem, o nome da obra no Momento 3, nome até 30, blocos e Materiais acima do limite (aviso),
 travessão, falas entre aspas e termos proibidos. O manuscrito da página é conferido à mão
 contra o template.
 

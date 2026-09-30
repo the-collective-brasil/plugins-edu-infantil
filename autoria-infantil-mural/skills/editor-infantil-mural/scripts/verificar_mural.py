@@ -102,8 +102,8 @@ def main():
             erros.append("Momentos esperados: %s. Encontrados: %s."
                          % (" · ".join(esperado), " · ".join(nomes) or "nenhum"))
     for num, nome, itens in ms:
-        if len(nome) > 28:
-            avisos.append("Momento %d: nome com %d caracteres (max 28)." % (num, len(nome)))
+        if len(nome) > 30:
+            avisos.append("Momento %d: nome com %d caracteres (max 30)." % (num, len(nome)))
         if sum(len(re.sub(r"\*+", "", LINK_RE.sub(r"\1", i))) for i in itens) > 600:
             avisos.append("Momento %d acima de 600 caracteres (a orientacoes-do-educador ajusta)." % num)
     m3 = acc(" ".join(ms[2][2])) if len(ms) >= 3 else ""

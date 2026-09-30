@@ -13,7 +13,7 @@ description: >-
   corta falas (editor-infantil-oralidade) e não corta para caber no template
   (editor-infantil-orientacoes-do-educador). Apenas Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---
@@ -25,8 +25,7 @@ Faz o passe de linguagem de uma aula pronta: a mesma aula, na voz da casa. É a 
 da família: vem depois da editor-infantil-oralidade e antes da
 editor-infantil-orientacoes-do-educador. Uma aula por vez, ou as quatro de um dia.
 
-As regras estão em `dados/estilo-da-casa.md` (cópia do guia do Notion). O cabeçalho daquele
-arquivo diz o que mudou desde a cópia; em conflito, `dados/termos-e-nomes.md` vence.
+As regras estão em `dados/estilo-da-casa.md`; em conflito, `dados/termos-e-nomes.md` vence.
 
 ## O que muda e o que não muda
 **Muda:** verbos, tom, calor, estrutura das frases, formatação, terminologia e a forma das
@@ -81,7 +80,6 @@ pessoa escreve; em inglês, os nomes do material (Momento, Dica, Roda) ficam em 
 - Travessão fora das duas exceções do guia.
 - Aluno, estudante, educando, cada criança → criança ou crianças; professor, tia → educador.
 - Números por extenso → algarismos.
-- Código de biblioteca resolvido → `[código biblioteca]`.
 - Fala do educador sem itálico ou entre aspas → itálico, sem aspas. Nome de recurso sem itálico
   → itálico.
 - Etapas fora da forma `1 | Nome da Etapa`; parágrafo onde cabe tópico.
@@ -115,7 +113,10 @@ pessoa escreve; em inglês, os nomes do material (Momento, Dica, Roda) ficam em 
 
 **Só sinalizar:** o que está fora do trabalho desta skill (lista acima), respostas prováveis
 que faltam e que exigiriam conhecimento de conteúdo, e conteúdo que o guia pede mas que você
-teria de inventar.
+teria de inventar. Também: um código de biblioteca que parece inventado (padrão diferente do
+que a pessoa deu ou do que está em `termos-e-nomes.md`); esta skill nunca muda um código, só
+sinaliza. E um movimento com uma única fala escrita: o guia pede pelo menos 2, mas acrescentar
+fala é trabalho da editor-infantil-oralidade.
 
 ## Formato de entrega
 Tudo no chat. Não gere arquivo a menos que peçam.
@@ -142,7 +143,7 @@ exclamação, verbos proibidos e vagos, tópico só com pergunta ou fala, e tóp
 olhar. O script não julga tom nem calor.
 
 ## Dados embutidos
-- `dados/estilo-da-casa.md` · o guia Estilo da Casa, com o cabeçalho das diferenças que valem.
+- `dados/estilo-da-casa.md` · o guia Estilo da Casa (voz, verbos, calor, condensação, formatação).
 - `dados/regra-dos-quatro-gatilhos.md` · quando começar um novo tópico, com exemplo completo.
 - `dados/termos-e-nomes.md` · nomes, termos, limites e voz da casa (autoridade da família).
 - `dados/marcos-aprendizagem-desenvolvimento.md` · marcos de aprendizagem e desenvolvimento

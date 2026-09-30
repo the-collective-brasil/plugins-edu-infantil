@@ -74,7 +74,7 @@ def main():
                 erros.append("%s: topico so com pergunta ou fala. Junte a acao do educador." % w)
             elif re.match(r"^-\s*(pergunte|diga|modele)\s*:", flat.strip()):
                 avisos.append("%s: topico comeca por Pergunte/Diga/Modele. Comece pela acao." % w)
-            seq = re.findall(r"(?:^|[.;,]\s*)(depois|em seguida|por fim|logo apos|entao)\b", acc(t[2:]))
+            seq = re.findall(r"(?:^|[.;,]\s*)(depois|em seguida|por fim|logo apos)\b", acc(t[2:]))
             if seq:
                 avisos.append("%s: '%s' dentro do topico. Pela regra dos 4 gatilhos, pode faltar um corte "
                               "(objeto, foco, espaco ou fala)." % (w, seq[0]))

@@ -51,7 +51,7 @@ pelo nome da obra da aula; nunca escreva o marcador na página.
 
 ## Limites compartilhados
 - 4 Momentos por aula.
-- Título do Momento: até 28 caracteres, sem contar o número.
+- Título do Momento: até 30 caracteres, sem contar o número.
 - Instruções: até 600 caracteres por Momento.
 - Materiais e Preparação: até 270 caracteres.
 - Os campos da aula (Objetivo, BNCC, Resultados, Eixos, Perfil, Documentação e Dica) não são

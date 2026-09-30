@@ -12,7 +12,7 @@ description: >-
   (editor-infantil-oralidade) e não ajusta ao template (editor-infantil-orientacoes-do-educador).
   Apenas Educação Infantil.
 metadata:
-  version: "1.0"
+  version: "1.1"
   updated: "2026-09-29"
   terms: "v7"
 ---
@@ -145,6 +145,8 @@ travessão, termos aposentados e Momentos acima de 600 (aviso).
 - `dados/marcos-aprendizagem-desenvolvimento.md` · marcos (Joinville), faixas e regras.
 - `references/etapas-canonicas.md` · nomes dos Momentos e correspondência com os antigos.
 - `references/regras-hora-do-conto.md` · função da Hora do Conto e de cada Momento.
-- `references/planos/` · planos de 12 semanas de Infantil 3, 4 e 5.
+- `references/planos/` · planos de 12 semanas de Infantil 3, 4 e 5. Os planos e as etapas
+  canônicas são notas de fonte: o texto da página segue a voz da casa (fala em itálico, sem
+  aspas, sem travessão).
 - `references/template-aula.md` · o que esta skill escreve.
 - `scripts/verificar_aula.py` · conferência mecânica.

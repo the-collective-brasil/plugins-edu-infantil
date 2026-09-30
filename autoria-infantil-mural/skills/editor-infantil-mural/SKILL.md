@@ -13,7 +13,7 @@ description: >-
   irmãs), não revisa a conversa (editor-infantil-oralidade) e não ajusta ao template. Apenas
   Educação Infantil.
 metadata:
-  version: "1.1"
+  version: "1.2"
   updated: "2026-09-29"
   terms: "v7"
 ---

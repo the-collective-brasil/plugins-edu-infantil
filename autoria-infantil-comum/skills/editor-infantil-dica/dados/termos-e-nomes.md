@@ -180,7 +180,7 @@ Revisitar a Jornada · Refletir e Celebrar · Organizar e Encerrar. (A fonte ant
 etapas: Revisitar a Jornada Completa · Celebrar as Aprendizagens · Encerramento.) Integra Página de Marco · Portfólio, Autoavaliação,
 Rubrica de Avaliação, Certificado do Protagonista e a atualização final da Jornada do Projeto.
 
-Todos os nomes do Mural cabem no limite de 28 caracteres (versões curtas aprovadas em
+Todos os nomes do Mural cabem no limite de 30 caracteres (versões curtas aprovadas em
 29/09/2026).
 
 **O que o Momento 3 faz, por tipo:**
@@ -330,8 +330,9 @@ Empatia · Autonomia · Integridade · Autoconsciência · Cidadania Global.
 ## Limites de tamanho (todas as skills)
 Regra de família. Vale para todos os tipos de aula.
 - Corpo da página: 4 blocos de instrução ao educador (os quatro Momentos).
-- Título do Momento: o nome, até 28 caracteres (o número não conta). Padrão para todos os tipos de aula. No
-  Ateliê, *Criar* mais o nome da obra também cabe em 28.
+- Título do Momento: o nome, até 30 caracteres (o número não conta; 28 até 29/09/2026, ampliado para
+  30 pelos Momentos de Centros e Brincar ao Ar Livre). Padrão para todos os tipos de aula. No
+  Ateliê, *Criar* mais o nome da obra também cabe em 30.
 - Instruções: até 600 caracteres por bloco. Cada Enter vira um item de lista automaticamente.
 - Dica: duas linhas sem negrito (apoio e ampliação), até 300 caracteres no total.
 - Materiais e Preparação (na Orientação do Dia): até 270 caracteres por aula (teto), 1080 no

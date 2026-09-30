@@ -7,7 +7,7 @@ A skill so mexe nos Momentos da aula ou, nas entradas da Biblioteca, na secao de
 O script olha so esse texto. Dica, Documentacao e os outros campos ficam fora.
 
 Confere:
-  - Momentos (linhas "N | Nome" seguidas de itens "- "): informa nome acima de 28 caracteres e
+  - Momentos (linhas "N | Nome" seguidas de itens "- "): informa nome acima de 30 caracteres e
     bloco acima de 600 caracteres de texto visivel (aviso: a skill nao corta; outra etapa
     ajusta o tamanho)
   - travessao, falas entre aspas
@@ -184,8 +184,8 @@ def check_blocos(blocos, rep, limite):
                          % item.count("?"))
         if limite:
             nome = re.sub(r"^\d+\s*\|\s*", "", titulo).strip()
-            if len(nome) > 28:
-                rep.warn(titulo, "Nome com %d caracteres (pagina: max 28). Nao corte; leve para as decisoes em aberto." % len(nome))
+            if len(nome) > 30:
+                rep.warn(titulo, "Nome com %d caracteres (pagina: max 30). Nao corte; leve para as decisoes em aberto." % len(nome))
             n = sum(len(visivel(i)) for i in itens)
             if n > 600:
                 rep.warn(titulo, "Bloco com %d caracteres visiveis (pagina: max 600). Nao corte; "

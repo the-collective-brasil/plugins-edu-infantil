@@ -39,7 +39,7 @@ NOME_MEIO = {"foto": "foto", "escrita": "escrita", "audio": "áudio", "video": "
              "producao": "produção"}
 
 LIMITE_LINHA = 82   # celula de Documentacao do card 3 no PDF; o icone conta 1
-LIMITE_TITULO = 28  # titulo do Momento, termos-e-nomes v7 (o numero nao conta)
+LIMITE_TITULO = 30  # titulo do Momento, termos-e-nomes v7 (30 desde 29/09/2026; o numero nao conta)
 
 CODIGO_RE = re.compile(r"\bS(\d{1,2})\.D([1-5])\.A([1-4])\b")
 ROTULO_RE = re.compile(r"^[\s*_>•-]*(observar|documentar)[\s*_]*:[\s*_]*", re.I)

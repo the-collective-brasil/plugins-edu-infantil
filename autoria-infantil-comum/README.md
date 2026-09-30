@@ -27,5 +27,5 @@ Depois, a aula vai para a produção, que faz o ajuste final ao template e o PDF
 - Nenhuma skill cria arquivo sem pedido: tudo sai no chat.
 
 ## Versão
-0.1.0 · montado em 2026-09-29 a partir de `Skills_Infantil/_compartilhado/montar_plugins.py`.
+0.3.0 · montado em 2026-09-29 a partir de `Skills_Infantil/_compartilhado/montar_plugins.py`.
 Não edite as skills aqui dentro: edite a skill ou a mestre em `_compartilhado` e monte de novo.
