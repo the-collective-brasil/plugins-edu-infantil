@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 verificar_estilo.py - conferencia mecanica da linguagem de uma aula (Educacao Infantil,
-Intercriativa Lab), segundo o Estilo da Casa e termos-e-nomes v7.
+Intercriativa Lab), pela tabela de formatacao de estilo-da-casa.md v3, por termos-e-nomes.md
+v8 (secao 8, termos aposentados) e por vocabulario-controlado.md (secao 9).
 
-Confere: travessao (fora das excecoes), fala entre aspas, termos proibidos, numeros por extenso
-comuns, exclamacao, verbos proibidos e vagos, topico so com pergunta ou fala.
+Confere: travessao (fora das duas excecoes), fala entre aspas, pessoas e termos fora do
+vocabulario, termos e nomes aposentados, numeros por extenso comuns, exclamacao, verbo de ordem
+(a casa fala de colega para colega), movimentos contados dentro do topico, topico so com
+pergunta ou fala.
 Nao julga tom nem calor. Nao confere tamanho (isso e da orientacoes-do-educador).
 
 Uso:
@@ -20,14 +23,25 @@ def acc(s):
 
 
 CODELINE_RE = re.compile(r"^\s*-\s*\*\*EI0[2-5][A-Z]{2,3}\d{2}\*\*")
+# erro: pessoas e termos (termos v8 secao 8; vocabulario secao 9)
 PROIBIDOS = {"aluno": "crianca", "aluna": "crianca", "alunos": "criancas", "alunas": "criancas",
              "estudante": "crianca", "estudantes": "criancas", "educando": "crianca",
              "educandos": "criancas", "professor": "educador", "professora": "educador",
-             "tia": "educador"}
-VERBOS_PROIBIDOS = ["mande", "exija", "corrija", "diga a eles", "obrigue", "faca com que"]
-VERBOS_VAGOS = ["facilite", "facilitar", "desenvolva", "promova", "promover", "engaje", "engajar",
-                "desperte a consciencia", "aprofunde a compreensao", "crie espaco para",
-                "criar espaco para", "apoie a construcao de sentido"]
+             "tia": "educador", "educadora": "educador", "docente": "educador",
+             "pais": "familias e responsaveis", "maes": "familias e responsaveis",
+             "amiguinho": "colega", "amiguinhos": "colegas", "coleguinha": "colega",
+             "coleguinhas": "colegas", "dirigida pelas criancas": "dirigida pela crianca",
+             "g3": "infantil 3", "g4": "infantil 4", "g5": "infantil 5"}
+# aviso: nomes aposentados (termos v8 secao 8)
+APOSENTADOS = {"roda de partilha": "nao e termo: descreva o momento (o bloco e Roda)",
+               "rotina de organizacao": "Rotina de Encerramento",
+               "rotina dos centros de aprendizagem": "Rotina dos Centros",
+               "rotina do brincar ao ar livre": "Rotina das Propostas",
+               "conexao com as familias": "Conexao Casa-Escola",
+               "feedback": "retorno, comentario, opiniao ou observacao"}
+VERBOS_ORDEM = ["mande", "exija", "corrija", "diga a eles", "obrigue", "faca com que"]
+# movimentos do educador contados dentro do topico: sai; vira a acao (regra da skill)
+CONTAGEM_RE = re.compile(r"\b1 material\b|\b1 ou 2 minutos?\b|\b\d+ ou \d+ (minutos?|materia(l|is)|perguntas?|passos?)\b")
 EXTENSO = ["dois", "duas", "tres", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"]
 EXCECAO_TRAVESSAO = "eu faco – nos fazemos – voce faz"
 
@@ -45,7 +59,7 @@ def main():
         flat = acc(line)
         sem_excecao = flat.replace(EXCECAO_TRAVESSAO, "")
         if "—" in sem_excecao or "–" in sem_excecao:
-            avisos.append("%s: travessao. So vale citando fala de um livro." % w)
+            avisos.append("%s: travessao. So vale citando fala de um livro ou em Eu Faço – Nós Fazemos – Você Faz." % w)
         if re.search(r"[\"“”][^\"“”]{3,}[\"“”]", line):
             erros.append("%s: texto entre aspas. Fala do educador vai em italico, sem aspas." % w)
         for p, certo in PROIBIDOS.items():
@@ -53,12 +67,15 @@ def main():
                 erros.append("%s: '%s' -> use %s." % (w, p, certo)); break
         if "cada crianca" in flat:
             erros.append("%s: 'cada crianca' -> use a crianca ou as criancas." % w)
-        for v in VERBOS_PROIBIDOS:
+        for a, certo in APOSENTADOS.items():
+            if re.search(r"\b%s\b" % a, flat):
+                avisos.append("%s: nome aposentado (%s) -> %s." % (w, a, certo)); break
+        for v in VERBOS_ORDEM:
             if re.search(r"\b%s\b" % v, flat):
-                erros.append("%s: verbo proibido (%s). Use verbo facilitador." % (w, v))
-        for v in VERBOS_VAGOS:
-            if re.search(r"\b%s\b" % v, flat):
-                avisos.append("%s: verbo vago (%s). Troque por acao concreta." % (w, v))
+                avisos.append("%s: verbo de ordem (%s) (a casa fala de colega para colega)." % (w, v))
+        m = CONTAGEM_RE.search(flat)
+        if m:
+            avisos.append("%s: movimento contado (%s). Sai; vira a acao." % (w, m.group(0)))
         if "!" in line:
             avisos.append("%s: exclamacao. A casa nao usa exclamacao." % w)
         for n in EXTENSO:
@@ -74,10 +91,6 @@ def main():
                 erros.append("%s: topico so com pergunta ou fala. Junte a acao do educador." % w)
             elif re.match(r"^-\s*(pergunte|diga|modele)\s*:", flat.strip()):
                 avisos.append("%s: topico comeca por Pergunte/Diga/Modele. Comece pela acao." % w)
-            seq = re.findall(r"(?:^|[.;,]\s*)(depois|em seguida|por fim|logo apos)\b", acc(t[2:]))
-            if seq:
-                avisos.append("%s: '%s' dentro do topico. Pela regra dos 4 gatilhos, pode faltar um corte "
-                              "(objeto, foco, espaco ou fala)." % (w, seq[0]))
     if erros:
         print("ERROS (%d)" % len(erros)); [print("  " + e) for e in erros]
     if avisos:

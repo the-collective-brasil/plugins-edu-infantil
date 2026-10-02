@@ -4,9 +4,10 @@ verificar_campos.py - conferencias mecanicas dos cinco campos de uma aula da Edu
 (Intercriativa Lab): Objetivo da Aula, Habilidades BNCC, Eixos Transversais, Perfil da Crianca
 Protagonista e Resultados da Aprendizagem.
 
-Adaptado de verificar_aula.py (editor-aulas-intercriativa-infantil). Sairam as conferencias de
-Documentacao, Dica e Momentos, que sao de outras skills. A voz so e conferida dentro dos cinco
-campos. Le os dados EMPACOTADOS na propria skill (../dados/bncc.md e ../dados/eixos.csv).
+Forma e limites: templates-de-aula.md v2, secao 2. Nomes, Eixos e Perfil por fase:
+termos-e-nomes.md v8, secoes 4 e 7. Documentacao, Dica e Momentos sao de outras skills. A voz so
+e conferida dentro dos cinco campos. Le os dados EMPACOTADOS na propria skill (../dados/bncc.md
+e ../dados/eixos.csv).
 
 Entrada (mesmas convencoes do verificar_aula.py):
   ## A1 · Tipo de aula · Modo            <- uma secao por aula
@@ -30,32 +31,48 @@ import argparse, csv, difflib, os, re, sys, unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 DADOS = os.path.normpath(os.path.join(HERE, "..", "dados"))
 
-BNCC_PREFIX = {"G3": "EI02", "G4": "EI03", "G5": "EI03"}
-EIXO_PREFIX = {"G3": "EI03", "G4": "EI04", "G5": "EI05"}
-NIVEL_MAP = {"3": "G3", "4": "G4", "5": "G5", "infantil 3": "G3",
-             "infantil 4": "G4", "infantil 5": "G5", "g3": "G3", "g4": "G4", "g5": "G5"}
-NIVEL_NOME = {"G3": "Infantil 3", "G4": "Infantil 4", "G5": "Infantil 5"}
+# Niveis: Infantil 3, 4 e 5 (nunca G3/G4/G5). A chave interna e o proprio nome.
+I3, I4, I5 = "Infantil 3", "Infantil 4", "Infantil 5"
+BNCC_PREFIX = {I3: "EI02", I4: "EI03", I5: "EI03"}
+EIXO_PREFIX = {I3: "EI03", I4: "EI04", I5: "EI05"}
+NIVEL_MAP = {"3": I3, "4": I4, "5": I5, "infantil 3": I3, "infantil 4": I4, "infantil 5": I5,
+             "i3": I3, "i4": I4, "i5": I5}
+NIVEL_NOME = {I3: I3, I4: I4, I5: I5}
 
 BNCC_FAMILIES = {"EO", "CG", "TS", "EF", "ET"}
 EIXO_FAMILIES = {"SEL", "EMP", "FIN", "CID"}
+# As quatro familias oficiais (termos v8, secao 7). "Cidadania Digital" sozinho e nome aposentado.
 EIXO_FAMILY_NAMES = {"socioemocional", "empreendedorismo", "educacao financeira",
-                     "cidadania digital"}
-PERFIL = ["investigacao", "pensamento critico", "resolucao de problemas", "comunicacao",
-          "colaboracao", "empatia", "autonomia", "integridade", "autoconsciencia",
-          "cidadania global"]
+                     "cidadania digital e computacao"}
+EIXO_APOSENTADOS = {"cidadania digital": "Cidadania Digital e Computacao"}
+# As dez competencias do Perfil (termos v8, secao 7). "Resolucao de Problemas" e nome aposentado.
+PERFIL = ["investigacao", "pensamento critico", "criatividade", "comunicacao", "colaboracao",
+          "empatia", "cidadania global", "autonomia", "integridade", "autoconsciencia"]
+PERFIL_APOSENTADOS = {"resolucao de problemas": "Criatividade"}
 
-NOMES_PERFIL = {"investigacao": "Investigacao", "pensamento critico": "Pensamento Critico",
-                "resolucao de problemas": "Resolucao de Problemas", "comunicacao": "Comunicacao",
-                "colaboracao": "Colaboracao", "autoconsciencia": "Autoconsciencia",
-                "autonomia": "Autonomia"}
+NOMES_PERFIL = {"investigacao": "Investigação", "pensamento critico": "Pensamento Crítico",
+                "criatividade": "Criatividade", "comunicacao": "Comunicação",
+                "colaboracao": "Colaboração", "empatia": "Empatia",
+                "cidadania global": "Cidadania Global", "autonomia": "Autonomia",
+                "integridade": "Integridade", "autoconsciencia": "Autoconsciência"}
 
-# Fase -> Perfil predominante (termos-e-nomes.md, secao 9). Enfases, nao exclusivas.
-FASES = [(1, 2, "Imersao", ["autoconsciencia", "empatia"]),
-         (3, 4, "Investigacao", ["investigacao", "pensamento critico"]),
-         (5, 6, "Criacao", ["resolucao de problemas", "colaboracao"]),
-         (7, 9, "Experimentacao", ["resolucao de problemas", "colaboracao"]),
-         (10, 11, "Apresentacao", ["comunicacao"]),
-         (12, 12, "Avaliacao e Reflexao", ["autoconsciencia", "autonomia"])]
+# Fase -> competencias mobilizadas (termos-e-nomes.md v8, secao 7, tabela "Por fase").
+# A primeira competencia do Perfil vem desta lista; as outras 1 ou 2 vem do conteudo.
+FASES = [(1, 2, "Imersao", ["empatia", "autoconsciencia", "comunicacao", "colaboracao"]),
+         (3, 4, "Investigacao", ["investigacao", "pensamento critico", "comunicacao",
+                                 "cidadania global", "integridade"]),
+         (5, 6, "Criacao", ["criatividade", "pensamento critico", "colaboracao", "autonomia",
+                            "comunicacao"]),
+         (7, 9, "Experimentacao", ["pensamento critico", "criatividade", "colaboracao",
+                                   "integridade", "autonomia", "empatia"]),
+         (10, 11, "Apresentacao", ["comunicacao", "cidadania global", "integridade", "autonomia",
+                                   "empatia"]),
+         (12, 12, "Avaliacao e Reflexao", ["autoconsciencia", "autonomia", "pensamento critico",
+                                           "integridade", "comunicacao"])]
+
+# Objetivo da Aula (templates v2, secao 2): 10 a 15 palavras; ate 99 caracteres na Orientacao do Dia.
+OBJ_PALAVRAS = (10, 15)
+OBJ_CARACTERES = 99
 
 INVISIVEL = ["compreende", "entende", "sabe", "conhece", "aprende", "percebe", "valoriza",
              "aprecia", "assimila", "internaliza", "adquire", "interioriza", "domina",
@@ -74,7 +91,7 @@ POR_EXTENSO = ["dois", "duas", "tres", "quatro", "cinco", "seis", "sete", "oito"
 
 # Idade (so avisos). Tirado de dados/marcos-aprendizagem-desenvolvimento.md.
 # Secao 3, relacao numero e quantidade: 3a6m a 4a "3 ate 5" · 4a a 5a "5 a 8" · 5a a 6a "ate 10".
-NUM_QTD = {"G3": 5, "G4": 8, "G5": 10}
+NUM_QTD = {I3: 5, I4: 8, I5: 10}
 # Secao 5, erros comuns: letra e som antes dos 5 anos; leitura de palavras aos 4 anos;
 # escrita autonoma convencional em nenhuma faixa ate 6 anos.
 LETRA_SOM = ["letra e som", "letras e sons", "letras aos sons", "sons das letras",
@@ -249,7 +266,7 @@ def check_age(text, where, rep, level, label):
                          "faixa vai ate %d (marcos, secao 3). Acima disso, so com apoio do "
                          "educador, nunca como criterio." % (label, n, NIVEL_NOME[level], NUM_QTD[level]))
                 break
-    if level in ("G3", "G4"):
+    if level in (I3, I4):
         if any(k in flat for k in LETRA_SOM):
             rep.warn(where, "%s pede relacao entre letra e som. Antes dos 5 anos a crianca "
                      "escolhe letras de forma arbitraria (marcos, secao 5)." % label)
@@ -314,8 +331,12 @@ def check_section(title, body, level, ref, eixos_ref, semana_arg, semana_doc, re
             for v in OBJ_PROIBIDOS:
                 if low.startswith(v):
                     rep.error(where, "Objetivo abre com abstracao proibida (\"%s\")." % v); break
-            if nw < 10 or nw > 15:
-                rep.warn(where, "Objetivo com %d palavras. O formato pede de 10 a 15." % nw)
+            if nw < OBJ_PALAVRAS[0] or nw > OBJ_PALAVRAS[1]:
+                rep.warn(where, "Objetivo com %d palavras. O formato pede de %d a %d."
+                         % (nw, OBJ_PALAVRAS[0], OBJ_PALAVRAS[1]))
+            if len(obj) > OBJ_CARACTERES:
+                rep.warn(where, "Objetivo com %d caracteres. Na Orientacao do Dia cabem %d; "
+                         "mire nisso (so a edicao final corta)." % (len(obj), OBJ_CARACTERES))
             sents = [x for x in re.split(r"(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÜÇ])", obj) if x.strip()]
             if len(sents) > 1:
                 rep.warn(where, "Objetivo com %d frases. O formato pede uma." % len(sents))
@@ -416,8 +437,12 @@ def check_section(title, body, level, ref, eixos_ref, semana_arg, semana_doc, re
                 rep.error(where, "Eixo fora do formato 'Familia: frase': \"%s\"" % raw[:45]); continue
             fam, frase = raw.split(":", 1)
             fam = plain(fam)
-            if acc(fam) not in EIXO_FAMILY_NAMES:
-                rep.error(where, "\"%s\" nao e familia de eixo valida." % fam)
+            if acc(fam) in EIXO_APOSENTADOS:
+                rep.error(where, "\"%s\" e nome aposentado de eixo. Escreva \"%s\"."
+                          % (fam, EIXO_APOSENTADOS[acc(fam)]))
+            elif acc(fam) not in EIXO_FAMILY_NAMES:
+                rep.error(where, "\"%s\" nao e familia de eixo valida. As quatro: Socioemocional, "
+                          "Empreendedorismo, Educacao Financeira, Cidadania Digital e Computacao." % fam)
             frase = plain(frase)
             if not frase:
                 rep.error(where, "Eixo sem frase de aprendizagem."); continue
@@ -439,7 +464,10 @@ def check_section(title, body, level, ref, eixos_ref, semana_arg, semana_doc, re
             elif len(perfil) > 3: rep.error(where, "Perfil com %d competencias. Maximo 3." % len(perfil))
             vistos = []
             for a in perfil:
-                if acc(a) not in PERFIL:
+                if acc(a) in PERFIL_APOSENTADOS:
+                    rep.error(where, "\"%s\" e competencia aposentada. Escreva \"%s\"."
+                              % (a, PERFIL_APOSENTADOS[acc(a)]))
+                elif acc(a) not in PERFIL:
                     rep.error(where, "\"%s\" nao esta entre as dez competencias do Perfil." % a)
                 elif acc(a) in vistos:
                     rep.error(where, "\"%s\" repetida no Perfil." % a)
@@ -465,7 +493,7 @@ def main():
     ap.add_argument("--sem-verbatim", action="store_true")
     a = ap.parse_args()
     lvl = NIVEL_MAP.get(acc(a.nivel).strip())
-    if not lvl: sys.exit("Nivel invalido: use Infantil 3, 4 ou 5.")
+    if not lvl: sys.exit("Nivel invalido: use Infantil 3, 4 ou 5 (ou so o numero).")
     if a.semana is not None and not 1 <= a.semana <= 12:
         sys.exit("Semana invalida: use de 1 a 12.")
     if not os.path.exists(a.file): sys.exit("Arquivo nao encontrado: %s" % a.file)

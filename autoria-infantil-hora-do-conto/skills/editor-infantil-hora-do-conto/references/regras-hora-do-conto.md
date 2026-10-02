@@ -33,18 +33,26 @@ Use PEER em toda leitura dialógica, em páginas selecionadas:
 Não aplique PEER mecanicamente em todas as páginas. Retome previsões e
 hipóteses oralmente, sem exigir uma tabela universal para as três idades.
 
-## Função das etapas
+## Função dos Momentos
+
+A aula abre com *Siga a Rotina de Abertura [código biblioteca]* no começo do Momento 1 e
+fecha com *Siga a Rotina de Encerramento [código biblioteca]* no fim do Momento 4
+(`dados/templates-de-aula.md`, seção 4). Em `S1.D1.A1`, a abertura entra no começo de
+Preparar para a Leitura e o encerramento no fim de Conversar e Compartilhar. Os passos ficam na
+Biblioteca.
 
 ### Lançamento do Projeto
 
 Crie uma provocação concreta ligada ao contexto da história e do projeto.
-Convide observação, perguntas e hipóteses. Não explique o problema nem ofereça
-a solução.
+Apresente a Pergunta Norteadora e retome as ideias e perguntas registradas na
+Roda. Convide observação, perguntas e hipóteses. Não explique o problema nem
+ofereça a solução. A Missão ainda não existe: ela é escolhida ao fim da S2.
 
 ### Preparar para a Leitura
 
-Apresente ou retome o texto, ative conhecimentos necessários, nomeie o
-vocabulário essencial e prepare o modo de participação. Na primeira leitura,
+Comece pela *Rotina de Abertura* [código biblioteca] (fora do lançamento, é o
+Momento 1). Apresente ou retome o texto, ative conhecimentos necessários, nomeie
+o vocabulário essencial e prepare o modo de participação. Na primeira leitura,
 mostre capa, título, autor e ilustrador e convide previsões sustentadas pelas
 imagens.
 
@@ -60,12 +68,13 @@ texto.
 Organize a conversa sobre o texto. Retome evidências
 do texto, vocabulário, acontecimentos e contribuições das crianças. Quando
 couber, faça conexões Texto-Eu e Texto-Mundo. Não transforme a conversa em
-ficha ou entrega do projeto.
+ficha ou entrega do projeto. Em `S1.D1.A1`, feche com a *Rotina de Encerramento*
+[código biblioteca].
 
 ### Organizar e Encerrar
 
-Indique o destino do livro e dos materiais, convide a turma a organizar o
-espaço e conduza a transição para a atividade seguinte.
+Indique o destino do livro e dos materiais e convide a turma a organizar o
+espaço. Feche com *Siga a Rotina de Encerramento [código biblioteca]*.
 
 ## Desenvolvimento por idade
 
@@ -85,6 +94,9 @@ Mude o que a criança observa, organiza, explica, compara ou produz.
 - Preserve `História 1`, `História 2` ou `Gênero Textual 2` como lacuna quando
   o plano de leitura ainda não trouxer a decisão.
 - Nunca invente código da Biblioteca. Use `[código biblioteca]` até receber a
-  fonte aprovada.
+  fonte aprovada. Livro, páginas, recursos do Kit Hora do Conto e páginas da
+  criança entram pelo nome em itálico com [código biblioteca], dentro de
+  Materiais e Preparação ou do Momento que os usa. Entradas da Biblioteca e
+  páginas da criança são de outra família de skills: aqui só se citam.
 - BNCC, Eixos, Perfil, Resultados, Documentação e Dica não são escritos aqui: vêm das skills
   irmãs da família editor-infantil.

@@ -1,151 +1,146 @@
 ---
 name: editor-infantil-estilo-de-casa
 description: >-
-  Revisa só a linguagem de uma aula da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e
-  5) e a entrega na voz da casa: verbos facilitadores e concretos, calor pela fala e pela ação,
-  termos certos, formatação (etapas, itálico, algarismos, sem travessão), condensação de
-  perguntas e falas dentro do movimento do educador. Entrega a aula corrigida, pronta para
-  colar, com uma lista curta de mudanças. Use sempre que pedirem para revisar o tom, a voz, a
-  linguagem ou a formatação de uma aula, mesmo sem citar a skill: "arruma o tom", "isso parece
-  um manual", "confere o estilo da casa", "muitos travessões", "os verbos estão errados", "fix
-  the tone", "check against the house style", "adjust the language". Não mexe em Objetivo,
-  BNCC, Resultados, Eixos, Perfil, Documentação ou Dica (skills irmãs), não acrescenta nem
-  corta falas (editor-infantil-oralidade) e não corta para caber no template
-  (editor-infantil-orientacoes-do-educador). Apenas Educação Infantil.
+  Põe uma aula da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5) na voz da casa e
+  cuida da conversa dentro dela: colega para colega, cada tópico um movimento completo e fazível,
+  fala só onde entrega algo às crianças, termos do vocabulário controlado, formatação da página;
+  e, onde há conversa guiada ou explicação, movimentos de oralidade que fazem as crianças pensar
+  e falar umas com as outras. Reescreve as instruções ao educador sem mudar o que a aula faz, e
+  entrega a aula inteira com um quadro curto de mudanças. Use sempre que pedirem para arrumar o
+  tom, a voz, a linguagem, a formatação ou a conversa de uma aula, mesmo sem citar a skill:
+  "arruma o tom", "isso parece um manual", "põe oralidade nesta aula", "as perguntas estão
+  fracas", "fix the tone", "add oracy to this lesson". Não muda a atividade, os campos, a Dica
+  nem a Documentação, e não corta para caber (editor-infantil-orientacoes-do-educador). Apenas
+  Educação Infantil.
 metadata:
-  version: "1.1"
-  updated: "2026-09-29"
-  terms: "v7"
+  version: "2.0"
+  updated: "2026-10-01"
+  terms: "v8"
 ---
 
-# Editor de Estilo da Casa · Educação Infantil
+# Linguagem e Conversa · Educação Infantil
 
 ## Para que serve
-Faz o passe de linguagem de uma aula pronta: a mesma aula, na voz da casa. É a penúltima skill
-da família: vem depois da editor-infantil-oralidade e antes da
-editor-infantil-orientacoes-do-educador. Uma aula por vez, ou as quatro de um dia.
-
-As regras estão em `dados/estilo-da-casa.md`; em conflito, `dados/termos-e-nomes.md` vence.
+A etapa 2 do fluxo: a mesma aula, na voz da casa, com a conversa bem desenhada. Entra depois do
+conteúdo e antes dos campos. Também roda sozinha, só a conversa ou só a linguagem, quando pedem.
+Uma aula por vez, ou as quatro de um dia.
 
 ## O que muda e o que não muda
-**Muda:** verbos, tom, calor, estrutura das frases, formatação, terminologia e a forma das
-falas (itálico, sem aspas, presa à ação do educador).
+**Muda:** a redação das instruções ao educador: a forma dos tópicos, os verbos, o calor, onde
+a fala entra e como se escreve, os termos, a formatação. Reescreve frases inteiras quando a
+regra pede; não se limita a trocar palavras.
 
-**Não muda**, e indica a skill irmã quando vê um problema:
-- Objetivo, BNCC, Resultados, Eixos e Perfil ·
-  editor-infantil-bncc-objetivo-resultados-eixos-perfil.
-- Documentação Pedagógica e ícones · editor-infantil-observar-documentar-icones.
-- Dica · editor-infantil-dica. Linguagem de "se a criança tiver dificuldade" dentro de um
-  Momento sai do Momento e vai, como texto, para as decisões em aberto, endereçada à
-  editor-infantil-dica. Esta skill não escreve na Dica.
-- Quantas falas e quais, e como a conversa acontece · editor-infantil-oralidade. Aqui a fala
-  só muda de forma: nunca acrescente nem corte uma fala.
-- Tamanho e ajuste ao template · editor-infantil-orientacoes-do-educador. Não corte conteúdo
-  para caber.
-- Estrutura das etapas, materiais e decisões pedagógicas · a skill do tipo de aula ou o autor.
-- Os nomes dos Momentos: são fixos por tipo de aula (`termos-e-nomes.md`, seção 6.1). Corrija só
-  a forma do cabeçalho (`1 | Nome`), nunca o nome. Se o nome não bate com a tabela, sinalize.
+**Não muda**, e sinaliza nas Decisões em aberto quando vê um problema:
+- O que a aula faz: atividade, materiais, ordem dos Momentos, o que a criança produz. É da skill
+  do tipo de aula.
+- Os títulos dos Momentos, os nomes de rotina e os códigos já atribuídos. Corrija só a forma do
+  cabeçalho; nunca o título. Título fora da tabela: sinalize.
+- Objetivo, BNCC, Eixos, Perfil, Resultados, Documentação, Dica: skills de campos. Linguagem de
+  "se a criança tiver dificuldade" dentro de um Momento sai do Momento e vai para as Decisões em
+  aberto, endereçada à editor-infantil-dica.
+- O tamanho: nunca corte para caber. Informe o que passou, com a contagem.
 
-**Por que tão estrito:** esta é uma revisão de estilo, não um novo rascunho. Toda frase do
-autor que já está no padrão fica intacta.
+**O que entra e o que sai** da leitura: lê a aula inteira antes de mexer; mantém intacta a
+frase do autor que já está na voz; em dúvida, mantém e sinaliza.
+
+## A conversa
+Onde um Momento tem conversa guiada ou explicação (uma pergunta ao grupo, uma previsão, uma
+retomada do que as crianças disseram, uma explicação do educador), aplique
+`dados/oralidade-conversas-produtivas.md`: finalidade da conversa, formato (dupla, pequeno grupo,
+grupo todo), um caminho curto de pensamento compartilhado em vez de uma lista de perguntas, tempo
+para pensar, criança com criança, vocabulário ampliado a partir do que a criança disse. Os nomes
+dos movimentos (Abrir, Esticar...) nunca vão para a página. Em Centros e Brincar ao Ar Livre, os
+Momentos são texto padrão: não acrescente conversa a eles. Em aulas sem conversa guiada, não
+invente uma: a atividade é da skill do tipo de aula.
 
 ## Idade das crianças
-Leia `dados/marcos-aprendizagem-desenvolvimento.md` na faixa da turma: Infantil 3 · 2a6m a 4a
-(primeiro trimestre pela faixa de 2a6m a 3a) · Infantil 4 · 4a a 5a · Infantil 5 · 5a a 6a.
-Nesta skill, a idade entra só na linguagem:
-- As falas do educador para as crianças usam palavras e frases que a faixa entende. Aos 2a6m a
-  3a, o vocabulário fica entre 1.200 e 1.500 palavras e as frases passam de 5 palavras; aos 5a
-  a 6a, passa de 2.200 palavras. Quando uma fala usa palavra ou frase muito acima da faixa,
-  simplifique a forma sem mudar o que a fala pede.
-- Se o que a aula pede está acima da faixa (e não só a forma de dizer), não resolva aqui:
-  sinalize e indique a skill do tipo de aula ou a de campos.
-- Nunca escreva na página expectativa de marco nem rótulo de criança.
+A idade entra aqui na fala do educador às crianças e no tamanho da conversa que a faixa sustenta: palavras e frases que a faixa entende
+(Infantil 3 · 2a6m a 4a · Infantil 4 · 4a a 5a · Infantil 5 · 5a a 6a). Quando uma fala parece
+acima da faixa, consulte a tabela rápida de `dados/marcos-aprendizagem-desenvolvimento.md` e
+simplifique a forma sem mudar o que a fala pede. Se o que a aula pede está acima da faixa (e não
+só a forma de dizer), não resolva: sinalize para a skill do tipo de aula.
 
 ## Idioma
-A aula corrigida fica em português do Brasil. As notas para quem pede seguem o idioma em que a
-pessoa escreve; em inglês, os nomes do material (Momento, Dica, Roda) ficam em português.
+Responda no idioma em que a pessoa escreve. Em inglês, tudo o que não é texto da página sai em
+inglês: explicações, perguntas, o quadro de mudanças. A aula fica sempre em português do Brasil,
+e os nomes do material (Momento, Dica, Roda, Mural do Projeto) ficam em português dentro do
+inglês. Se a pessoa alterna, vale a última mensagem.
 
 ## Passo a passo
-1. **Leia a aula inteira antes de corrigir.** Algumas regras só aparecem no conjunto: onde está
-   o calor, se as instruções proibitivas se acumulam, se falas estão soltas.
-2. **Classifique cada problema** antes de reescrever: mecânico (corrija e conte) ou de
-   julgamento (corrija e registre).
-3. **Reescreva** a aula inteira, mantendo estrutura, ordem das etapas e todo o conteúdo
-   pedagógico.
-4. **Rode o script** (ver Conferência).
-5. **Entregue** no formato abaixo.
+1. **Leia `dados/exemplos-da-voz.md` antes da aula.** É o som que a aula precisa ter. Depois
+   leia a aula inteira.
+2. **Leia o nível, o tipo de aula e o modo** no cabeçalho. O tom muda com o tipo
+   (`dados/estilo-da-casa.md`, O tom por tipo de aula).
+3. **Primeiro a conversa.** Nos Momentos com conversa guiada ou explicação, redesenhe a conversa
+   com o documento de oralidade (seção A conversa). Poucos movimentos bons.
+4. **Depois a linguagem: passe pelos tópicos, um a um, com as 15 regras** (`dados/estilo-da-casa.md`, As 15 regras).
+   Para cada tópico, a ordem de decisão é a da seção Quando regras colidem: nomes fixos ·
+   formatação · vocabulário · as 15 regras · o tom do tipo. Em dúvida, mantenha a frase e
+   sinalize.
+5. **Troque os termos** pelo `dados/vocabulario-controlado.md`: pessoas, verbos de ação,
+   termos protegidos do projeto (Problema, Missão, Pergunta da Missão, Protótipo, Produto).
+6. **Aplique a formatação** da tabela do guia.
+7. **Faça a autoconferência** do guia, tópico por tópico, e rode os dois scripts.
+8. **Entregue.**
 
-## Regras
-**Mecânicas (corrija e conte):**
-- Travessão fora das duas exceções do guia.
-- Aluno, estudante, educando, cada criança → criança ou crianças; professor, tia → educador.
-- Números por extenso → algarismos.
-- Fala do educador sem itálico ou entre aspas → itálico, sem aspas. Nome de recurso sem itálico
-  → itálico.
-- Etapas fora da forma `1 | Nome da Etapa`; parágrafo onde cabe tópico.
-- Condensação: tópico só com `Pergunte:`, `Diga:`, `Modele:` ou fala direta → junte ao fim do
-  tópico do movimento que a provoca. Várias perguntas do mesmo movimento → uma linha, separadas
-  por ponto e vírgula. Teste final: tire a pergunta ou a fala; se não sobrar ação concreta do
-  educador, o tópico falha.
-- Título dentro de uma etapa que não é o da etapa → sai; o conteúdo segue como tópicos.
-
-**De julgamento (corrija e registre):**
-- Verbos proibidos (mande, exija, corrija, diga a eles, obrigue, faça com que) e vagos
-  (facilitar, desenvolver, promover, engajar, explorar sem material concreto, despertar
-  consciência, aprofundar compreensão, criar espaço para) → verbos facilitadores e concretos.
-- Instrução proibitiva → facilitadora. Exceção: mantenha *sem corrigir nem completar* quando
-  não corrigir é a própria instrução.
-- **Tópicos pela regra dos 4 gatilhos** (`dados/regra-dos-quatro-gatilhos.md`, com exemplo).
-  Comece um tópico novo assim que: (1) o **objeto muda**, de um material para outro; (2) o
-  **foco muda**, do que o educador faz para observar, esperar ou acolher as crianças; (3) o
-  **espaço ou a posição do corpo muda**, quando o educador se desloca ou reorganiza as crianças;
-  (4) depois de uma **fala** (Diga: ou Pergunte:), a ação volta ao manejo físico ou a uma tarefa
-  nova. A fala fica no mesmo tópico da ação que a prepara. Palavras como *depois*, *em seguida*
-  e *por fim* dentro de um tópico costumam marcar um corte que faltou. Cortar tópicos não é
-  cortar conteúdo: nenhuma ação sai.
-- Explicação de metodologia dentro da etapa → sai; se tiver valor, vai para as decisões em
+## Regras desta skill
+- A unidade de trabalho é o tópico. Um tópico só muda quando quebra uma regra; o resto fica.
+- Reescrever é permitido e esperado: a voz está na frase inteira, não só no verbo. O que não é
+  permitido é mudar o que o educador faz ou o que a criança produz.
+- Cortar um tópico em dois, ou juntar dois em um, segue só a regra 1 do guia: um tópico, um
+  movimento completo. Nunca por tamanho.
+- Fala: sem aspas, em itálico, dentro do tópico da ação que a prepara. Pergunta aberta leva
+  respostas prováveis entre parênteses quando o educador precisa delas. Nada de pares de
+  perguntas por regra: se o autor escreveu uma fala boa, ela fica só.
+- Contagem de movimentos do educador (*1 material*, *1 ou 2 minutos*): sai; vira a ação.
+- Explicação de metodologia dentro do tópico: sai; se tiver valor, vai para as Decisões em
   aberto.
-- Título em forma de pergunta, exclamação, metáfora no lugar de instrução, calor descrito como
-  atmosfera → reescreva.
-- Pergunta ou fala sem ação do educador relacionada → escreva a ação a partir do contexto da
-  etapa, concreta e dentro do que a aula já faz. Nunca crie atividade nova. Marque *ação
-  inferida* na lista de mudanças para o autor confirmar.
-
-**Só sinalizar:** o que está fora do trabalho desta skill (lista acima), respostas prováveis
-que faltam e que exigiriam conhecimento de conteúdo, e conteúdo que o guia pede mas que você
-teria de inventar. Também: um código de biblioteca que parece inventado (padrão diferente do
-que a pessoa deu ou do que está em `termos-e-nomes.md`); esta skill nunca muda um código, só
-sinaliza. E um movimento com uma única fala escrita: o guia pede pelo menos 2, mas acrescentar
-fala é trabalho da editor-infantil-oralidade.
+- Ação inferida: quando uma fala vem sem a ação que a prepara, escreva a ação a partir do
+  contexto do Momento e marque *ação inferida* no quadro, para o autor confirmar. Nunca crie
+  atividade nova.
 
 ## Formato de entrega
 Tudo no chat. Não gere arquivo a menos que peçam.
-1. **A aula corrigida**, inteira, pronta para colar.
-2. **Um quadro curto** em blockquote, no idioma de quem pede:
+1. **A aula inteira**, pronta para colar, na mesma estrutura.
+2. **O quadro**, em blockquote, no idioma de quem pede, sempre presente:
 
 > **Mudanças**
-> - mecânicas: uma linha com a contagem por tipo (ex.: 4 travessões, 3 falas sem itálico)
-> - de julgamento: uma linha por mudança, onde, o que mudou e por quê, em até 25 palavras
+> - formatação: uma linha com a contagem por tipo (ex.: 3 falas sem itálico, 2 travessões)
+> - voz: uma linha por tópico mudado, com a regra aplicada e o porquê, em até 25 palavras
 >
 > **Decisões em aberto**
 > - só o que precisa de decisão ou de outra skill, uma linha cada, ou "nenhuma"
 
-Em inglês: **Changes** e **Open decisions**. Endereçe a "você", nunca a um nome próprio.
+Em inglês: **Changes** e **Open decisions**. Endereçe a "você".
+
+Cada linha do quadro tem três partes, em palavras de todo dia: a regra, o que foi feito, o que
+a pessoa decide. Até 25 palavras. Sem nome de movimento, de código de regra ou de teoria. Assim:
+*A regra é nunca deixar uma pergunta sem a ação que vem antes. No Momento 2, tópico 3, escrevi
+essa ação. Aprove e eu sigo; ou diga o que muda.*
 
 ## Conferência
-Salve a aula corrigida num arquivo temporário e rode:
+Salve a aula num arquivo temporário e rode:
 
     python3 scripts/verificar_estilo.py aula.md
+    python3 scripts/verificar_oralidade.py aula.md
 
-Confere o mecânico: travessão, aspas em fala, termos proibidos, números por extenso comuns,
-exclamação, verbos proibidos e vagos, tópico só com pergunta ou fala, e tópicos com *depois*,
-*em seguida* ou *por fim* (aviso: pode faltar um corte pela regra dos 4 gatilhos). Os avisos pedem um segundo
-olhar. O script não julga tom nem calor.
+O primeiro confere o mecânico da linguagem: aspas em fala, travessão, termos aposentados e
+pessoas fora do vocabulário, números por extenso, exclamação, verbos de ordem, tópico só com
+fala, movimentos contados. O segundo confere a conversa: nomes de movimento na página, padrões a
+evitar (*Muito bem!*, *todas as crianças respondem*), falas entre aspas. Nenhum dos dois julga
+voz; a autoconferência do guia faz isso.
 
 ## Dados embutidos
-- `dados/estilo-da-casa.md` · o guia Estilo da Casa (voz, verbos, calor, condensação, formatação).
-- `dados/regra-dos-quatro-gatilhos.md` · quando começar um novo tópico, com exemplo completo.
-- `dados/termos-e-nomes.md` · nomes, termos, limites e voz da casa (autoridade da família).
-- `dados/marcos-aprendizagem-desenvolvimento.md` · marcos de aprendizagem e desenvolvimento
-  (Joinville).
-- `scripts/verificar_estilo.py` · conferência mecânica.
+- `dados/estilo-da-casa.md` · a voz, o tom por tipo, as 15 regras, a formatação, a ordem
+  quando regras colidem, a autoconferência.
+- `dados/exemplos-da-voz.md` · textos aprovados para imitar. Leia antes de cada aula.
+- `dados/vocabulario-controlado.md` · qual palavra usar e de qual distinguir.
+- `dados/termos-e-nomes.md` · nomes oficiais; aqui, só a tabela de termos e os nomes de aula.
+- `dados/templates-de-aula.md` · títulos dos Momentos e limites; aqui, só para conferir e
+  contar.
+- `dados/oralidade-conversas-produtivas.md` · como desenhar a conversa com as crianças.
+- `dados/marcos-aprendizagem-desenvolvimento.md` · a tabela rápida (seção 3.1), para a fala às
+  crianças e o tamanho da conversa por idade.
+- `dados/bncc.md` · só para conferir um código de oralidade declarado na aula.
+- `scripts/verificar_estilo.py` · conferência mecânica da linguagem.
+- `scripts/verificar_oralidade.py` · conferência mecânica da conversa.

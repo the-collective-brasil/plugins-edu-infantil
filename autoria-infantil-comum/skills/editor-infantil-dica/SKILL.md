@@ -4,18 +4,19 @@ description: >-
   Escreve e confere a Dica de uma aula da Educação Infantil do Intercriativa Lab (Infantil 3,
   4 e 5): duas linhas sem negrito, o apoio (Se a criança precisar de apoio para...) e, quando
   agrega complexidade real, a ampliação (Para aprofundar o desafio:), até 300 caracteres,
-  ajustadas à faixa etária. Lê a aula inteira e devolve só a Dica. Use sempre que pedirem para
-  escrever, corrigir ou conferir a Dica, a diferenciação, o apoio ou a ampliação, mesmo sem
-  citar a skill: "faz a Dica dessa aula", "essa Dica rotula as crianças", "confere as Dicas do
-  dia", "write the Dica for this lesson", "fix this differentiation tip". Não escreve
-  Momentos, Objetivo, BNCC, Resultados, Eixos, Perfil nem Documentação (skills irmãs), não põe
-  estratégia de conversa na Dica (editor-infantil-oralidade, só nos Momentos), não escreve a
-  Dica da Biblioteca e não ajusta ao template (editor-infantil-orientacoes-do-educador).
+  ajustadas à faixa etária. Lê a aula inteira; no fluxo devolve a aula com a Dica no lugar, e
+  só a Dica quando é só isso que pedem. Use sempre que pedirem para escrever, corrigir ou
+  conferir a Dica, a diferenciação, o apoio ou a ampliação, mesmo sem citar a skill: "faz a
+  Dica dessa aula", "essa Dica rotula as crianças", "confere as Dicas do dia", "write the Dica
+  for this lesson", "fix this differentiation tip". Não escreve Momentos, Objetivo, BNCC,
+  Resultados, Eixos, Perfil nem Documentação (skills irmãs), não põe conversa na Dica
+  (editor-infantil-estilo-de-casa, só nos Momentos), não escreve entradas da Biblioteca (outra
+  família de skills) e não faz a edição final (editor-infantil-orientacoes-do-educador).
   Apenas Educação Infantil.
 metadata:
-  version: "1.0"
-  updated: "2026-09-29"
-  terms: "v7"
+  version: "1.1"
+  updated: "2026-10-02"
+  terms: "v8"
 ---
 
 # Editor da Dica · Educação Infantil
@@ -29,39 +30,41 @@ mudar a intenção da aula e sem tirar da criança o trabalho importante.
 
 Use para escrever a Dica de uma aula, corrigir uma Dica que já existe (formato antigo, rótulo
 de criança, ampliação vazia, fora da idade, estratégia de conversa) ou conferir as Dicas das
-quatro aulas de um dia. A skill reescreve, não faz parecer: entrega a Dica pronta.
+quatro aulas de um dia. A skill reescreve, não faz parecer: entrega a Dica pronta. É a última
+skill da etapa 3 do fluxo (`dados/fluxo-de-trabalho.md`), depois dos campos e da Documentação.
 
 ## O que muda e o que não muda
-**Muda:** só a Dica da aula (campo 7, seção 8 de `dados/termos-e-nomes.md`), em qualquer tipo
-de aula.
+**Muda:** só a Dica da aula, em qualquer tipo de aula. Forma e limite: `dados/templates-de-aula.md`,
+seção 2; quem escreve cada campo: seção 6.
 
 **Não muda**, e indica a skill irmã quando vê um problema:
 - Momentos e Materiais e Preparação · a skill do tipo de aula.
 - Objetivo, BNCC, Resultados, Eixos e Perfil · editor-infantil-bncc-objetivo-resultados-eixos-perfil.
 - Documentação Pedagógica e ícones · editor-infantil-observar-documentar-icones.
-- Conversa dentro dos Momentos · editor-infantil-oralidade.
-- Linguagem · editor-infantil-estilo-de-casa. Ajuste aos limites e PDF ·
-  editor-infantil-orientacoes-do-educador.
-- Dica específica da entrada da Biblioteca · editor-infantil-centros-propostas e
-  editor-infantil-atelie.
+- Linguagem e conversa dentro dos Momentos · editor-infantil-estilo-de-casa (etapa 2).
+- Edição final, dentro dos limites · editor-infantil-orientacoes-do-educador (etapa 4). É a
+  única que corta texto para caber.
+- Entradas da Biblioteca (e qualquer Dica que elas carreguem) · outra família de skills. Aqui
+  nenhuma skill as escreve: só se citam, pelo nome em itálico e [código biblioteca].
 
-A skill lê a aula inteira porque a Dica depende dela, mas devolve só a Dica. Cada campo tem
+A skill lê a aula inteira porque a Dica depende dela, mas só escreve a Dica. Cada campo tem
 dono: se esta skill mexesse num Momento para a Dica funcionar, o autor e a skill irmã perderiam
 o controle do que mudou. Quando a Dica depende de algo que a aula não prepara (um material, um
 passo), escreva a Dica com o que a aula tem e sinalize o resto.
 
-**Oralidade fica fora da Dica.** Estratégias de conversa (contar primeiro ao parceiro, conversa
+**Oralidade fica fora da Dica.** Estratégias de conversa (contar primeiro ao colega, conversa
 em dupla, retomar a fala de uma criança, tempo para pensar antes de responder) moram só nos
-Momentos, com a editor-infantil-oralidade. Na Dica, o apoio e a ampliação mexem na própria ação
+Momentos, com a editor-infantil-estilo-de-casa. Na Dica, o apoio e a ampliação mexem na própria ação
 de aprendizagem: material, passos, modelagem, escolhas, forma de mostrar ou registrar,
 quantidade, ferramenta, distância. Quando a ação da aula é oral (recontar, prever, descrever), o
 apoio muda o suporte da ação (imagens para ordenar, 2 objetos para escolher, apontar), não o
-formato da conversa. Se a barreira é mesmo de conversa, sinalize para a editor-infantil-oralidade.
+formato da conversa. Se a barreira é mesmo de conversa, sinalize para a editor-infantil-estilo-de-casa.
 
 ## Idade das crianças
-Antes de escrever ou revisar, leia `dados/marcos-aprendizagem-desenvolvimento.md`: seção 1
-(regras de decisão), seção 3 (tabela rápida), seção 4 (a faixa da turma, a anterior e a
-seguinte) e seção 5 (erros comuns).
+Antes de escrever ou revisar, leia `dados/marcos-aprendizagem-desenvolvimento.md`: a consulta
+rápida por tipo de atividade (seção 3.1) primeiro; depois seção 1 (regras de decisão), seção 3
+(tabela de referência), seção 4 (a faixa da turma, a anterior e a seguinte) e seção 5 (erros
+comuns).
 
 Faixas por turma: Infantil 3 · 2a6m a 4a (primeiro trimestre pela faixa de 2a6m a 3a) ·
 Infantil 4 · 4a a 5a · Infantil 5 · 5a a 6a. Use a faixa em que a maioria da turma está hoje.
@@ -100,9 +103,15 @@ Os marcos nunca vão para a página. A Dica não diz *aos 4 anos a criança já 
 crianças por idade ou por ritmo: ela parte do que a criança está fazendo.
 
 ## Idioma
-A Dica fica em português do Brasil: é texto de página. As notas para quem pede (o quadro final)
-seguem o idioma em que a pessoa escreve; em inglês, os nomes do material (Dica, Momento, Roda,
-Documentação Pedagógica) ficam em português.
+Responda no idioma em que a pessoa escreve. A Dica fica sempre em português do Brasil: é texto de
+página. Tudo o que não é texto da página (explicações, perguntas, o quadro final) sai no idioma
+da pessoa; em inglês, os nomes do material (Dica, Momento, Roda, Documentação Pedagógica) ficam
+em português. Se a pessoa alterna, vale a última mensagem.
+
+## Voz da casa
+Palavras e forma das frases: `dados/vocabulario-controlado.md` e `dados/estilo-da-casa.md` (as
+15 regras e a tabela de formatação). Forma e limite de cada campo: `dados/templates-de-aula.md`,
+seção 2. Etapas e paradas: `dados/fluxo-de-trabalho.md`. Nenhuma regra de voz se repete aqui.
 
 ## Passo a passo
 1. **Leia a aula inteira e situe.** Nível, semana, tipo de aula, bloco e modo, Objetivo,
@@ -138,8 +147,8 @@ Documentação Pedagógica) ficam em português.
   *Não force uma ampliação* saíram: sem ampliação, a Dica fica só com a primeira linha.
 - Fala do educador, se houver, em itálico, sem aspas, e no máximo uma. As aberturas ficam em
   texto normal.
-- Voz da casa: a criança, as crianças, educador; sem travessão; números em algarismo;
-  instrução ao educador no imperativo.
+- Voz, pessoas e formatação: `dados/estilo-da-casa.md` (tabela de formatação) e
+  `dados/vocabulario-controlado.md`. A instrução ao educador fica no imperativo.
 
 **Apoio: parte de uma ação observável.** A condição é sempre uma ação de aprendizagem, nunca um
 tipo de criança. Nada de *se as crianças estiverem com dificuldade*, *para crianças tímidas*,
@@ -167,7 +176,7 @@ intensificá-lo.
 
 **Ampliação: aprofunda a mesma aprendizagem, e só quando aprofunda.** Uma boa ampliação aumenta
 comparação, previsão, explicação (com o desenho, os objetos, o corpo), conexão,
-experimentação, revisão, resolução de problemas, autonomia, uso de evidência ou combinação de
+experimentação, revisão, busca de outra solução, autonomia, uso de evidência ou combinação de
 ideias. Nunca *faça mais um*, *atividade extra*, *quem terminar*, mais quantidade sem mais
 pensamento, uma tarefa de linguagem sem relação, outra atividade ou uma tarefa de conversa. A
 intenção da aula continua a mesma.
@@ -186,9 +195,10 @@ do adulto ali transforma a brincadeira da criança em proposta do educador.
 - **Mural do Projeto** (sem modo): siga a ação que a aula pede e não transforme o registro
   coletivo em tarefa individual.
 
-Em Centros de Aprendizagem e Brincar ao Ar Livre, a Dica da aula é geral (a específica fica na
-entrada da Biblioteca): escolha uma ação comum às propostas, como escolher uma proposta e
-começar, entrar numa brincadeira que já começou ou usar um material novo.
+Em Centros de Aprendizagem e Brincar ao Ar Livre, a Dica da aula é geral: escolha uma ação
+comum às propostas, como escolher uma proposta e começar, entrar numa brincadeira que já começou
+ou usar um material novo. O apoio próprio de cada proposta, quando existe, vive na entrada da
+Biblioteca, que é de outra família de skills: não o escreva aqui.
 
 **Fica fora da Dica.** A Dica é só apoio e ampliação. Preparação e materiais são dos Materiais e
 Preparação; o que observar e registrar é da Documentação Pedagógica; o que vem depois é das
@@ -196,37 +206,41 @@ Orientações do Dia; segurança e notas de autor não entram; conversa é dos M
 atual traz algo disso, tire da Dica e indique nas decisões em aberto a skill que deve receber o
 conteúdo. Não escreva no campo dela.
 
-**Tamanho.** Ao escrever ou reescrever, fique em até 300 caracteres. Se a Dica do autor está
-certa no formato e no conteúdo e só passa de 300, mantenha e informe a contagem nas decisões em
-aberto: quem corta para caber é a editor-infantil-orientacoes-do-educador.
+**Tamanho.** Ao escrever ou reescrever, mire em até 300 caracteres. Se a Dica do autor está
+certa no formato e no conteúdo e só passa de 300, mantenha e informe a contagem nas Decisões em
+aberto: só a edição final (editor-infantil-orientacoes-do-educador) corta para caber. Por isso
+o script trata passar de 300 como aviso, não como erro.
 
 ## Formato de entrega
 Tudo no chat. Não gere arquivo a menos que peçam. Não entregue em pares "antes → depois".
 
-**1. A Dica pronta**, uma por aula, com uma linha de título que identifica a aula (não vai para
-a página):
+**1. O conteúdo pronto.** Dentro do fluxo em etapas (ou quando a pessoa manda a aula inteira),
+devolva a aula inteira, compacta, pronta para colar, com a Dica no lugar dela; o resto da aula
+sai como entrou. Quando a pessoa pede só a Dica, devolva só a Dica, uma por aula, com uma linha
+de título que identifica a aula (não vai para a página):
 
-    #### S1.D1.A2 · Brincar ao Ar Livre · Dica
+    #### S1.D3.A2 · Brincar ao Ar Livre · Dica
     Se a criança precisar de apoio para registrar no desenho o que observou: volte com ela a um ponto do parquinho e escolham juntos 1 elemento da natureza. Aceite que aponte enquanto você anota.
     Para aprofundar o desafio: convide-a a desenhar 2 lugares e mostrar em qual há mais natureza.
 
-Cada linha da Dica é uma linha só, sem quebra no meio. Nesta aula (Infantil 5, Guiada pelo
-educador) a ampliação cabe: comparar 2 lugares aprofunda o mesmo registro. No modo Dirigida
-pela criança, a mesma Dica ficaria só com a primeira linha.
+Cada linha da Dica é uma linha só, sem quebra no meio. Nesta aula (Infantil 5, Brincar ao Ar
+Livre Guiada pelo educador, que na grade é D3.A2) a ampliação cabe: comparar 2 lugares aprofunda
+o mesmo registro. Em Brincar ao Ar Livre Dirigida pela criança (D1, D2, D4 e D5, em A3), a mesma
+Dica ficaria só com a primeira linha.
 
-**2. Quadro final**, em blockquote, curto, endereçado a você, nunca a um nome próprio. Quando a
-skill escreveu a Dica do zero, o quadro traz só **Decisões em aberto**. Com várias aulas, um
-quadro só no fim, cada linha começando pelo código da aula.
+**2. Quadro final**, em blockquote, curto, endereçado a você, nunca a um nome próprio. Os dois
+títulos sempre presentes, com "nenhuma" quando não há o que listar (escrevendo do zero, Mudanças
+fica "nenhuma"). Com várias aulas, um quadro só no fim, cada linha começando pelo código da aula.
 
 > **Mudanças**
-> - S1.D1.A2: apoio passou a partir de registrar no desenho, porque a Dica rotulava as
->   crianças com dificuldade.
+> - A regra é partir de uma ação observável. Em S1.D3.A2, o apoio passou a partir de registrar no desenho. Aprove ou diga o que muda.
 >
 > **Decisões em aberto**
 > - nenhuma
 
-Uma linha por mudança: onde, o que mudou e por quê, em até 25 palavras. Em inglês: **Changes**
-e **Open decisions**.
+Cada linha tem três partes, em palavras de todo dia, até 25 palavras: a regra, o que foi feito, o
+que a pessoa decide. Sem nome de movimento, código de regra ou teoria. Em inglês: **Changes** e
+**Open decisions**.
 
 ## Conferência
 1. Salve só as Dicas (com as linhas de título, sem o quadro final) num arquivo temporário e
@@ -235,12 +249,13 @@ e **Open decisions**.
        python3 scripts/verificar_dica.py dicas.md
 
    O script separa as Dicas pelos títulos (`#`) e confere em cada uma: no máximo 2 linhas,
-   sem negrito, as aberturas exatas na ordem certa, os dois-pontos depois da ação, até 300
-   caracteres, rótulos de criança, ampliação vazia, termos proibidos, travessão e falas entre
-   aspas. Erros saem com código 1. Os avisos pedem um segundo olhar: ação que não começa por
-   verbo no infinitivo ou que não dá para observar, estratégia de conversa, conteúdo de outro
-   campo, número por extenso, idade escrita na página. Travessão só passa quando cita a fala de
-   um livro ou na grafia fixa Eu Faço – Nós Fazemos – Você Faz.
+   sem negrito, as aberturas exatas na ordem certa, os dois-pontos depois da ação, rótulos de
+   criança, ampliação vazia, termos proibidos, travessão e falas entre aspas. Erros saem com
+   código 1. Os avisos pedem um segundo olhar: mais de 300 caracteres (com a contagem; só a
+   edição final corta), ação que não começa por verbo no infinitivo ou que não dá para
+   observar, estratégia de conversa, conteúdo de outro campo, número por extenso, idade escrita
+   na página. Travessão só passa quando cita a fala de um livro ou na grafia fixa Eu Faço – Nós
+   Fazemos – Você Faz.
 2. Confira à mão. O script não julga se a Dica é boa:
    1. Qual aprendizagem exata está sendo diferenciada, e o apoio parte de uma ação observável?
    2. Esse apoio já está na aula para todas as crianças?
@@ -254,9 +269,19 @@ Regra central: analise a aula primeiro, preserve a aprendizagem importante e o m
 barreira, dê o menor apoio necessário e aprofunde só quando isso agrega complexidade real.
 
 ## Dados embutidos
-- `dados/termos-e-nomes.md` · nomes, termos, voz, formato da Dica e limites (autoridade, v7).
-- `dados/marcos-aprendizagem-desenvolvimento.md` · marcos por faixa etária e regras de decisão.
+- `dados/termos-e-nomes.md` · nomes oficiais, grade da semana (seção 4), currículo (seção 7).
+  Autoridade de nomes, v8.
+- `dados/templates-de-aula.md` · forma e limite da Dica e dos outros campos (seção 2), quem
+  escreve cada campo (seção 6), títulos fixos dos Momentos (seção 3). v2.
+- `dados/marcos-aprendizagem-desenvolvimento.md` · marcos por faixa etária e regras de decisão;
+  consulta rápida na seção 3.1.
+- `dados/estilo-da-casa.md` · a voz da página: 15 regras e a tabela de formatação.
+- `dados/exemplos-da-voz.md` · textos aprovados para imitar.
+- `dados/vocabulario-controlado.md` · qual palavra usar.
+- `dados/fluxo-de-trabalho.md` · etapas, paradas e formato de entrega (v3).
+- `dados/fases-e-semanas.md` · fases, focos semanais e marcos do projeto.
+- `dados/projetos/` · um arquivo por projeto, por nível.
 - `scripts/verificar_dica.py` · conferência mecânica da Dica.
 
-As duas cópias em `dados/` vêm de `Skills_Infantil/_compartilhado/`. Não edite aqui: edite a
-mestre e rode `sincronizar.py`.
+As cópias em `dados/` vêm de `Skills_Infantil/_compartilhado/`. Não edite aqui: edite a mestre e
+rode `sincronizar.py`.

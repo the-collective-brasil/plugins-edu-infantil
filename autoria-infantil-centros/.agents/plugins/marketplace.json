@@ -1,0 +1,20 @@
+{
+  "name": "intercriativa-centros",
+  "interface": {
+    "displayName": "Intercriativa Lab · Centros de Aprendizagem e Brincar ao Ar Livre"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-centros",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

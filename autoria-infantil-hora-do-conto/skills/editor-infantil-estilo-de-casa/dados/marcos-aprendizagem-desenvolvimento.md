@@ -68,6 +68,44 @@ Valores retirados diretamente da fonte. Onde a fonte não informa, está marcado
 
 ---
 
+## 3.1 Consulta rápida por tipo de atividade
+
+Uma linha por tipo de atividade, para a pergunta mais frequente: "esta atividade cabe nesta idade?".
+Leia esta tabela primeiro; o detalhe fica nas seções 4 e 5. Mesma fonte.
+
+| Atividade pedida | Infantil 3 (2a6m a 4a) | Infantil 4 (4a a 5a) | Infantil 5 (5a a 6a) |
+|---|---|---|---|
+| Tempo numa proposta sentada ou em roda | 6 a 15 min (3a a 3a6m); 10 a 20 min (3a6m a 4a). Mude de linguagem, posição ou agrupamento antes disso | não informado; planeje por blocos de 15 a 20 min | não informado; planeje por blocos de 15 a 20 min |
+| Esperar a vez, dividir material | com orientação do adulto | com mediação do adulto | com mais autonomia, pelo diálogo |
+| Resolver conflito com um colega | começa a negociar, com orientação | resolve pequenos conflitos com mediação | resolve com argumentos, menos mediação |
+| Falar para o grupo todo | frases curtas, gesto e apontar contam; não exija de todas | relata e opina com argumentos simples | organiza a fala, pensa em quem escuta |
+| Recontar uma história | narra experiências; reconta com apoio de imagens | reconta histórias e situações do dia a dia | reconta com início, meio e fim e detalhes |
+| Seguir instruções | uma instrução de cada vez; regras simples | regras ou instruções mais complexas | cria as próprias regras em jogos |
+| Contar e relacionar número e quantidade | recita 1 a 5 (até 10 a partir de 3a6m); numeral e quantidade 3 a 5 (3a6m a 4a) | recita até 15; número e quantidade 5 a 8 | recita acima de 15; número e quantidade até 10, compondo e decompondo |
+| Classificar | por 1 critério (cor); grande, médio, pequeno (3a6m a 4a) | por 2 ou 3 qualidades (cor, tamanho, forma) | por forma, cor e tamanho; compara quantidades |
+| Cores e formas | 6 a 8 cores (até 3a); mais de 8 e até 4 formas (3a6m a 4a) | mais de 12 cores; mistura para obter novas | mais de 12 cores; classifica formas planas e sólidas |
+| Noções de tempo e espaço | opostos e posições (em cima, dentro, atrás); ontem, hoje, amanhã começam a 3a6m | primeiro, depois, por último; manhã, tarde, noite; semana | ontem, hoje, amanhã com segurança; direita e esquerda com pistas |
+| Medir e registrar | não informado | grandezas e medidas na fala (maior, comprido, muito) | acompanha e registra medidas (crescimento de plantas) |
+| Experimentar (ciência) | opostos quente/frio, cheio/vazio; distingue terra, água, vento, sol, chuva | resolve problemas por hipótese e lógica simples | faz experiências para descobrir propriedades (afunda ou flutua) |
+| Ler | não informado | leitura por imagens, rótulos, pictogramas e símbolos | lê palavras conhecidas em cartazes e rótulos; relaciona som e letra |
+| Escrever | tentativas imitando letras; escrita espontânea ao seu modo a partir de 3a6m | escreve o próprio nome; escolhe letras sem correspondência sonora | escreve palavras ou frases do seu jeito; associa sílabas a letras |
+| Sons das palavras | percebe rimas | segmenta palavras em sílabas (palmas); identifica rimas | sons iniciais e finais; vogais; aliterações |
+| Desenhar e traçar | traços e círculos; esboço de figura humana (3a a 4a) | figura humana com todas as partes; letras e números | desenhos complexos com cenário; escrita de nome, letras e números com precisão |
+| Recortar | tesoura sem ponta, com auxílio (até 3a); retas, curvas com auxílio (3a a 3a6m); retas e curvas (3a6m a 4a) | formas e linhas mais complexas | figuras de encartes e revistas; colagem com dosagem |
+| Modelar, encaixar, enfiar | encaixa 10 ou mais peças; modela e nomeia formas | tentativas de alinhavo; percebe peso ao construir | alinhava sem pular furos; amarra cadarços com supervisão |
+| Quebra-cabeça e jogos de regra | jogo da memória com pares | jogos com regras mais complexas, troca de papel | mais de 24 peças; cooperação e negociação com regras |
+| Correr, saltar, equilibrar | corre desviando; salta com os dois pés; equilíbrio breve num pé (3a a 3a6m); medo de altura aparece (3a6m a 4a) | saltita 4 a 6 passos num pé; anda para trás; pedala | trave, lançar e pegar bolas, saltos maiores; bicicleta sem rodinhas com prática |
+| Música e dança | acompanha ritmo com pés e mãos; forte/fraco, rápido/lento juntos | canta músicas curtas; improvisa; dança no ritmo | separa intensidade de andamento; cria regras em jogos musicais; muda entonação |
+| Faz de conta | realista (até 3a); em grupo (3a a 3a6m); elaborado (3a6m a 4a) | diferencia real e fantasia, ainda mistura; alterna papéis | histórias complexas e detalhadas; combina papéis com regras |
+| Emoções | expressa com o corpo e frases; nomeia emoções básicas (3a6m a 4a) | nomeia vergonha, orgulho, ciúme, medo; estratégias com mediação | explica os motivos; percebe que os outros pensam diferente |
+| Autonomia na rotina | guarda brinquedos, veste com ajuda, calça sem cadarço | veste-se sozinha; usa talheres com ajuda para cortar | higiene e cortesia sem lembrete; corta alimentos macios |
+| Apresentar a um público | mostrar, apontar, cantar junto; fala curta se quiser | conta o que fez com apoio de registros | explica o percurso e responde perguntas simples |
+
+Regra, como na seção 1: marco da faixa, pode exigir; marco da faixa seguinte, só com apoio e nunca
+como critério; duas faixas à frente, reescreva; nada corresponde, sinalize.
+
+---
+
 ## 4. Marcos por faixa etária
 
 ### 2 anos e 6 meses a 3 anos (30 a 36 meses)

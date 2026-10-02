@@ -10,6 +10,9 @@ registrada.
 - Escreva cada palavra e cada definição exatamente como estão aqui.
 - A definição é a fala do educador para a criança.
 - No Infantil 3, cada palavra vem com um gesto.
+- Esta lista vence `vocabulario-controlado.md` (regra 0 dele): uma palavra que está aqui é
+  escrita como está, na página e na fala com as crianças, mesmo quando o vocabulário prefere
+  outra (caso de "amigo", em Escutar, Infantil 3).
 
 Fases: S1-S2 Imersão · S3-S4 Investigação · S5-S6 Criação · S7-S9 Experimentação · S10-S11
 Apresentação · S12 Avaliação e Reflexão.

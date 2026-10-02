@@ -17,6 +17,18 @@
       "category": "Productivity"
     },
     {
+      "name": "autoria-infantil-centros",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-centros"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "autoria-infantil-comum",
       "source": {
         "source": "local",

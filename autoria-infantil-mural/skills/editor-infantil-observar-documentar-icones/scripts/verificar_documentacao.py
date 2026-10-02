@@ -3,18 +3,14 @@
 verificar_documentacao.py - conferencia mecanica da Documentacao Pedagogica (Observar e
 Documentar) e dos icones de registro das aulas da Educacao Infantil do Intercriativa Lab.
 
-Autossuficiente: so usa a biblioteca padrao do Python. Le dois tipos de entrada:
-  - aula(s) em Markdown ou texto (.md, .txt): o campo "Documentação Pedagógica" com as duas
-    linhas, os Momentos no formato "número | título", os Resultados e, se houver, a linha
-    "Marca no Momento" da entrega da skill. Varias aulas no mesmo arquivo: cada uma comeca num
-    titulo (# ou **) com o codigo S#.D#.A#.
-  - o arquivo de conteudo do PDF (.json com "card3"): confere card3.aulas[n].documentacao e os
-    icones nos titulos dos Momentos (card4 a card7).
+Autossuficiente: so usa a biblioteca padrao do Python. Le aula(s) em Markdown ou texto
+(.md, .txt): o campo "Documentação Pedagógica" com as duas linhas, os Momentos no formato
+"número | título", os Resultados e, se houver, a linha "Marca no Momento" da entrega da skill.
+Varias aulas no mesmo arquivo: cada uma comeca num titulo (# ou **) com o codigo S#.D#.A#.
 
 Uso:
   python3 verificar_documentacao.py aula.md --nivel "Infantil 4"
   python3 verificar_documentacao.py S2.D1.md S2.D2.md S2.D3.md S2.D4.md S2.D5.md
-  python3 verificar_documentacao.py S2.D3.json
 
 Com 2 aulas ou mais, mostra a distribuicao dos meios de registro por semana.
 Sai com 1 se houver erro, 0 se so houver avisos ou nada, 2 se a entrada for ilegivel.
@@ -23,14 +19,13 @@ Nao julga se a lente e boa, se desce um nivel abaixo do Resultado, nem se o Mome
 melhor. Isso continua com a pessoa.
 """
 import argparse
-import json
 import os
 import re
 import sys
 import unicodedata
 
 # --------------------------------------------------------------------------------------------
-# Icones. O padrao e o mesmo do render.py da etapa do PDF: o que passa aqui, o PDF desenha.
+# Icones. Seis nomes fixos (templates-de-aula.md v2, secao 2). So estes entram na pagina.
 # --------------------------------------------------------------------------------------------
 ICONE_RE = re.compile(r"<\s*icone\s*:\s*([^<>]+?)\s*>", re.I)
 ICONES = ["observar", "foto", "video", "audio", "escrita", "producao"]
@@ -38,8 +33,8 @@ MEIOS = ["foto", "escrita", "audio", "video", "producao"]
 NOME_MEIO = {"foto": "foto", "escrita": "escrita", "audio": "áudio", "video": "vídeo",
              "producao": "produção"}
 
-LIMITE_LINHA = 82   # celula de Documentacao do card 3 no PDF; o icone conta 1
-LIMITE_TITULO = 30  # titulo do Momento, termos-e-nomes v7 (30 desde 29/09/2026; o numero nao conta)
+LIMITE_LINHA = 82   # linha de Documentacao nas Orientacoes do Dia (templates v2, secao 2); o icone conta 1
+LIMITE_TITULO = 30  # titulo do Momento, templates-de-aula.md v2, secao 2 (o numero nao conta)
 
 CODIGO_RE = re.compile(r"\bS(\d{1,2})\.D([1-5])\.A([1-4])\b")
 ROTULO_RE = re.compile(r"^[\s*_>•-]*(observar|documentar)[\s*_]*:[\s*_]*", re.I)
@@ -111,7 +106,7 @@ def fold(s):
 
 
 def n_car(s):
-    """Tamanho como sai na pagina: cada icone conta 1 (igual ao check_budgets.py do PDF)."""
+    """Tamanho como sai na pagina: cada icone conta 1 (igual ao check_budgets.py da edicao final)."""
     return len(ICONE_RE.sub("•", unicodedata.normalize("NFC", str(s))))
 
 
@@ -143,7 +138,7 @@ class Relatorio:
 
 class Aula:
     def __init__(self, nome, codigo="", nivel=None, par=None, resultados=None, momentos=None,
-                 outros=None, pdf=False, indice=None):
+                 outros=None, indice=None):
         self.nome = nome
         self.codigo = codigo
         self.nivel = nivel
@@ -151,7 +146,6 @@ class Aula:
         self.resultados = resultados or []
         self.momentos = momentos or []   # (numero, titulo com icones, 'aula' ou 'marca')
         self.outros = outros or []       # textos fora do par e dos titulos
-        self.pdf = pdf
         self.indice = indice
         self.meio = None
 
@@ -160,7 +154,7 @@ class Aula:
 # Leitura
 # --------------------------------------------------------------------------------------------
 LABELS_PARADA = ("dica", "eixos", "perfil", "resultados", "objetivo", "habilidades",
-                 "materiais", "descricao", "momentos", "lente", "no pdf", "marca no momento",
+                 "materiais", "descricao", "momentos", "lente", "marca no momento",
                  "biblioteca", "bncc")
 
 
@@ -175,7 +169,7 @@ def e_parada(linha):
     f = fold(limpa_titulo(s))
     for lab in LABELS_PARADA:
         if f.startswith(lab) and (f == lab or f[len(lab):len(lab) + 1] in (":", " ", "")):
-            if lab in ("lente", "no pdf", "marca no momento") or ":" in f[:40] or f == lab:
+            if lab in ("lente", "marca no momento") or ":" in f[:40] or f == lab:
                 return True
     return bool(re.match(r"^(\d)\s*\|\s*\S", limpa_titulo(s)))
 
@@ -189,13 +183,10 @@ def titulo_momento(linha):
 
 
 def marca_momento(linha):
-    """Linha da entrega: Marca no Momento: card4.momentos[3].titulo = Titulo <icone: ...>"""
+    """Linha da entrega: Marca no Momento: 3 | Titulo <icone: ...>"""
     s = limpa_marcadores(linha).replace("`", "")
     if not fold(s).startswith("marca no momento"):
         return None
-    m = re.search(r"momentos\[(\d)\]\.titulo\s*[=:]\s*(.+)$", s)
-    if m:
-        return int(m.group(1)), m.group(2).strip().strip('"')
     m = re.search(r"(\d)\s*\|\s*(.+)$", s)
     if m:
         return int(m.group(1)), m.group(2).strip()
@@ -304,30 +295,6 @@ def ler_md(caminho, texto, nivel_padrao):
         aulas.append(ler_bloco_md(limpa_titulo(linhas[ini]), linhas[ini + 1:fim], nivel_padrao))
     return aulas
 
-
-def ler_json(caminho, d, nivel_padrao):
-    if "card3" not in d:
-        raise ValueError("JSON sem 'card3': nao parece o arquivo de conteudo do PDF.")
-    c3 = d["card3"]
-    turma = (d.get("card2", {}).get("footer", {}).get("turma", "")
-             or c3.get("footer", {}).get("turma", ""))
-    nivel = nivel_padrao or nivel_de(turma)
-    aulas = []
-    for i, a in enumerate(c3.get("aulas", []), 1):
-        card = d.get("card%d" % (i + 3), {})
-        momentos = [(k, m.get("titulo", ""), "aula")
-                    for k, m in enumerate(card.get("momentos", []), 1)]
-        outros = [card.get("intro", ""), (card.get("dica") or {}).get("text", "")]
-        for m in card.get("momentos", []):
-            outros.extend(m.get("bullets", []))
-        outros.extend(a.get("resultados", []))
-        codigo = card.get("code", "") or ""
-        nome = "card3.aulas[%d] · %s%s" % (i, a.get("nome", "?"), (" · " + codigo) if codigo else "")
-        aula = Aula(nome=nome, codigo=codigo, nivel=nivel, par=list(a.get("documentacao", [])),
-                    resultados=a.get("resultados", []), momentos=momentos, outros=outros,
-                    pdf=True, indice=i)
-        aulas.append(aula)
-    return aulas
 
 
 # --------------------------------------------------------------------------------------------
@@ -444,7 +411,7 @@ def confere_tokens(tokens, E, A):
     for tk in tokens:
         chave = fold(tk).strip()
         if chave not in ICONES:
-            E.append("Ícone desconhecido <icone: %s>. O PDF para. Válidos: %s."
+            E.append("Ícone desconhecido <icone: %s>. Válidos: %s."
                      % (tk, ", ".join(ICONES)))
             continue
         if tk != chave:
@@ -579,7 +546,7 @@ def confere_aula(aula, item):
 
     # marca no Momento
     marcas = [(num, tit) for num, tit, _ in aula.momentos if ICONE_RE.search(tit)]
-    # a marca nunca muda o nome do Momento (termos-e-nomes, secao 6.1: grafia exata)
+    # a marca nunca muda o nome do Momento (templates-de-aula.md, secao 3: grafia exata)
     nomes_aula = {}
     for num, tit, origem in aula.momentos:
         if origem == "aula" and not ICONE_RE.search(tit):
@@ -619,7 +586,7 @@ def confere_aula(aula, item):
             A.append("<icone: observar> em mais de um Momento (%s). Um par, uma lente, um Momento."
                      % ", ".join(str(x) for x in obs_em))
 
-    # linhas a mais: nao entram no par, mas o PDF para se o icone for invalido
+    # linhas a mais: nao entram no par, mas um icone invalido continua sendo erro
     for extra in par[2:]:
         sx, rotx, tkx, _, corpox = separa(extra)
         item["linhas"].append(("(a mais)", sx, n_car(sx)))
@@ -700,10 +667,7 @@ def main():
         try:
             with open(caminho, encoding="utf-8-sig") as f:
                 texto = f.read()
-            if caminho.lower().endswith(".json"):
-                aulas.extend(ler_json(caminho, json.loads(texto), nivel))
-            else:
-                aulas.extend(ler_md(caminho, texto, nivel))
+            aulas.extend(ler_md(caminho, texto, nivel))
         except (ValueError, KeyError, TypeError) as e:
             print("Não consegui ler %s: %s" % (caminho, e))
             return 2

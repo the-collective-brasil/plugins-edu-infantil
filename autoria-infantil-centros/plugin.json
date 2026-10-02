@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "autoria-infantil-centros",
+  "version": "0.4.0",
+  "description": "Autoria de aulas de Centros de Aprendizagem e Brincar ao Ar Livre da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as skills comuns da família editor-infantil (coordenadora, linguagem e conversa, campos BNCC, Documentação, Dica)."
+}

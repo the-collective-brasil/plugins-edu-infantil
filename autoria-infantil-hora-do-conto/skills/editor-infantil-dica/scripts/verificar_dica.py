@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""verificar_dica.py · conferência mecânica da Dica (Educação Infantil, termos v7).
+"""verificar_dica.py · conferência mecânica da Dica (Educação Infantil, termos v8 · templates v2).
 
-Formato (termos-e-nomes.md, seção 8 e Limites de tamanho):
+Formato (templates-de-aula.md, seção 2):
     Se a criança precisar de apoio para [ação de aprendizagem observável]: [andaime].
     Para aprofundar o desafio: [ampliação].
-Duas linhas, sem negrito, até 300 caracteres no total. A segunda linha é opcional.
+Duas linhas, sem negrito, até 300 caracteres no total. A segunda linha é opcional. Passar de 300
+é aviso, não erro: só a edição final (editor-infantil-orientacoes-do-educador) corta para caber.
 
 Uso:
     python3 verificar_dica.py dicas.md
@@ -184,7 +185,7 @@ def conferir(linhas):
                      "numa linha só, sem quebra no meio.")
 
     if any("**" in ln or "__" in ln for ln in linhas):
-        erros.append("Negrito encontrado. A Dica fica sem negrito (termos v7, seção 8).")
+        erros.append("Negrito encontrado. A Dica fica sem negrito (templates v2, seção 2).")
 
     # --- Aberturas em itálico -----------------------------------------------
     if any(re.match(r"^(\*[^*]|_[^_])", ln) for ln in linhas[:2]):
@@ -216,8 +217,9 @@ def conferir(linhas):
     # --- Tamanho ------------------------------------------------------------
     total = sum(len(visivel(ln)) for ln in linhas[:2])
     if total > LIMITE:
-        erros.append(f"{total} caracteres. O limite é {LIMITE} no total. Se a Dica é do autor e está "
-                     "certa, não corte: leve a contagem para as decisões em aberto.")
+        avisos.append(f"{total} caracteres; a caixa da Dica tem {LIMITE}. Ao escrever, mire em {LIMITE}. "
+                      "Se a Dica é do autor e está certa, não corte: leve a contagem para as "
+                      "Decisões em aberto (só a edição final corta).")
 
     # --- Texto inteiro ------------------------------------------------------
     texto = " ".join(visivel(ln) for ln in linhas)
@@ -254,7 +256,7 @@ def conferir(linhas):
         lista = ", ".join(f"\"{a}\"" for a in achados)
         avisos.append(f"Possível estratégia de conversa: {lista}. Na Dica, apoio e ampliação "
                       "mexem na ação de aprendizagem; conversa fica nos Momentos "
-                      "(editor-infantil-oralidade).")
+                      "(editor-infantil-estilo-de-casa).")
     for padrao, casa in OUTRO_CAMPO:
         m = re.search(padrao, flat)
         if m:

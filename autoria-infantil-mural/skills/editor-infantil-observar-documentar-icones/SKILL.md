@@ -11,12 +11,12 @@ description: >-
   ícones", "confere a documentação da semana", "write the documentation for this lesson",
   "what should the teacher observe and record?", "check the recording icons". Não mexe em
   Momentos, Objetivo, BNCC, Resultados, Eixos, Perfil nem Dica (skills irmãs), não escreve
-  conversa (editor-infantil-oralidade) e não monta a página nem gera arquivo.
+  linguagem nem conversa (editor-infantil-estilo-de-casa) e não monta a página nem gera arquivo.
   Apenas Educação Infantil.
 metadata:
-  version: "1.1"
-  updated: "2026-09-29"
-  terms: "v7"
+  version: "1.2"
+  updated: "2026-10-02"
+  terms: "v8"
 ---
 
 # Documentação Pedagógica · Observar, Documentar e ícones
@@ -28,8 +28,10 @@ evidência guardar e como (Documentar), cada uma com seu ícone de registro. Tam
 já escritos, um a um ou em lote, e mostra a distribuição dos meios de registro na semana. Não
 monta página, não gera PDF nem arquivo: devolve o texto no chat.
 
-Na ordem da família, vem depois da editor-infantil-bncc-objetivo-resultados-eixos-perfil
-(precisa dos Resultados prontos) e antes da editor-infantil-dica.
+Na etapa 3 do fluxo (`dados/fluxo-de-trabalho.md`), vem depois da
+editor-infantil-bncc-objetivo-resultados-eixos-perfil (precisa dos Resultados prontos) e antes
+da editor-infantil-dica. A linguagem e a conversa dos Momentos já passaram pela
+editor-infantil-estilo-de-casa (etapa 2).
 
 Dois trabalhos, as mesmas regras: **escrever** (aula sem par, ou com par fraco) e **conferir**
 (aula com par). Se o pedido não deixa claro, siga a aula: sem par, escreva; com par, confira.
@@ -37,7 +39,7 @@ Dois trabalhos, as mesmas regras: **escrever** (aula sem par, ou com par fraco) 
 ## O que muda e o que não muda
 **Escreve ou revisa:** as duas linhas da Documentação Pedagógica, os dois ícones e a marca de
 ícones ao lado do título do Momento em que a observação acontece. Os nomes dos Momentos são
-fixos por tipo de aula (`termos-e-nomes.md`, seção 6.1): na marca, o nome fica exatamente como
+fixos por tipo de aula (`templates-de-aula.md`, seção 3): na marca, o nome fica exatamente como
 está e só os ícones entram depois dele.
 
 **Lê, mas nunca muda:**
@@ -47,9 +49,8 @@ está e só os ícones entram depois dele.
 | Momentos e Materiais | a skill do tipo de aula (hora-do-conto, oficina-letramento, oficina-mat-cien, musica, jogo-dramatico, mural, centros-propostas, atelie) |
 | Objetivo, BNCC, Resultados, Eixos, Perfil | editor-infantil-bncc-objetivo-resultados-eixos-perfil |
 | Dica | editor-infantil-dica |
-| Conversa dentro dos Momentos | editor-infantil-oralidade |
-| Voz e termos no resto da aula | editor-infantil-estilo-de-casa |
-| Ajuste aos limites do template e montagem das Orientações | editor-infantil-orientacoes-do-educador |
+| Linguagem e conversa dentro dos Momentos | editor-infantil-estilo-de-casa (etapa 2) |
+| Edição final, dentro dos limites do template | editor-infantil-orientacoes-do-educador (etapa 4; a única que corta) |
 
 Se um desses campos impede um bom par (Resultado raso, nenhum Momento em que a aprendizagem
 apareça), não corrija: diga numa linha nas Decisões em aberto e indique a skill. Se a aula não
@@ -60,8 +61,9 @@ sem inseri-la na aula.
 produzir evidência faria o educador documentar uma tarefa inventada.
 
 ## Idade das crianças
-Leia `dados/marcos-aprendizagem-desenvolvimento.md` antes de escrever ou conferir. Os marcos
-dizem o que dá para ver em cada idade, e a linha Observar aponta para isso. Nas palavras do
+Leia `dados/marcos-aprendizagem-desenvolvimento.md` antes de escrever ou conferir: a consulta
+rápida por tipo de atividade (seção 3.1) primeiro, depois a faixa da turma na seção 4, as regras
+da seção 1 e os cuidados da seção 6. Os marcos dizem o que dá para ver em cada idade, e a linha Observar aponta para isso. Nas palavras do
 documento, os marcos "descrevem o que se espera observar, não o que se deve cobrar".
 
 Faixas por turma: Infantil 3 · 2a6m a 4a (primeiro trimestre pela faixa de 2a6m a 3a) ·
@@ -102,8 +104,15 @@ não onde estará no fim do ano.
   procura, o registro guarda o que ela fez.
 
 ## Idioma
-As duas linhas ficam em português do Brasil. As notas seguem o idioma de quem pede; em inglês,
-os nomes do material (Momento, Resultados, Documentação Pedagógica) e dos ícones não mudam.
+Responda no idioma em que a pessoa escreve. As duas linhas ficam sempre em português do Brasil:
+são texto de página. Tudo o que não é texto da página (explicações, perguntas, a linha de leitura,
+o quadro final) sai no idioma da pessoa; em inglês, os nomes do material (Momento, Resultados,
+Documentação Pedagógica) e dos ícones não mudam. Se a pessoa alterna, vale a última mensagem.
+
+## Voz da casa
+Palavras e forma das frases: `dados/vocabulario-controlado.md` e `dados/estilo-da-casa.md` (as
+15 regras e a tabela de formatação). Forma e limite de cada campo: `dados/templates-de-aula.md`,
+seção 2. Etapas e paradas: `dados/fluxo-de-trabalho.md`. Nenhuma regra de voz se repete aqui.
 
 ## Passo a passo
 ### Escrever
@@ -189,32 +198,38 @@ porque registra mais. Um meio por par.
 - Uma frase por linha. Sem parênteses, sem lista de exemplos, sem aspas.
 - Não imprima "Observar:" nem "Documentar:"; o ícone faz esse papel.
 - *criança* quando a evidência é de uma criança; *crianças* quando a lente é o que o grupo
-  constrói junto. O adulto é *educador*. Nunca *cada criança*. Sem travessão, com dígitos.
+  constrói junto. Pessoas, travessão e números: `dados/estilo-da-casa.md` (tabela de
+  formatação) e `dados/vocabulario-controlado.md`.
 - Nunca só *Registre*: nomeie o método. A linha Documentar não abre por um momento.
 
-**Por modo.** Mediada: a lente fica no evento principal que o educador conduz. Colaborativa:
-documente o processo, o que a criança escolheu, descobriu e mudou (*fez bonito* e *terminou* não
-são evidência). Exploratória: a lente segue a escolha da criança; nada é montado para produzir
-evidência. Mural do Projeto: o que o grupo constrói junto, em geral *as crianças*.
+**Por bloco.** Aprendizagem Mediada (Dirigida pelo educador): a lente fica no evento principal
+que o educador conduz. Aprendizagem Colaborativa (Guiada pelo educador): documente o processo, o
+que a criança escolheu, descobriu e mudou (*fez bonito* e *terminou* não são evidência).
+Aprendizagem Exploratória (Dirigida pela criança): a lente segue a escolha da criança; nada é
+montado para produzir evidência. Mural do Projeto (sem modo): o que o grupo constrói junto, em
+geral *as crianças*.
 
-**Sem oralidade.** Estratégias de conversa são só da editor-infantil-oralidade, e só nos
-Momentos. Esta skill não lê o guia de oralidade nem propõe observar movimentos de conversa ou
-conversas produtivas por causa dele. Se um Resultado descreve fala (relatar, explicar,
-recontar), observar essa fala é legítimo. A Documentação não diz ao educador como conduzir a
+**Sem oralidade.** Estratégias de conversa são só da editor-infantil-estilo-de-casa, e só nos
+Momentos. Esta skill não lê o guia de oralidade nem propõe observar movimentos de conversa por
+causa dele. Se um Resultado descreve fala (relatar, explicar, recontar), observar essa fala é
+legítimo. A Documentação não diz ao educador como conduzir a
 conversa.
 
 **Perfil.** O Perfil da Criança Protagonista aparece pela observação, na Documentação
-(`termos-e-nomes.md`, seção 11). Se a lente torna visível uma competência já declarada na aula,
+(`termos-e-nomes.md`, seção 7). Se a lente torna visível uma competência já declarada na aula,
 escreva o comportamento, nunca o nome da competência como evidência. Não mude o Perfil.
 
 ## Formato de entrega
-Tudo no chat. Não gere arquivo a menos que peçam.
+Tudo no chat. Não gere arquivo a menos que peçam. Nunca em pares "antes → depois".
 
-**1. Por aula, o par pronto para colar**, com uma linha de leitura em cima (lente, Resultados
-que ela alcança, Momento, meio e por quê; não vai para a página):
+**1. O conteúdo pronto.** Dentro do fluxo em etapas (ou quando a pessoa manda a aula inteira),
+devolva a aula inteira, compacta, pronta para colar, com as duas linhas no campo Documentação
+Pedagógica e os ícones ao lado do título do Momento; o resto da aula sai como entrou. Quando a
+pessoa pede só a Documentação, devolva só o par, por aula, com uma linha de leitura em cima
+(lente, Resultados que ela alcança, Momento, meio e por quê; não vai para a página):
 
 ```text
-**S2.D3.A1 · Hora do Conto**
+**S2.D4.A1 · Hora do Conto**
 Lente: o que a criança faz quando a história contraria a previsão · Resultados 1 e 2 · Momento 2 | Ler e Explorar · Meio: áudio, porque a evidência é raciocínio falado
 
 <icone: observar> Escute como a criança refaz a previsão quando a história a contraria.
@@ -225,17 +240,25 @@ No plano: 2 | Ler e Explorar <icone: observar> <icone: audio>
 
 A linha **No plano** mostra onde os ícones aparecem ao lado do título do Momento em que a
 observação acontece. O nome do Momento fica exatamente como na aula (nomes fixos,
-`termos-e-nomes.md` seção 6.1); só os ícones entram depois dele. Se observação e registro caem em
+`templates-de-aula.md`, seção 3); só os ícones entram depois dele. Se observação e registro caem em
 Momentos diferentes, cada ícone vai ao lado do título do seu Momento.
 
 **2. Na conferência de semana**, depois dos pares, a distribuição:
 `Semana 2 · 20 aulas: foto 9 · escrita 5 · áudio 3 · vídeo 1 · produção 2`
 
-**3. Quadro final** em blockquote, curto, endereçado a *você*: **Mudanças** (uma linha por aula
-revisada: o que mudou e por quê, até 25 palavras) e **Decisões em aberto** (campos de outras
+**3. Quadro final** em blockquote, curto, endereçado a *você* (nunca a um nome próprio), com
+os dois títulos sempre presentes e "nenhuma" quando não há o que listar: **Mudanças** (uma linha
+por aula revisada; escrevendo do zero, "nenhuma") e **Decisões em aberto** (campos de outras
 skills que atrapalham o par, com a skill; lacuna de marco; linhas acima de 82, com a contagem;
-desequilíbrio de meios, com a aula sugerida; ou "nenhuma"). Escrevendo do zero, só
-**Decisões em aberto**. Em inglês: **Changes** e **Open decisions**.
+desequilíbrio de meios, com a aula sugerida). Cada linha tem três partes, em palavras de todo
+dia, até 25 palavras: a regra, o que foi feito, o que a pessoa decide. Sem nome de movimento,
+código de regra ou teoria. Em inglês: **Changes** e **Open decisions**.
+
+> **Mudanças**
+> - A regra é guardar raciocínio falado em áudio, não em foto. Em S2.D4.A1, a linha Documentar passou a Grave o áudio. Aprove ou diga o que muda.
+>
+> **Decisões em aberto**
+> - nenhuma
 
 ## Conferência
 Salve a aula ou o dia (Momentos no formato `número | título`, Resultados e o campo Documentação
@@ -251,9 +274,19 @@ os erros; os avisos pedem um segundo olhar. Acima de 82 no texto do autor: infor
 Não julga se a lente é boa, se desce um nível nem se o Momento é o melhor.
 
 ## Dados embutidos
-- `dados/termos-e-nomes.md` · nomes, termos, voz, limites, Momentos fixos e a família (v7).
-- `dados/marcos-aprendizagem-desenvolvimento.md` · marcos (Joinville), faixas, regras e ética.
+- `dados/termos-e-nomes.md` · nomes oficiais, grade da semana (seção 4), currículo e Perfil por
+  fase (seção 7). Autoridade de nomes, v8.
+- `dados/templates-de-aula.md` · forma e limite de cada campo (seção 2), títulos fixos dos
+  Momentos (seção 3), quem escreve cada campo (seção 6). v2.
+- `dados/marcos-aprendizagem-desenvolvimento.md` · marcos (Joinville), faixas, regras e ética;
+  consulta rápida na seção 3.1.
+- `dados/estilo-da-casa.md` · a voz da página: 15 regras e a tabela de formatação.
+- `dados/exemplos-da-voz.md` · textos aprovados para imitar.
+- `dados/vocabulario-controlado.md` · qual palavra usar.
+- `dados/fluxo-de-trabalho.md` · etapas, paradas e formato de entrega (v3).
+- `dados/fases-e-semanas.md` · fases, focos semanais e marcos do projeto.
+- `dados/projetos/` · um arquivo por projeto, por nível.
 - `scripts/verificar_documentacao.py` · conferência mecânica, autossuficiente.
 
-Os dois arquivos de `dados/` são cópias da mestre em `Skills_Infantil/_compartilhado`: não edite
+Todos os arquivos de `dados/` são cópias da mestre em `Skills_Infantil/_compartilhado`: não edite
 aqui; edite lá e rode `sincronizar.py`.

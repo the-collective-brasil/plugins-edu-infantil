@@ -1,9 +1,8 @@
-<!-- Copiado de editor-atelier-intercriativa-infantil v3.0 (29/09/2026). Nomes e termos: termos-e-nomes.md vence (ex.: "Expressão Criativa · Artes Visuais" é termo aposentado; use Ateliê de Arte). -->
 
 Ateliê de Arte - Scope and Sequence
 A arte tem lugar próprio na semana
 Muitos programas de Educação Infantil tratam a arte como ilustração do tema da semana. A turma estuda o outono e pinta folhas. Estuda os animais e cola penas. A produção fica bonita, mas a criança não aprende a fazer arte. Aprende a executar.
-Nós fizemos outra escolha. Expressão Criativa · Artes Visuais é uma aula com foco artístico próprio, uma vez por semana, dentro do bloco de Aprendizagem Colaborativa. A cada semana, a criança desenvolve uma habilidade de observação, de técnica, de material ou de composição. O projeto oferece imagens, perguntas e contextos. A aula continua sendo uma experiência de aprendizagem artística.
+Nós fizemos outra escolha. O Ateliê de Arte é uma aula com foco artístico próprio, uma vez por semana, dentro do bloco de Aprendizagem Colaborativa. A cada semana, a criança desenvolve uma habilidade de observação, de técnica, de material ou de composição. O projeto oferece imagens, perguntas e contextos. A aula continua sendo uma experiência de aprendizagem artística.
 Ao longo de um ano, a criança passa repetidas vezes por desenho, pintura, impressão, argila, construção, tecido, colagem, observação de obras e conversa sobre o que fez. Nenhuma linguagem aparece uma vez só.
 A criança aprende ao agir sobre o material e olhar o que aconteceu
 A aula tem sempre o mesmo movimento. A criança observa uma referência visual, experimenta um material ou uma técnica em situação de baixo risco, escolhe o que fazer com o que descobriu e fala sobre a própria escolha. O educador demonstra no máximo uma ou duas possibilidades, com o material na mão e o resultado em aberto. Nenhum exemplar pronto é mostrado.
@@ -12,7 +11,7 @@ O sinal de que a aula funcionou é a diversidade das produções. Vinte trabalho
 A BNCC descreve assim o que esperamos das crianças pequenas neste Campo de Experiência:
 Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.
 BNCC, Campo de Experiência Traços, sons, cores e formas, crianças pequenas
-O avanço das crianças em Artes Visuais não acontece pela oferta de atividades cada vez mais complexas, mas pela ampliação das possibilidades de escolha, criação e tomada de decisão. A tabela apresenta como cada ano aprofunda sete dimensões da aprendizagem em Artes Visuais, estabelecendo uma continuidade entre a Educação Infantil e o componente Arte no Ensino Fundamental. 
+O avanço das crianças no Ateliê de Arte não acontece pela oferta de atividades cada vez mais complexas, mas pela ampliação das possibilidades de escolha, criação e tomada de decisão. A tabela apresenta como cada ano aprofunda sete dimensões da aprendizagem no Ateliê de Arte, estabelecendo uma continuidade entre a Educação Infantil e o componente Arte no Ensino Fundamental. 
 
 Dimensão
 Infantil 3
@@ -27,7 +26,7 @@ Descobre linha, cor e textura pelo efeito do próprio gesto
 Seleciona e combina elementos, mistura tons novos, percebe padrão e ponto de vista
 Usa contraste, tamanho, posição e ponto de vista de propósito
 Referências culturais
-Encontra imagens e objetos trazidos pelas famílias
+Encontra imagens e objetos trazidos pelas famílias e responsáveis
 Observa referências brasileiras verificadas e sabe quem as fez
 Compara referências de culturas específicas sem cair em estereótipos
 Materiais e técnicas
@@ -49,11 +48,11 @@ Seleciona, ordena e apresenta trabalhos para alguém
 
 Cada célula descreve o que a maioria das crianças daquele ano consegue fazer com apoio. Ninguém é avaliado por realismo, capricho ou semelhança com um modelo adulto.
 A aula acompanha o projeto sem fazer o trabalho dele
-Cada Projeto de Intercriação dura doze semanas e passa por seis fases: Imersão, Investigação, Criação, Experimentação, Apresentação e Avaliação e Reflexão. A aula de artes segue esse ritmo, mas com um ciclo artístico próprio.
-Aqui vale nomear uma leitura equivocada que já aconteceu. Nas semanas de Criação e Experimentação, a aula de artes não constrói o Protótipo nem o Produto Final. Esse trabalho pertence ao Mural do Projeto. O que a aula faz é um ciclo de experimentação, desenvolvimento, resposta, revisão e partilha, com foco visual próprio.
+Cada Projeto de Intercriação dura doze semanas e passa por seis fases: Imersão, Investigação, Criação, Experimentação, Apresentação e Avaliação e Reflexão. A aula de Ateliê de Arte segue esse ritmo, mas com um ciclo artístico próprio.
+Aqui vale nomear uma leitura equivocada que já aconteceu. Nas semanas de Criação e Experimentação, a aula de Ateliê de Arte não constrói o Protótipo nem o Produto Final. Esse trabalho pertence ao Mural do Projeto. O que a aula faz é um ciclo de experimentação, desenvolvimento, resposta, revisão e partilha, com foco visual próprio.
 Semanas
 Fase do projeto
-O que a aula de artes faz
+O que a aula de Ateliê de Arte faz
 1 e 2
 Imersão
 Explora gesto, cor, textura e observação ligados ao território do projeto
@@ -180,7 +179,7 @@ Pintura
 Observar detalhes em ilustrações, fotografias e objetos familiares
 Olhar de perto
 4
-Comparar formas, padrões e texturas em referências autorizadas pelas famílias
+Comparar formas, padrões e texturas em referências autorizadas pelas famílias e responsáveis
 Olhar e responder
 5
 Repetir uma forma para criar um padrão visual
@@ -465,13 +464,13 @@ Mostrar um exemplar pronto antes da experiência
 Demonstrar uma ou duas possibilidades, com o resultado em aberto
 Copiar motivos culturalmente significativos sem contexto
 Nomear o artista, a comunidade ou a tradição por trás de cada referência
-Usar a contribuição das famílias como enfeite
-Tratar o que as famílias trazem como conhecimento cultural específico
+Usar a contribuição das famílias e responsáveis como enfeite
+Tratar o que as famílias e responsáveis trazem como conhecimento cultural específico
 Ensinar ligações fixas entre cor e emoção
 Deixar a criança escolher a cor e explicar por quê
 Exigir o desenho literal do tempo, da natureza ou do tema
 Usar o tema como estímulo sensorial e visual
-Ocupar a aula de artes com a produção do projeto
+Ocupar a aula de Ateliê de Arte com a produção do projeto
 Manter o foco artístico até o fim e deixar o projeto no Mural do Projeto
 
 A escola vê o percurso, não só o resultado

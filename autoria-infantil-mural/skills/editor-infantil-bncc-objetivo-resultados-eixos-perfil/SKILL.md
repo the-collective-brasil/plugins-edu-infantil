@@ -10,25 +10,27 @@ description: >-
   Resultados", "confere a BNCC dessa aula", "que eixo entra aqui?", "arruma o Perfil", "write
   the learning outcomes", "check the BNCC codes", "fix the lesson objective". Não mexe nos
   Momentos nem nos Materiais (skill do tipo de aula), na Documentação Pedagógica
-  (editor-infantil-observar-documentar-icones), na Dica (editor-infantil-dica) nem na conversa
-  (editor-infantil-oralidade), e não ajusta ao template (editor-infantil-orientacoes-do-educador).
-  Apenas Educação Infantil.
+  (editor-infantil-observar-documentar-icones), na Dica (editor-infantil-dica) nem na linguagem
+  e na conversa (editor-infantil-estilo-de-casa), e não faz a edição final
+  (editor-infantil-orientacoes-do-educador). Apenas Educação Infantil.
 metadata:
-  version: "1.0"
-  updated: "2026-09-29"
-  terms: "v7"
+  version: "1.1"
+  updated: "2026-10-02"
+  terms: "v8"
 ---
 
 # BNCC, Objetivo, Resultados, Eixos e Perfil · Educação Infantil
 
 ## Para que serve
 Escreve e confere os cinco campos que dizem para que serve a aula e o que a criança constrói
-(Objetivo, BNCC, Eixos, Perfil, Resultados), numa aula ou nas quatro de um dia. Use depois que os
-Momentos estão escritos: os campos só são verdadeiros se descrevem o que acontece neles. Ao
-conferir campos já escritos, mude só o que foge do padrão; o que está certo fica intacto.
+(Objetivo, BNCC, Eixos, Perfil, Resultados), numa aula ou nas quatro de um dia. É a primeira
+skill da etapa 3 do fluxo (`dados/fluxo-de-trabalho.md`): roda depois que os Momentos estão
+escritos e na voz da casa, porque os campos só são verdadeiros se descrevem o que acontece neles.
+Ao conferir campos já escritos, mude só o que foge do padrão; o que está certo fica intacto.
 
 ## O que muda e o que não muda
-**Muda:** só os campos 1 a 5 da aula (seção 8 de `dados/termos-e-nomes.md`).
+**Muda:** só os campos 1 a 5 da aula. Forma e limite de cada um: `dados/templates-de-aula.md`,
+seção 2; quem escreve cada campo: seção 6.
 
 **Lê, sem mudar:** o cabeçalho (nível, código, tipo de aula, modo) e os Momentos.
 
@@ -37,18 +39,19 @@ conferir campos já escritos, mude só o que foge do padrão; o que está certo 
   oficina-letramento, oficina-mat-cien, musica, jogo-dramatico, mural, centros-propostas, atelie).
 - Documentação Pedagógica e ícones · editor-infantil-observar-documentar-icones. Dica ·
   editor-infantil-dica.
-- Conversa dentro dos Momentos · editor-infantil-oralidade. Nenhum dos cinco campos leva
-  orientação de oralidade.
-- Linguagem da aula inteira · editor-infantil-estilo-de-casa. Limites e PDF ·
-  editor-infantil-orientacoes-do-educador.
+- Linguagem e conversa dentro dos Momentos · editor-infantil-estilo-de-casa (etapa 2). Nenhum
+  dos cinco campos leva orientação de oralidade.
+- Edição final, dentro dos limites · editor-infantil-orientacoes-do-educador (etapa 4). É a
+  única que corta texto para caber.
 
 Por que não mexer nos Momentos: quando um Resultado que o projeto precisa não tem comportamento
 nos Momentos, a correção é mudar a aula, não enfeitar a frase. Escreva o que os Momentos
 sustentam e sinalize o resto para a skill do tipo de aula.
 
 ## Idade das crianças
-Antes de escrever ou revisar, leia `dados/marcos-aprendizagem-desenvolvimento.md` (seções 1,
-3, 4 e 5). A BNCC diz o que ensinar; os marcos dizem até onde o Objetivo e cada Resultado podem
+Antes de escrever ou revisar, leia `dados/marcos-aprendizagem-desenvolvimento.md`: a consulta
+rápida por tipo de atividade (seção 3.1) primeiro, depois as seções 1, 3, 4 e 5. A BNCC diz o
+que ensinar; os marcos dizem até onde o Objetivo e cada Resultado podem
 pedir desta idade. Isso pesa mais em Infantil 4 e 5, que usam os mesmos códigos EI03: quem
 diferencia o que se pede de uma turma e da outra são os marcos.
 
@@ -92,9 +95,15 @@ Os marcos nunca vão para a página: nada de *a criança de 4 anos já deve...* 
 criança. Quando uma mudança vem da idade, diga isso no quadro final.
 
 ## Idioma
-Os cinco campos ficam em português do Brasil: são texto de página. As notas para quem pede (o
-quadro final) seguem o idioma em que a pessoa escreve; em inglês, os nomes do material (Objetivo
-da Aula, Resultados da Aprendizagem, Momento, Roda) ficam em português.
+Responda no idioma em que a pessoa escreve. Os cinco campos ficam sempre em português do Brasil:
+são texto de página. Tudo o que não é texto da página (explicações, perguntas, o quadro final) sai
+no idioma da pessoa; em inglês, os nomes do material (Objetivo da Aula, Resultados da
+Aprendizagem, Momento, Roda) ficam em português. Se a pessoa alterna, vale a última mensagem.
+
+## Voz da casa
+Palavras e forma das frases: `dados/vocabulario-controlado.md` e `dados/estilo-da-casa.md` (as
+15 regras e a tabela de formatação). Forma e limite de cada campo: `dados/templates-de-aula.md`,
+seção 2. Etapas e paradas: `dados/fluxo-de-trabalho.md`. Nenhuma regra de voz se repete aqui.
 
 ## Passo a passo
 1. **Situe a aula.** Nível, código (S#.D#.A#), tipo de aula e modo. O nível dá o prefixo BNCC e
@@ -120,13 +129,14 @@ Num dia inteiro, faça os passos 1 a 5 aula por aula.
 Prefixos: Infantil 3 · BNCC EI02, eixos EI03 · Infantil 4 · BNCC EI03, eixos EI04 · Infantil 5
 · BNCC EI03, eixos EI05. O mesmo EI03 é BNCC em Infantil 4 e 5 e eixo em Infantil 3: confira a
 família (EO, CG, TS, EF, ET é BNCC; SEL, EMP, FIN, CID é eixo), não o prefixo. EI01 (bebês) ou
-prefixo de outro nível: corrija. Fase e Perfil predominante: seção 9 de
-`dados/termos-e-nomes.md`. Modo e bloco: seção 5 (Dirigida pela criança é Aprendizagem
-Exploratória; o Mural do Projeto não tem modo).
+prefixo de outro nível: corrija. Fase e Perfil por fase: seção 7 de
+`dados/termos-e-nomes.md`. Blocos, modos e grade da semana: seção 4 (Dirigida pela criança é
+Aprendizagem Exploratória; o Mural do Projeto não tem modo).
 
 ### Objetivo da Aula
-- Uma frase: **uma ação e uma finalidade**, de 10 a 15 palavras. O educador lê uma vez e sabe
-  o que é a aula; a mesma frase vai para a linha da aula nas Orientações do Dia.
+- Uma frase: **uma ação e uma finalidade**, de 10 a 15 palavras e até 99 caracteres. O
+  educador lê uma vez e sabe o que é a aula; a mesma frase vai para a linha da aula nas
+  Orientações do Dia, que mostra até 99 caracteres. Mire nisso; quem corta é só a edição final.
 - A ação é o evento principal, não a sequência. Duas ações ligadas por *e* são uma lista.
 - A finalidade liga a aula ao projeto. Finalidade de desenvolvimento (*para praticar a
   contagem*) é do Resultado.
@@ -186,8 +196,10 @@ Exploratória; o Mural do Projeto não tem modo).
 | Ao final da aula, a criança será capaz de dividir o espaço com um colega. | Dividir espaço e materiais em atividades compartilhadas. |
 
 ### Eixos Transversais
-- De 1 a 2 por aula. Na página, `Família: frase`, sem código. Famílias: Socioemocional ·
-  Empreendedorismo · Educação Financeira · Cidadania Digital.
+- De 1 a 2 por aula. Na página, `Família: frase`, sem código. As quatro famílias oficiais:
+  Socioemocional · Empreendedorismo · Educação Financeira · Cidadania Digital e Computação
+  (*Cidadania Digital* sozinho é nome aposentado). Aparecem de propósito em todas as semanas:
+  não há mapa de fase para Eixo; a família sai do conteúdo da aula.
 - Ache a família que os Momentos tornam visível de verdade. Leia em `dados/eixos.csv` as linhas
   do nível (EI03 Infantil 3, EI04 Infantil 4, EI05 Infantil 5) só para achar a competência
   certa. O código fica fora da página.
@@ -198,24 +210,33 @@ Exploratória; o Mural do Projeto não tem modo).
 ### Perfil da Criança Protagonista
 - De 2 a 3 competências, só os nomes, separados por ` · `. Nunca códigos. Forma de competência
   (Investigação), não de traço (Investigador, que é do Caderno).
-- A primeira vem da fase. As outras 1 ou 2 vêm do conteúdo: só o que a aula torna visível. As
-  colunas `perfil1` e `perfil2` de `dados/eixos.csv` mostram que competência o eixo escolhido
-  costuma tornar visível; use como pista.
+- As dez: Investigação · Pensamento Crítico · Criatividade · Comunicação · Colaboração · Empatia ·
+  Cidadania Global · Autonomia · Integridade · Autoconsciência.
+  *Resolução de Problemas* é nome aposentado: escreva Criatividade.
+- A primeira vem da fase, pela tabela "Por fase" da seção 7 de `dados/termos-e-nomes.md`. As
+  outras 1 ou 2 vêm do conteúdo: só o que a aula torna visível. As colunas `perfil1` e `perfil2`
+  de `dados/eixos.csv` mostram que competência o eixo escolhido costuma tornar visível; use como
+  pista.
 - Sem enchimento. Se a ênfase da fase não aparece na aula, não force: use a que aparece e
   sinalize.
 
 ### Três sistemas e a voz
 BNCC (códigos com descritor), Eixos (família e frase) e Perfil (nomes) não se misturam: código
-de eixo no campo BNCC ou no Perfil é erro. Voz da casa: criança e crianças (nunca aluno,
-estudante, cada criança), educador, sem travessão, números em algarismo. O descritor BNCC fica
-verbatim, mesmo quando diz *professor*.
+de eixo no campo BNCC ou no Perfil é erro. A voz dos campos segue `dados/estilo-da-casa.md`
+(tabela de formatação) e `dados/vocabulario-controlado.md`, com uma exceção própria deste campo:
+o descritor BNCC fica verbatim, mesmo quando diz *professor*.
 
 ## Formato de entrega
 Tudo no chat; não gere arquivo a menos que peçam. Não entregue em pares "antes → depois" nem o
-"O que a criança faz". Uma seção por aula, com os cinco campos na ordem da página:
+"O que a criança faz".
+
+Dentro do fluxo em etapas (ou quando a pessoa manda a aula inteira), devolva a aula inteira,
+compacta, pronta para colar, com os cinco campos preenchidos no lugar deles; o resto da aula sai
+como entrou. Quando a pessoa pede só estes campos (ou um deles), devolva só o que pediu, uma
+seção por aula, com os campos na ordem da página:
 
 ```markdown
-## S3.D3.A1 · Oficina de Descobertas · Foco Ciência/Matemática · Dirigida pelo educador
+## S3.D3.A1 · Oficina de Descobertas · Ciência e Matemática · Dirigida pelo educador
 
 ### Objetivo da Aula
 Separar sementes nos vasinhos numerados para preparar o plantio da horta da turma.
@@ -237,19 +258,21 @@ Investigação · Colaboração
 | Associar a quantidade de objetos ao número que a representa, até 8, com material concreto. | EI03ET07 |
 ```
 
-É o mesmo formato que o script lê. Depois de todas as aulas, um quadro só, curto, endereçado a
-você, com cada linha começando pelo código da aula:
+É o mesmo formato que o script lê. Depois de todas as aulas, um quadro só, em blockquote,
+curto, endereçado a você (nunca a um nome próprio), com os dois títulos sempre presentes e
+"nenhuma" quando não há o que listar:
 
 > **Mudanças**
-> - S3.D3.A1 · Resultados: EI03ET07 passou de até 10 para até 8, porque 10 é marco da faixa seguinte em Infantil 4.
+> - A regra é ficar no marco da faixa. Em S3.D3.A1, EI03ET07 passou de até 10 para até 8. Aprove ou diga o que muda.
 >
 > **Decisões em aberto**
 > - nenhuma
 
-Uma linha por mudança: onde, o que mudou e por quê, em até 25 palavras. Escrevendo do zero, o
-quadro traz só **Decisões em aberto**. Problema fora destes campos (Momentos, Documentação,
-Dica): uma linha em Decisões em aberto, com a skill certa. Em inglês: **Changes** e **Open
-decisions**.
+Cada linha tem três partes, em palavras de todo dia, até 25 palavras: a regra, o que foi feito, o
+que a pessoa decide. Sem nome de movimento, código de regra ou teoria. Com várias aulas, comece a
+linha pelo código da aula. Escrevendo do zero, Mudanças fica "nenhuma". Problema fora destes
+campos (Momentos, Documentação, Dica): uma linha em Decisões em aberto, com a skill certa. Em
+inglês: **Changes** e **Open decisions**.
 
 ## Conferência
 Salve a aula ou o dia num arquivo temporário (campos no formato acima; os Momentos podem
@@ -265,9 +288,11 @@ A semana sai do código S#.D#.A# no título da aula; `--semana` a define quando 
 códigos, um Resultado por código, 1 a 2 eixos, 2 a 3 competências); descritor diferente do
 verbatim, prefixo errado, código de eixo fora do lugar; Resultado ou frase de eixo fora do
 infinitivo, com verbo invisível ou copiando o descritor ou a habilidade do eixo; abertura
-proibida no Objetivo; competência fora da lista; aluno, estudante ou cada criança nos campos.
+proibida no Objetivo; competência fora da lista ou com nome aposentado; família de eixo fora das
+quatro; as palavras que a família nunca usa nos campos (aluno, estudante, cada criança).
 
-**Avisos** pedem um segundo olhar: tamanho e forma do Objetivo, a escolha da criança em aula
+**Avisos** pedem um segundo olhar: tamanho e forma do Objetivo (palavras e os 99 caracteres da
+Orientação do Dia), a escolha da criança em aula
 Dirigida pela criança, Resultado que fala da aula ou do material, primeira competência fora da
 fase, travessão ou número por extenso, e sinais de idade tirados da seção 5 dos marcos
 (quantidade acima da faixa, letra e som ou leitura de palavras antes dos 5 anos, escrita
@@ -278,11 +303,20 @@ honesto quanto à profundidade e à idade, nem se o eixo e o Perfil aparecem de 
 Isso continua com você. Sem execução de código, faça as mesmas conferências à mão.
 
 ## Dados embutidos
-- `dados/termos-e-nomes.md` · nomes, termos, campos, fases e Perfil por fase (autoridade, v7).
+- `dados/termos-e-nomes.md` · nomes oficiais, grade da semana (seção 4), currículo, Eixos e
+  Perfil por fase (seção 7). Autoridade de nomes, v8.
+- `dados/templates-de-aula.md` · forma e limite de cada campo (seção 2), quem escreve cada campo
+  (seção 6), títulos fixos dos Momentos (seção 3). v2.
 - `dados/marcos-aprendizagem-desenvolvimento.md` · marcos por faixa e regras de decisão. Leia
-  antes de cada aula (seções 1, 3, 4 e 5).
+  antes de cada aula: consulta rápida (seção 3.1) primeiro, depois as seções 1, 3, 4 e 5.
 - `dados/bncc.md` · os 64 objetivos da BNCC EI02 e EI03, verbatim. Copie daqui.
 - `dados/eixos.csv` · 60 eixos, 20 por nível, com as competências do Perfil. Uso interno.
+- `dados/estilo-da-casa.md` · a voz da página: 15 regras e a tabela de formatação.
+- `dados/exemplos-da-voz.md` · textos aprovados para imitar.
+- `dados/vocabulario-controlado.md` · qual palavra usar.
+- `dados/fluxo-de-trabalho.md` · etapas, paradas e formato de entrega (v3).
+- `dados/fases-e-semanas.md` · fases, focos semanais e marcos do projeto.
+- `dados/projetos/` · um arquivo por projeto, por nível.
 - `scripts/verificar_campos.py` · conferência mecânica dos cinco campos.
 
 As cópias em `dados/` vêm de `Skills_Infantil/_compartilhado/`. Não edite aqui: edite a mestre

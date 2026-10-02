@@ -1,6 +1,7 @@
-# Etapas canônicas · Hora do Conto
+# Momentos canônicos · Hora do Conto
 
-**Status:** nomes aprovados pela usuária em 29/09/2026.
+**Status:** nomes aprovados pela usuária em 29/09/2026; grafia em `dados/templates-de-aula.md`,
+seção 3.
 
 ## S1.D1.A1 · Evento de Lançamento + Hora do Conto
 
@@ -16,8 +17,7 @@
 3. Conversar e Compartilhar
 4. Organizar e Encerrar
 
-Use os nomes exatamente como aparecem aqui. Nos roteiros, formate como
-`1 | Nome da Etapa`.
+Use os nomes exatamente como aparecem aqui. Na página, formate como `1 | Nome do Momento`.
 
 ## Correspondência com documentos antigos
 
@@ -33,5 +33,5 @@ Use os nomes exatamente como aparecem aqui. Nos roteiros, formate como
 | Depois da Leitura | Conversar e Compartilhar |
 | Organização e Transição | Organizar e Encerrar |
 
-Essa correspondência serve para atualizar fontes antigas. Ela não autoriza
-alterar a pedagogia ou mover conteúdo entre as etapas.
+Essa correspondência serve para atualizar fontes antigas e alimenta o validador. Ela não
+autoriza alterar a pedagogia ou mover conteúdo entre os Momentos.

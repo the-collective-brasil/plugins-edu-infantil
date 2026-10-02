@@ -1,14 +1,21 @@
 # Tipos de Mural do Projeto · o que o autor precisa escrever
 
-Fonte: decisões de 29/09/2026, registradas em `dados/termos-e-nomes.md` seção 6.2. Em conflito,
-aquele arquivo vence. Este arquivo detalha, por tipo, o que o Momento 3 (e, quando for o caso, o
-Momento 4) precisa dizer.
+Fonte: decisões de 29/09/2026, registradas em `dados/templates-de-aula.md` seção 8 (v2). Em
+conflito, aquele arquivo vence. Este arquivo detalha, por tipo, o que o Momento 3 (e, quando for
+o caso, o Momento 4) precisa dizer.
 
 Momentos 1, 2 e 4 são fixos de S1 a S11:
-1. Relembrar e Compartilhar · reflexão informal, não revisão formal de cada aula.
+1. Relembrar e Compartilhar · começa citando a *Rotina de Abertura* [código biblioteca]
+   (`templates-de-aula.md` seção 4); reflexão informal, não revisão formal de cada aula.
 2. Conectar Ideias e Vivências · concreto ou lúdico.
 3. muda conforme o tipo.
-4. Organizar e Encerrar · fecha a experiência e organiza o espaço.
+4. Organizar e Encerrar · fecha a experiência e organiza o espaço; termina citando a *Rotina de
+   Encerramento* [código biblioteca].
+
+Páginas da criança e recursos citados abaixo (*Registro da Semana*, Página de Marco, página de
+Abertura de Fase, *Folha de Adesivos · Marcos do Projeto*, Cartões de Palavras-Chave) são de outra
+família de skills: aqui entram pelo nome em itálico + [código biblioteca], nunca se escrevem
+(`templates-de-aula.md` seção 5).
 
 ## Roteamento
 

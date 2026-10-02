@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
 """
 verificar_mural.py - conferencia mecanica de uma aula de Mural do Projeto (Educacao Infantil,
-Intercriativa Lab), pelos tipos de termos-e-nomes secao 6.2.
+Intercriativa Lab), pelos tipos de templates-de-aula.md v2, secao 8.
 
 Confere:
   - o tipo de Mural pelo codigo S#.D#.A4 (e que a aula e A4)
-  - os 4 Momentos, na ordem, com os nomes do tipo
+  - os 4 Momentos, na ordem, com os nomes do tipo; titulo ate 30; bloco acima de 600 (aviso)
+  - Rotina de Abertura citada no Momento 1 e Rotina de Encerramento no Momento 4, em italico
+    com [codigo biblioteca] (templates-de-aula.md, secao 4)
   - Peca da Fase e Marco quando alocados; adesivo so com o Marco
   - Conexao Casa-Escola no Momento 4 dos Murais de D5 (Fechamento e Construcao do Marco)
   - pagina Registro da Semana no D4
-  - marcadores sem explicacao ("Foco Semanal"), modo de brincar, travessao, aspas, termos
+  - marcadores sem explicacao ("Foco Semanal"), modo de brincar, travessao (com as duas
+    excecoes de estilo-da-casa.md), aspas, termos proibidos e aposentados (termos v8, secao 8)
 
 Uso:
   python3 verificar_mural.py aula.md [--codigo S3.D2.A4]
@@ -23,6 +26,19 @@ PECAS = {(3, 2): "Cartões de Entrevista", (7, 2): "Convite do Teste", (10, 2): 
 MARCOS = {2: "Perguntas que Precisamos Responder", 4: "Painel de Evidências", 6: "Protótipo",
           9: "Produto Final", 11: "Apresentação Final"}
 LINK_RE = re.compile(r"\[([^\]]+)\]\((?:[^()]|\([^)]*\))*\)")
+TRAVESSAO_OK = "Eu Faço – Nós Fazemos – Você Faz"
+# (trecho sem acento, em minusculas) -> o que escrever. termos-e-nomes.md v8, secao 8.
+APOSENTADOS = [("conexao com as familias", "Conexão Casa-Escola"), ("roda de partilha", "Roda"),
+               ("roteiro do educador", "Orientações do Educador"),
+               ("revista impacto", "Orientações do Educador"),
+               ("perfil do estudante", "Perfil da Criança Protagonista"),
+               ("protagonistas lab", "Intercriativa Lab"),
+               ("rotina de organizacao", "Rotina de Encerramento"),
+               ("rotina de abertura do mural", "Rotina de Abertura"),
+               ("rotina de encerramento do mural", "Rotina de Encerramento"),
+               ("dirigida pelas criancas", "Dirigida pela criança"),
+               ("pergunta-guia", "Pergunta Norteadora"), ("educadora", "educador")]
+G_RE = re.compile(r"\bg[345]\b")
 
 
 def acc(s):
@@ -41,7 +57,7 @@ def tipo_do_mural(s, d):
             return "Abertura de Fase", [FIXO_1, FIXO_2, "Abrir a Nova Fase", FIXO_4]
         return "Abertura da Semana", [FIXO_1, FIXO_2, "Revisitar o Mural do Projeto", FIXO_4]
     if s == 12:
-        return None, "S12 · D%d.A4 segue o plano proprio da semana 12, nao a tabela de tipos (termos 6.2)." % d
+        return None, "S12 · D%d.A4 segue o plano proprio da semana 12, nao a tabela de tipos (templates-de-aula.md, secao 8)." % d
     if d in (2, 3):
         return "Desenvolvimento", [FIXO_1, FIXO_2, "Revisitar o Mural do Projeto", FIXO_4]
     if d == 4:
@@ -106,8 +122,22 @@ def main():
             avisos.append("Momento %d: nome com %d caracteres (max 30)." % (num, len(nome)))
         if sum(len(re.sub(r"\*+", "", LINK_RE.sub(r"\1", i))) for i in itens) > 600:
             avisos.append("Momento %d acima de 600 caracteres (a orientacoes-do-educador ajusta)." % num)
+    m1 = acc(" ".join(ms[0][2])) if len(ms) >= 1 else ""
     m3 = acc(" ".join(ms[2][2])) if len(ms) >= 3 else ""
     m4 = acc(" ".join(ms[3][2])) if len(ms) >= 4 else ""
+
+    # Rotinas (templates-de-aula.md, secao 4): abertura no Momento 1, encerramento no Momento 4,
+    # nome curto em italico com [codigo biblioteca].
+    if len(ms) >= 4:
+        raw1, raw4 = " ".join(ms[0][2]), " ".join(ms[3][2])
+        if "rotina de abertura" not in m1:
+            erros.append("Momento 1: falta citar a *Rotina de Abertura* [codigo biblioteca].")
+        elif not re.search(r"\*rotina de abertura\*\s*\[", acc(raw1)):
+            avisos.append("Momento 1: a Rotina de Abertura vai em italico, seguida de [codigo biblioteca].")
+        if "rotina de encerramento" not in m4:
+            erros.append("Momento 4: falta citar a *Rotina de Encerramento* [codigo biblioteca].")
+        elif not re.search(r"\*rotina de encerramento\*\s*\[", acc(raw4)):
+            avisos.append("Momento 4: a Rotina de Encerramento vai em italico, seguida de [codigo biblioteca].")
 
     if (s, d) in PECAS and acc(PECAS[(s, d)]) not in flat:
         erros.append("Peca da Fase alocada nesta aula ausente: %s." % PECAS[(s, d)])
@@ -132,12 +162,26 @@ def main():
     if re.search(r"modo de brincar\s*:", flat):
         erros.append("O Mural nao tem Modo de Brincar.")
     for i, line in enumerate(text.splitlines(), 1):
-        if "—" in line or "–" in line:
-            erros.append("linha %d: travessao." % i)
+        flat = acc(line)
+        if ("—" in line or "–" in line) and TRAVESSAO_OK not in line:
+            erros.append("linha %d: travessao (so em fala citada de livro e em Eu Faço – Nós Fazemos – Você Faz)." % i)
         if re.search(r"[\"“”][^\"“”]{3,}[\"“”]", line):
             erros.append("linha %d: texto entre aspas; fala do educador em italico, sem aspas." % i)
-        if re.search(r"\b(aluno|alunos|estudante|estudantes|professor|professora)\b", acc(line)):
-            erros.append("linha %d: use crianca(s) ou educador." % i)
+        if re.search(r"\b(aluno|alunos|aluna|alunas|estudante|estudantes|educando|educandos)\b", flat):
+            erros.append("linha %d: use crianca ou criancas." % i)
+        if re.search(r"\b(professor|professora|professores|tia|tias)\b", flat):
+            erros.append("linha %d: para quem ensina, use educador." % i)
+        if "cada crianca" in flat:
+            erros.append("linha %d: use a crianca ou as criancas, nunca cada crianca." % i)
+        if "pelas criancas" in flat:
+            avisos.append("linha %d: 'pelas criancas'; o modo e Dirigida pela crianca (no Mural nao ha modo)." % i)
+        if re.search(r"\bpais\b", flat):
+            avisos.append("linha %d: 'pais'; se for quem cuida em casa, use familias e responsaveis." % i)
+        for old, new in APOSENTADOS:
+            if old in flat:
+                erros.append("linha %d: termo aposentado '%s'. Use %s." % (i, old, new))
+        if G_RE.search(flat):
+            erros.append("linha %d: G3/G4/G5. Use Infantil 3/4/5." % i)
 
     if erros:
         print("ERROS (%d)" % len(erros)); [print("  " + e) for e in erros]
