@@ -1,7 +1,7 @@
 {
   "name": "intercriativa-biblioteca",
   "interface": {
-    "displayName": "Intercriativa Lab · Revisor da Biblioteca"
+    "displayName": "Intercriativa Lab · Biblioteca Digital"
   },
   "plugins": [
     {
