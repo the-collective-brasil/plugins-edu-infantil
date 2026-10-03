@@ -28,8 +28,8 @@ Caso em dúvida entre dois templates, o conteúdo manda: o que a pessoa faz com 
 Se nenhum serve, não invente um nono: sinalize.
 
 ## Os campos de cada template
-Os nomes dos campos são fixos. A ordem é fixa. Todos os campos são obrigatórios e nenhum pode
-ficar vazio. Não entra campo que não está na lista.
+Os nomes dos campos são fixos e a ordem é fixa. Escreva todos, sem deixar nenhum vazio. Não
+acrescente campo que não está na lista.
 
 ### 1 · Jogo ou Prática Lúdica
 1. O que é
@@ -104,10 +104,3 @@ ficar vazio. Não entra campo que não está na lista.
 6. Exemplo
 7. Cuidados
 8. Observe
-
-## Como a entrada chega para conferir
-Texto em Markdown. O título é a primeira linha com `#`. Cada campo é um título (`##`) ou uma
-linha toda em negrito (`**Campo**`). As partes de um campo (Começar, Formato...) são títulos de
-nível abaixo (`###`) ou linhas em negrito com dois-pontos. Uma linha `Template: <número ou nome>`
-logo abaixo do título diz qual template vale; sem ela, o validador tenta reconhecer pelo conjunto
-de campos e avisa quando não tem certeza.
