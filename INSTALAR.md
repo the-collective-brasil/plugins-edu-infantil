@@ -7,6 +7,7 @@ autor instala só o plugin da sua trilha:
 - `autoria-infantil-mural`
 - `autoria-infantil-atelie`
 - `autoria-infantil-comum` (para as outras trilhas)
+- `autoria-infantil-biblioteca` (para quem revisa entradas da Biblioteca Digital)
 
 Os plugins ficam no GitHub: https://github.com/the-collective-brasil/plugins-edu-infantil
 Cada autor adiciona o marketplace uma vez e recebe as atualizações sozinho.

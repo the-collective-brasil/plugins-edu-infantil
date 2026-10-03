@@ -1,0 +1,13 @@
+{
+  "name": "intercriativa-biblioteca",
+  "owner": {
+    "name": "Intercriativa Lab"
+  },
+  "plugins": [
+    {
+      "name": "autoria-infantil-biblioteca",
+      "source": "./",
+      "description": "Revisão de entradas da Biblioteca Digital da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): confere cada entrada contra os 8 templates e as regras de escrita da casa."
+    }
+  ]
+}

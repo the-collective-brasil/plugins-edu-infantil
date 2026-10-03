@@ -10,6 +10,11 @@
       "description": "Autoria de aulas de Ateliê de Arte da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as skills comuns da família editor-infantil (coordenadora, linguagem e conversa, campos BNCC, Documentação, Dica)."
     },
     {
+      "name": "autoria-infantil-biblioteca",
+      "source": "./autoria-infantil-biblioteca",
+      "description": "Revisão de entradas da Biblioteca Digital da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): confere cada entrada contra os 8 templates e as regras de escrita da casa."
+    },
+    {
       "name": "autoria-infantil-centros",
       "source": "./autoria-infantil-centros",
       "description": "Autoria de aulas de Centros de Aprendizagem e Brincar ao Ar Livre da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): a skill da trilha e as skills comuns da família editor-infantil (coordenadora, linguagem e conversa, campos BNCC, Documentação, Dica)."

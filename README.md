@@ -9,6 +9,7 @@ Intercriativa Lab. Funcionam no Claude e no ChatGPT.
 | `autoria-infantil-mural` | Autores do Mural do Projeto |
 | `autoria-infantil-atelie` | Autores do Ateliê de Arte |
 | `autoria-infantil-comum` | Autores das outras trilhas |
+| `autoria-infantil-biblioteca` | Quem revisa entradas da Biblioteca Digital |
 
 Todos trazem as cinco skills comuns: campos da aula (Objetivo, BNCC, Resultados, Eixos e
 Perfil), Documentação Pedagógica, Dica, oralidade e estilo da casa. Os plugins de trilha trazem

@@ -17,6 +17,18 @@
       "category": "Productivity"
     },
     {
+      "name": "autoria-infantil-biblioteca",
+      "source": {
+        "source": "local",
+        "path": "./autoria-infantil-biblioteca"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "autoria-infantil-centros",
       "source": {
         "source": "local",

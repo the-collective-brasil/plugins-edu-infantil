@@ -1,0 +1,14 @@
+{
+  "name": "autoria-infantil-biblioteca",
+  "version": "0.1.0",
+  "description": "Revisão de entradas da Biblioteca Digital da Educação Infantil do Intercriativa Lab (Infantil 3, 4 e 5): confere cada entrada contra os 8 templates e as regras de escrita da casa.",
+  "author": {
+    "name": "Intercriativa Lab"
+  },
+  "keywords": [
+    "educação infantil",
+    "intercriativa",
+    "biblioteca digital",
+    "revisão"
+  ]
+}
