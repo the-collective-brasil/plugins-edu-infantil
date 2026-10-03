@@ -27,7 +27,7 @@ em D1, D2, D4 e D5 (A3) (`termos-e-nomes.md` v8, seção 4).
 - Busque apoiar as crianças a entrar, sustentar ou aprofundar a brincadeira e o pensamento, preservando suas escolhas sobre como a brincadeira se desenvolve.
 
 **4 | Organizar e Encerrar**
-- Siga a *Rotina de Encerramento* [código biblioteca]. Avise com antecedência que o tempo de brincar ao ar livre está terminando para que as crianças possam concluir o que estão fazendo.
+- Siga a *Rotina de Encerramento* [código biblioteca]. Avise com antecedência que o tempo de brincar ao ar livre está terminando para que as crianças possam concluir o que estão fazendo. Diga: *Daqui a pouco vamos guardar. Você pode terminar o que está fazendo.*
 - Quando chegar a hora, convide todas as crianças a ajudar a guardar os materiais e organizar o espaço.
 - Com tudo guardado, conduza o grupo com calma para a próxima atividade.
 
@@ -54,6 +54,6 @@ em D1, D2, D4 e D5 (A3) (`termos-e-nomes.md` v8, seção 4).
 - Registre brevemente o que mudou, persistiu ou surgiu de novo.
 
 **4 | Organizar e Encerrar**
-- Siga a *Rotina de Encerramento* [código biblioteca]. Avise com antecedência que o tempo de brincar ao ar livre está terminando para que as crianças possam concluir o que estão fazendo.
+- Siga a *Rotina de Encerramento* [código biblioteca]. Avise com antecedência que o tempo de brincar ao ar livre está terminando para que as crianças possam concluir o que estão fazendo. Diga: *Daqui a pouco vamos guardar. Você pode terminar o que está fazendo.*
 - Quando chegar a hora, convide todas as crianças a ajudar a guardar os materiais e organizar o espaço.
 - Com tudo guardado, conduza o grupo com calma para a próxima atividade.

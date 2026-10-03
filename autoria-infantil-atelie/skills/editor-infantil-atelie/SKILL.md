@@ -128,8 +128,8 @@ ação diferente em um marcador próprio. As regras próprias do Ateliê estão 
 `dados/boilerplates.md`: leia antes de escrever.
 
 **Rotinas (`dados/templates-de-aula.md`, seção 4).** O Momento 1 abre com *Siga a Rotina de
-Abertura [código biblioteca]* e o Momento 4 fecha com *Siga a Rotina de Encerramento
-[código biblioteca]*. Os passos ficam na Biblioteca (entradas "Ateliê · Rotina de Abertura" e
+Abertura [código biblioteca]* e o Momento 4 abre com *Siga a Rotina de Encerramento
+[código biblioteca]* (texto fixo aprovado, em `dados/boilerplates.md`). Os passos ficam na Biblioteca (entradas "Ateliê · Rotina de Abertura" e
 "Ateliê · Rotina de Encerramento"); não os repita no tópico.
 
 **Citar a Biblioteca e a página da criança.** Recurso, rotina ou página entram pelo nome em
@@ -177,7 +177,7 @@ Rode na aula:
     python3 scripts/verificar_atelie.py aula.md
 
 Confere os 4 Momentos fixos e a ordem, o nome da obra no Momento 3, nome até 30, a Rotina de
-Abertura no começo do Momento 1 e a de Encerramento no fim do Momento 4, blocos e Materiais
+Abertura no começo do Momento 1 e a de Encerramento no começo do Momento 4, blocos e Materiais
 acima do limite (aviso, sem contar [código biblioteca]), travessão, falas entre aspas, termos
 proibidos e nomes aposentados.
 

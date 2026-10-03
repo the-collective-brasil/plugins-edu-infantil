@@ -7,7 +7,7 @@ Confere:
   - os 4 Momentos fixos, nesta ordem (templates-de-aula.md, secao 3): linhas "N | Nome" seguidas
     de itens "- "
   - nome do Momento ate 30 caracteres (com Criar + nome da obra)
-  - Rotina de Abertura no primeiro item do Momento 1 e Rotina de Encerramento no ultimo item do
+  - Rotina de Abertura no primeiro item do Momento 1 e Rotina de Encerramento no primeiro item do
     Momento 4, com [codigo biblioteca] (templates-de-aula.md, secao 4)
   - cabecalho da aula com "Atelie de Arte:" e titulo (aviso se faltar)
   - bloco acima de 600 caracteres visiveis e Materiais acima de 270, sem contar
@@ -116,11 +116,11 @@ def main():
 
     if len(ms) == 4:
         primeiro = acc(ms[0][1][0]) if ms[0][1] else ""
-        ultimo = acc(ms[3][1][-1]) if ms[3][1] else ""
+        ultimo = acc(ms[3][1][0]) if ms[3][1] else ""
         if not ("rotina de abertura" in primeiro and "codigo biblioteca" in primeiro):
             erros.append("O Momento 1 deve abrir com 'Siga a *Rotina de Abertura* [código biblioteca]'.")
         if not ("rotina de encerramento" in ultimo and "codigo biblioteca" in ultimo):
-            erros.append("O Momento 4 deve fechar com 'Siga a *Rotina de Encerramento* [código biblioteca]'.")
+            erros.append("O Momento 4 deve abrir com 'Siga a *Rotina de Encerramento* [código biblioteca]'.")
 
     mat = materiais(text)
     if mat is None:

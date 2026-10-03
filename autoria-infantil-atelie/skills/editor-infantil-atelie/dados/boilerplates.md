@@ -39,9 +39,10 @@ pelo nome da obra da aula; nunca escreva o marcador na página.
 - {{Observe e documente escolhas, mudanças, tentativas e falas.}}
 
 **4 | Organizar e Encerrar**
-- {{Avise sobre o encerramento com antecedência.}}
-- {{Convide quem quiser a compartilhar uma descoberta.}}
-- {{Encaminhe secagem ou armazenamento e organize os materiais com o grupo.}} Siga a *Rotina de Encerramento* [código biblioteca].
+Texto fixo (aprovado em 29/09/2026). Entra igual em todas as aulas de Ateliê.
+- Siga a *Rotina de Encerramento* [código biblioteca]. Avise com antecedência que o tempo no Ateliê está terminando para que as crianças possam concluir a produção. Diga: *Daqui a pouco vamos guardar. Você pode fazer mais uma marca.*
+- Quando chegar a hora, convide todas as crianças a ajudar a levar as produções para secar, guardar os materiais e deixar as mesas limpas.
+- Com tudo guardado, conduza o grupo com calma para a próxima atividade.
 
 ## Voz e regras próprias do Ateliê
 Voz, formatação e palavras: `estilo-da-casa.md` (tom Brincar), `exemplos-da-voz.md` e
